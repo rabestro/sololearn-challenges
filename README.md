@@ -8,7 +8,7 @@ SoloLearn Coding Challenges. December 2019.
 - Cheer Creator
 - Skee-ball
 - Paint Costs
-- Argentina
+- [Argentina](https://github.com/rabestro/sololearn-challenges/tree/master/argentina)
 - Gotham City
 - Hovercraft
 - Jungle Camping
