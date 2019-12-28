@@ -2,7 +2,7 @@
 SoloLearn Coding Challenges. December 2019.
 
 ## Easy
-- [Popsicles](Popsicles)
+- [Popsicles](popsicles)
 - [Halloween Candy](halloween-candy)
 - [Fruit Bowl](fruit-bowl)
 - [Cheer Creator](cheer-creator)
