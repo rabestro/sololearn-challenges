@@ -7,7 +7,7 @@ int main() {
   fgets(sentence, MAX, stdin);
   
   for (char *word = strtok(sentence, " "); word; word = strtok(NULL, " ")) 
-  	 printf("%s%cay ", word + 1, *word);
+    printf("%s%cay ", word + 1, *word);
   
   return 0;
 }
