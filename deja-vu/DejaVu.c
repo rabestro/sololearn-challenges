@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <string.h>
+#define MAX 200
 
 int main() {
-  char string[200];
-  fgets(string, 200, stdin);
+  char string[MAX];
+  char *c = fgets(string, MAX, stdin);
   
-  int isDejaVu = 0;
-  
-  for (char *c = string; *c; ++c)
-    if (isDejaVu = strchr(c + 1, *c)) break;
+  for (; *c; ++c) 
+    if (strchr(c + 1, *c)) break;
     
-  if (isDejaVu) puts("Deja Vu");
+  if (*c) puts("Deja Vu"); 
   else puts("Unique");
 
   return 0;
