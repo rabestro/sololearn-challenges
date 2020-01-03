@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <ctype.h>
 
 int main() {
   char password[80];
@@ -9,11 +9,9 @@ int main() {
   int symbols = 0; 
   int length = 0;
   
-  for (char *p = password; *p; ++p) {
-  	 if (*p >= '0' && *p <= '9') ++numbers;
-  	 if (strchr("!@#$%&*", *p) != NULL) ++symbols;
-  	 ++length;
-  }
+  for (char *p = password; *p; ++length, ++p) 
+  	 if (isdigit(*p)) ++numbers;
+  	 else if (strchr("!@#$%&*", *p) != NULL) ++symbols;
   
   if (length > 6 && numbers > 1 && symbols > 1) puts("Strong");
   else puts("Weak");
