@@ -10,7 +10,7 @@ int main() {
   scanf("%s %s %s %s", persons[0], persons[1], persons[2], persons[3]);
   
   int position = 0;
-  for (int i = 4; i--> 0; ) 
+  for (int i = 4; i--; ) 
     if (strcmp(name, persons[i]) > 0) 
       ++position;
       
