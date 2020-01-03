@@ -6,7 +6,7 @@ int main() {
   fgets(word, 80, stdin);
 	
   int i = strlen(word);
-  while (i-->0) printf("%c", word[i]);
+  while (i--) printf("%c", word[i]);
 	  
   return 0;
 }
