@@ -10,8 +10,8 @@ int main() {
   int length = 0;
   
   for (char *p = password; *p; ++length, ++p) 
-  	 if (isdigit(*p)) ++numbers;
-  	 else if (strchr("!@#$%&*", *p) != NULL) ++symbols;
+    if (isdigit(*p)) ++numbers;
+    else if (strchr("!@#$%&*", *p) != NULL) ++symbols;
   
   if (length > 6 && numbers > 1 && symbols > 1) puts("Strong");
   else puts("Weak");
