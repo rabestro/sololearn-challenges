@@ -8,8 +8,8 @@ int main() {
   fgets(message, MAX, stdin);
   
   for (int i = strlen(message); i--; ) {
-  	 char c = message[i];
-  	 if (isalpha(c) || isspace(c)) putchar(c);
+    char c = message[i];
+    if (isalpha(c) || isspace(c)) putchar(c);
   }
     
   return 0;
