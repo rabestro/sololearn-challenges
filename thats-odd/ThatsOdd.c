@@ -7,8 +7,8 @@ int main() {
   int summa = 0;
   while (count--) {
     int number;
-  	scanf("%d", &number);
-  	if (number % 2 == 0) summa += number;
+    scanf("%d", &number);
+    if (number % 2 == 0) summa += number;
   }
    
   printf("%d", summa);
