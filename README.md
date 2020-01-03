@@ -14,4 +14,9 @@ SoloLearn Coding Challenges. December 2019.
 - [Jungle Camping](jungle-camping)
 - Extra-Terristrials
 ## Medium
+
 ## Hard
+
+- [Password Validation](password-validation)
+- [Security](security)
+- [New Driver's License](new-drivers-license)
