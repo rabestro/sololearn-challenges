@@ -1,6 +1,6 @@
 # Sololearn Coding Challenges
 
-There are my solutions for SoloLearn Coding Challenges.
+There are my solutions for SoloLearn Coding Challenges. All codes was written on mobile devices in Sololear sandbox, sucessfully run and passes all test by Sololearn. 
 
 ## Easy
 
