@@ -18,7 +18,7 @@ int main() {
   fgets(phrase, MAX, stdin);
   
   for (char *word = strtok(phrase, " "); word; word = strtok(NULL, " ")) 
-   	 printf("%s ", numberToWord(word));
+    printf("%s ", numberToWord(word));
   
   return 0;
 }
