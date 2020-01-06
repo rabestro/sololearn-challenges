@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#define MAX 200
 
 int main() {
-  char name[200];
+  char name[MAX];
   int agents;
-  char persons[4][200];
+  char persons[4][MAX];
   scanf("%s", name);
   scanf("%d", &agents);
   scanf("%s %s %s %s", persons[0], persons[1], persons[2], persons[3]);
