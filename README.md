@@ -1,6 +1,6 @@
 # Sololearn Coding Challenges
 
-There are my solutions for SoloLearn Coding Challenges. All codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. 
+There are my solutions for SoloLearn Coding Challenges. All codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. Since all the tasks were extremely simple and needed to be done on the phone, I allowed myself to move away from the principles of clean code. The main task was to write the shortest and most effective code that met the conditions and passed the tests.
 
 ## Easy
 
