@@ -8,8 +8,7 @@ int main() {
   
   for (; *c; ++c) if (strchr(c + 1, *c)) break;
     
-  if (*c) puts("Deja Vu"); 
-  else puts("Unique");
-
+  puts(*c ? "Deja Vu" : "Unique");
+ 
   return 0;
 }
