@@ -2,8 +2,8 @@ essay = input().split()
 
 characters = 0
 for word in essay:
-    for c in word:
-        if c.isalpha(): 
+    for symbol in word:
+        if symbol.isalpha(): 
             characters += 1
 
 from math import ceil
