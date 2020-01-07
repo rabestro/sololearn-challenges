@@ -7,7 +7,7 @@ int main() {
   int status = 0;
   fgets(floor, MAX, stdin);
   
-  for (char *c = floor; *c && !message; ++c) 
+  for (char *c = floor; *c && message == NULL; ++c) 
     if (*c == 'G' && status) message = "quiet";
     else if ((*c == '$' || *c == 'T') && status++) message = "ALARM"; 
   	   
