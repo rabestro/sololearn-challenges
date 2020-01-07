@@ -2,6 +2,6 @@ houses = int(input())
 
 #your code goes here
 
-import math
-percentage =  int(math.ceil(100 * 2 / houses));
+from math import ceil
+percentage =  int(ceil(100 * 2 / houses));
 print(percentage);
