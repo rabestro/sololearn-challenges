@@ -1,4 +1,1 @@
-word = input()
-
-reversed = word [::-1]
-print(reversed)
+print(input()[::-1])
