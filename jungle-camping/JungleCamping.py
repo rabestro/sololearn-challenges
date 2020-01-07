@@ -1,10 +1,9 @@
-animals = ["Lion", "Tiger", "Snake", "Bird"]
-sounds = ["Grr", "Rawr", "Ssss", "Chirp"]
-   
+animals = {"Grr": "Lion", "Rawr": "Tiger", "Ssss": "Snake", "Chirp": "Bird"}
+
 noise = input().split()
 output = ""
 
 for sound in noise:
-    output += animals[sounds.index(sound)] + " "
-
+    output += animals[sound] + " "
+    
 print(output)
