@@ -19,10 +19,10 @@ namespace SoloLearn
             bool isEven = popsicles % siblings == 0;
             
             if (isEven) {
-            	   Console.WriteLine("give away");
+            	Console.WriteLine("give away");
             }
             else {
-            	   Console.WriteLine("eat them yourself");
+            	Console.WriteLine("eat them yourself");
             }
         }
     }
