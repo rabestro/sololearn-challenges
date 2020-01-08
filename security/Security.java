@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Program
+public class Security
 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
