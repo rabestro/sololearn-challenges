@@ -8,7 +8,7 @@ public class Program
         String password = input.nextLine();
 	    
         boolean isStrong = password.length() > 6
-           && Pattern.matches(".*\\d.*\\d.*", password)) 
+           && Pattern.matches(".*\\d.*\\d.*", password)
            && Pattern.matches("(.*[!@#$%&*].*){2,}", password);
 	        
         System.out.println(isStrong ? "Strong" : "Weak");
