@@ -1,9 +1,9 @@
-floor = input()
-
 import re
-safe = re.search("[$T].*G.*[$T]", floor)
 
-if safe == None:
-   print('ALARM')
-else:
-   print('quiet')
+floor = input()
+isSafe = re.search("[$T].*G.*[$T]", floor)
+
+if isSafe: 
+    print('quiet')
+else: 
+    print('ALARM')
