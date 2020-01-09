@@ -10,8 +10,7 @@ public class Popsicles
         
         if (isEvenAmount) {
             System.out.print("give away");
-        }
-        else {
+        } else {
             System.out.print("eat them yourself");
         }
     }
