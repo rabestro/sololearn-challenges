@@ -9,9 +9,9 @@ public class GothamCity
         if (criminals < 5) {
             System.out.print("I got this!");
         } else if (criminals < 11) {
-        	  System.out.print("Help me Batman");
+            System.out.print("Help me Batman");
         } else {
-        	  System.out.print("Good Luck out there!");
+            System.out.print("Good Luck out there!");
         }
     }
 }
