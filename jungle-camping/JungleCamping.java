@@ -11,7 +11,7 @@ public class JungleCamping
         final var noise = input.nextLine().split(" ");
         
         for (var sound : noise) {
-        	  System.out.printf("%s ", animals.get(sound));
+            System.out.printf("%s ", animals.get(sound));
         }
     }
 }
