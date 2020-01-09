@@ -1,3 +1,5 @@
+from math import ceil
+
 essay = input().split()
 
 characters = 0
@@ -6,6 +8,5 @@ for word in essay:
         if symbol.isalpha(): 
             characters += 1
 
-from math import ceil
 average = int(ceil(characters / len(essay)))
 print(average)
