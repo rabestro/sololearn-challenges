@@ -6,8 +6,7 @@ int main() {
     scanf("%d", &siblings);
     scanf("%d", &popsicles);
     
-    printf("%s", popsicles % siblings 
-        ? "eat them yourself" : "give away");
+    printf("%s", popsicles % siblings ? "eat them yourself" : "give away");
     
     return 0;
 }
