@@ -2,5 +2,6 @@ fruit = int(input())
 
 #your code goes here
 
-pies = fruit // 6
+apples = fruit // 2
+pies = apples // 3
 print(pies)
