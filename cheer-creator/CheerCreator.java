@@ -11,9 +11,9 @@ public class CheerCreator
         } else if (yards < 1) {
         	  System.out.print("shh");
         } else {
-        	  while (yards-- > 0) {
-        	  	   System.out.print("Ra!");
-        	  }
+            while (yards-- > 0) {
+                System.out.print("Ra!");
+            }
         }
     }
 }
