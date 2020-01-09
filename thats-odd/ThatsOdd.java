@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Program
 { 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        final Scanner input = new Scanner(System.in);
         int count = input.nextInt();
         int summa = 0;
         
