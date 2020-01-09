@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
-public class Program
+public class Popsicles
 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int siblings = input.nextInt();
-        int popsicles = input.nextInt();
-        
-        //your code goes here
+        final Scanner input = new Scanner(System.in);
+        final int siblings = input.nextInt();
+        final int popsicles = input.nextInt();
         
         final boolean isEvenAmount = popsicles % siblings == 0;
         
