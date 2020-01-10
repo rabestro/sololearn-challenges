@@ -1,5 +1,4 @@
 import re
-
 floor = input()
 isSafe = re.search("[$T].*G.*[$T]", floor)
 
