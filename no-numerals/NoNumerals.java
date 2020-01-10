@@ -12,9 +12,9 @@ public class NoNumerals
             try {
                 int number = Integer.parseInt(word);
                 if (number >= 0 && number <= 10) {
-                	    updatedPhrase.append(numbers[number]);
+                	updatedPhrase.append(numbers[number]);
                 } else {
-                	    updatedPhrase.append(word);
+                	updatedPhrase.append(word);
                 }
             } catch (NumberFormatException nfe) {
                 updatedPhrase.append(word);
