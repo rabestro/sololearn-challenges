@@ -1,3 +1,5 @@
+// ./Playground/Program.java:9: error: switch rules are a preview feature and are disabled by default.
+
 import java.util.Scanner;
 
 public class ConvertDate
@@ -5,7 +7,7 @@ public class ConvertDate
     public static void main(String[] args) {
         final var input = new Scanner(System.in);
 
-        input.findInLine("(\\d{2}|\\w)[ /](\\d\\d)[,/](\\d{4})");
+        input.findInLine("(.*)[ /](\\d{1,2})[,/] ?(\\d{4})");
         final var usDate = input.match();
         
         final int month = 
@@ -27,6 +29,6 @@ public class ConvertDate
         final var day = usDate.group(2);
         final var year = usDate.group(3);
         
-        System.out.printf("%d/%s/%s", day, month, year);
+        System.out.printf("%s/%d/%s", day, month, year);
     }
 }
