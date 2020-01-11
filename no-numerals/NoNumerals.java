@@ -8,9 +8,9 @@ public class NoNumerals
         final String[] numbers = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
         final var updatedPhrase = new StringBuilder();
         
-        for (final var word : phrase.split(" ")) {
+        for (var word : phrase.split(" ")) {
             try {
-                final int number = Integer.parseInt(word);
+                int number = Integer.parseInt(word);
                 if (number >= 0 && number <= 10) {
                     updatedPhrase.append(numbers[number]);
                 } else {
