@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class NewDriversLicense
 {
     public static void main(String[] args) {
-        final Scanner input = new Scanner(System.in);
-        final String hero = input.next();
-        final int agents = input.nextInt();
+        final var input = new Scanner(System.in);
+        final var hero = input.next();
+        final var agents = input.nextInt();
         
         int position = 0;
         
         while(input.hasNext()) {
-            final String person = input.next();
+            var person = input.next();
             if (hero.compareTo(person) > 0) {
                 ++position;
             }
