@@ -3,11 +3,11 @@
 
 int main() {
   char floor[MAX];
-  char *message = NULL;
+  char *message;
   int status = 0;
   fgets(floor, MAX, stdin);
   
-  for (char *c = floor; *c && message == NULL; ++c) 
+  for (char *c = floor; *c && !message; ++c) 
     if (*c == 'G' && status) message = "quiet";
     else if ((*c == '$' || *c == 'T') && status++) message = "ALARM"; 
   	   
