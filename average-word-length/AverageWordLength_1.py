@@ -1,7 +1,5 @@
 from math import ceil
-
 essay = input().split()
-
 characters = 0
 for word in essay:
     for symbol in word:

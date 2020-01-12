@@ -1,10 +1,8 @@
 import re
-
 string = input()
+isDejaVu = re.search(r"(.).*\1", string)
 
-isUnique = re.search(r"(.).*\1", string) == None
-
-if isUnique:
-    print('Unique')
-else:
+if isDejaVu:
     print('Deja Vu')
+else:
+    print('Unique')

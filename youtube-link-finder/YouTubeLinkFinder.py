@@ -1,4 +1,4 @@
 import re
 url = input()
-id = re.search(r'[^=/]*$', url).group()
-print(id)
+videoId = re.search(r'[^=/]*$', url).group()
+print(videoId)

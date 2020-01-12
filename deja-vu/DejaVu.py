@@ -3,5 +3,6 @@ def dejaVu(string):
         if string[i] in string[i + 1::]:
             return 'Deja Vu'
     return 'Unique'
-    
+
+
 print(dejaVu(input()))

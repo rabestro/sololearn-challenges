@@ -1,8 +1,8 @@
 name = input()
 agents = int(input())
 persons = input().split()
-	
-position = 0;
+
+position = 0
 
 for person in persons:
     if person < name:
