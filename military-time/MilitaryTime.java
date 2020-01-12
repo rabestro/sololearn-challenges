@@ -9,7 +9,7 @@ public class MilitaryTime
         final var usTime = input.match();
         
         var hours = Integer.valueOf(usTime.group(1));
-        final var minutes = Integer.valueOf(usTime.group(2));
+        final var minutes = usTime.group(2);
         final var indicator = usTime.group(3).charAt(0);
         
         if (indicator == 'P') {
@@ -17,7 +17,6 @@ public class MilitaryTime
         } else if (hours == 12) {
             hours = 0;
         }
-        
-        System.out.printf("%02d:%02d", hours, minutes);
+        System.out.printf("%02d:%s", hours, minutes);
     }
 }
