@@ -8,7 +8,7 @@ cards = [cardValue[c[0:-1]] for c in hand.split(' ')]
 cards.sort()
 isOrder = cards[4] - cards[0] == 4 or cards[4] == 14 \
    and cards[0] == 2 and cards[1] == 3 and cards[2] == 4 and cards[3] == 5
-combination = ''.join(chr(64 + i) for i in cards)
+hand = ''.join(chr(64 + i) for i in cards)
 
 if isColor and isOrder and cards[0] == 10:
     print('Royal Flush')
@@ -18,16 +18,15 @@ elif isColor:
     print('Flush')
 elif isOrder:
     print('Straight')
-elif re.search(r'.?(.)\1\1\1', combination) is not None:
+elif re.search(r'.?(.)\1\1\1', hand):
     print('Four of a Kind')
-elif re.search(r'(.)\1\1(.)\2', combination) is not None \
-  or re.search(r'(.)\1(.)\2\2', combination) is not None:
+elif re.search(r'(.)\1\1(.)\2', hand) or re.search(r'(.)\1(.)\2\2', hand):
     print('Full House')
-elif re.search(r'.*(.)\1\1.*', combination) is not None:
+elif re.search(r'.*(.)\1\1.*', hand):
     print('Three of a Kind')
-elif re.search(r'.*(.)\1.*(.)\2', combination) is not None:
+elif re.search(r'.*(.)\1.*(.)\2', hand):
     print('Two Pairs')
-elif re.search(r'.*(.)\1.*', combination) is not None:
+elif re.search(r'.*(.)\1.*', hand):
     print('One Pair')
 else:
     print('High Card')
