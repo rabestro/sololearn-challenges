@@ -10,9 +10,9 @@ public class PokerHand
     final static String THREE = ".*(.)\\1\\1.*";
     final static String TWO_PAIRS = ".?(.)\\1.?(.)\\2.?";
     final static String ONE_PAIR = ".*(.)\\1.*";
-	public static void main(String[] args) {
-	    final var input = new java.util.Scanner(System.in);
-	    final var pokerHand = input.nextLine();
+    public static void main(String[] args) {
+        final var input = new java.util.Scanner(System.in);
+        final var pokerHand = input.nextLine();
         input.close();
       
         char[] cards = Arrays.stream(pokerHand.replaceAll("[SCDH]", "").split(" "))
@@ -50,7 +50,7 @@ public class PokerHand
             rank = "High Card";
         }
         System.out.println(rank);
-	}
+    }
 	
     static char getCardValue (String card) {
         switch (card) {
