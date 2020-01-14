@@ -19,10 +19,11 @@ XPXXX,XXXXX,XXXXX,XXXPX,XXXXX
 
 ## Explanation:
 The map looks as:
+```
 XPXXX
 XXXXX
 XXXXX
 XXXPX
 XXXXX
-
+```
 You had to move right 2 spaces, then down 3 spaces for a total of 5 moves.
