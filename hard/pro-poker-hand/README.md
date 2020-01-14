@@ -31,5 +31,5 @@ JS 2H JC AC 2D
 ## Sample Output: 
 Two Pairs
 
-##Explanation: 
+## Explanation: 
 The hand includes two Jacks and two 2s, resulting in Two Pairs.
