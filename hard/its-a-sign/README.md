@@ -12,13 +12,15 @@ Four strings that represent the word or phrase that was supposed to be printed o
 A string that say 'Open' if at least one of the boxes is a palindrome or 'Trash' if all of the signs are misprinted.
 
 ## Sample Input
+```
 CAT
 MONDAYS
 RACECAR
 TACOS
-
+```
 ## Sample Output 
+```
 Open
-
+```
 ## Explanation 
 RACECAR is a palindrome and is the same forwards and backwards. You will want to open this box to get that sign out. 
