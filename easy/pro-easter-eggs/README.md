@@ -18,4 +18,6 @@ A string that says 'Keep Hunting' if there are still eggs out there or 'Candy Ti
 60
 ```
 ## Sample Output: 
+```
 Candy Time
+```
