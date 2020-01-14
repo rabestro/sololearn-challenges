@@ -6,8 +6,10 @@ cardValue = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, \
 isColor = re.search(r'1?.(.)( 1?.\1){4}', hand) is not None
 cards = [cardValue[c[0:-1]] for c in hand.split(' ')]
 cards.sort()
-isOrder = cards[4] - cards[0] == 4 or cards[4] == 14 \
-   and cards[0] == 2 and cards[1] == 3 and cards[2] == 4 and cards[3] == 5
+isOrder = cards[1] == cards[0] + 1 and cards[2] == 1 + cards[1] \
+   and cards[3] == cards[2] + 1 and cards[4] == cards[3] + 1 \
+   or cards[4] == 14 and cards[0] == 2 and cards[1] == 3 and cards[2] == 4 and cards[3] == 5
+   
 hand = ''.join(chr(64 + i) for i in cards)
 
 if isColor and isOrder and cards[0] == 10:
