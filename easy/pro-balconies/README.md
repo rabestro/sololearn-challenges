@@ -12,8 +12,11 @@ Your inputs are two strings where the measurements for height and width are sepa
 A string that says whether apartment A or apartment B has a larger balcony.
 
 ## Sample Input 
+```
 '5,5'
 '2,10'
-
+```
 ## Sample Output 
+```
 Apartment A
+```
