@@ -13,7 +13,9 @@ A string that says 'Keep Hunting' if there are still eggs out there or 'Candy Ti
 
 ## Sample Input:
 100
+
 40
+
 60
 
 ## Sample Output: 
