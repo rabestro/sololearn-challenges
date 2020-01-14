@@ -12,12 +12,18 @@ Your input will be a string of your name, then an integer of the number of avail
 You will output an integer of the number of minutes that it will take to get your license.
 
 ## Sample Input
+
+```
 'Eric'
 2
 'Adam Caroline Rebecca Frank'
+```
 
 ## Sample Output 
+
+```
 40
+```
 
 ## Explanation 
 It will take 40 minutes to get your license because you are in the second group of two to be seen by one of the two available agents.
