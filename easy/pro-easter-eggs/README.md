@@ -12,11 +12,10 @@ Three integer values. The first represents the total number of eggs, the second,
 A string that says 'Keep Hunting' if there are still eggs out there or 'Candy Time' if you found all the eggs.
 
 ## Sample Input:
+```
 100
-
 40
-
 60
-
+```
 ## Sample Output: 
 Candy Time
