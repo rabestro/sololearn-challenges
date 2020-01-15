@@ -19,7 +19,7 @@ public class PokerHand
         char[] cards = Arrays.stream(pokerHand
 		.replaceAll("[SCDH]", "")
 		.split(" "))
-                .mapToInt(card -> getCardValue(card))
+                .mapToInt(PokerHand::getCardValue)
 		.sorted()
 		.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
                 .toString().toCharArray();
