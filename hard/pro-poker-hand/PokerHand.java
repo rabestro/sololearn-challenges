@@ -16,8 +16,8 @@ public class PokerHand
         final var pokerHand = input.nextLine();
         input.close();
       
-        char[] cards = Arrays.stream(
-		pokerHand.replaceAll("[SCDH]", "")
+        char[] cards = Arrays.stream(pokerHand
+		.replaceAll("[SCDH]", "")
 		.split(" "))
                 .mapToInt(card -> getCardValue(card))
 		.sorted()
