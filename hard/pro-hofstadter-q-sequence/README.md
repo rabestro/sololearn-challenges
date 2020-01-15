@@ -14,11 +14,13 @@ A positive integer value.
 A positive integer value that represents the value in the q-sequence that the input holds.
 
 ## Sample Input: 
+```
 5
-
+```
 ## Sample Output: 
+```
 3
-
+```
 ## Explanation: 
 ```
 Q(5) = Q(5-Q(5-1))+Q(5-Q(5-2)) = Q(5-Q(4))+Q(5-Q(3)) = Q(5-3)+Q(5-2) = Q(2)+Q(3) = 1+2 = 3
