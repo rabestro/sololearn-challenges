@@ -26,7 +26,7 @@ public class PokerHand
 	      && cards[1] + 1 == cards[2]
               && cards[2] + 1 == cards[3] 
 	      && cards[3] + 1 == cards[4]
-              || cards[4] == '0' + 14 
+              || cards[4] == '0' + 14     // Special «low» stright: A-2-3-4-5
 	      && cards[0] == '2' && cards[1] == '3' && cards[2] == '4' && cards[3] == '5';   
 
         String hand = new String(cards);
