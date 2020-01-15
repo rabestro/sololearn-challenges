@@ -12,11 +12,13 @@ A string that represents the 2D space starting at the top left.  Each level from
 An integer that represents the total number of moves that you had to make.
 
 ## Sample Input: 
+```
 XPXXX,XXXXX,XXXXX,XXXPX,XXXXX
-
+```
 ## Sample Output: 
+```
 5
-
+```
 ## Explanation:
 The map looks as:
 ```
