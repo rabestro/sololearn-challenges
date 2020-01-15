@@ -40,5 +40,6 @@ After completing the task I looked through my solutions and found that some code
 - [It's a Sign](hard/pro-its-a-sign)
 - [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence)
 - [Poker Hand](hard/pro-poker-hand)
-
-
+- [Digits of Pi](hard/pro-digits-of-pi)
+- [2D Map](hard/pro-2d-map)
+- [Mathematics](Mathematics)
