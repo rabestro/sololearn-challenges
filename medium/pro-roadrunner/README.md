@@ -13,12 +13,14 @@ Three integer values, the first value represents the distance the roadrunner is 
 A string that says 'Meep Meep' if the roadrunner made it, or 'Yum' if the coyote caught up to the roadrunner.
 
 ## Sample Input: 
+```
 10 
 5 
 20
-
+```
 ## Sample Output: 
+```
 Meep Meep
-
+```
 ## Explanation: 
 The roadrunner is safe because it took them 2 seconds to get to safety while the coyote only got 30 feet closer to the roadrunner in that same amount of time. 
