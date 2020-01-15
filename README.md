@@ -37,3 +37,8 @@ After completing the task I looked through my solutions and found that some code
 - [Password Validation](hard/password-validation)
 - [Security](hard/security)
 - [New Driver's License](hard/new-drivers-license)
+- [It's a Sign](hard/pro-its-a-sign)
+- [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence)
+- [Poker Hand](hard/pro-poker-hand)
+
+
