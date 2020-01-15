@@ -13,10 +13,16 @@ A string representing the password to evaluate.
 A string that says 'Strong' if the input meets the requirements, or 'Weak', if not.
 
 ## Sample Input: 
+
+```
 Hello@$World19
+```
 
 ## Sample Output: 
+
+```
 Strong
+```
 
 ## Explanation:
 The password has 2 numbers, 2 of the defined special characters, and its length is 14, making it valid.
