@@ -26,10 +26,16 @@ For example, JD indicates Jack of Diamonds.
 A string, indicating the rank of the hand (in the format of the above description). 
 
 ## Sample Input:
+
+```
 JS 2H JC AC 2D
+```
 
 ## Sample Output: 
+
+```
 Two Pairs
+```
 
 ## Explanation: 
 The hand includes two Jacks and two 2s, resulting in Two Pairs.
