@@ -16,10 +16,13 @@ public class PokerHand
         final var pokerHand = input.nextLine();
         input.close();
       
-        char[] cards = Arrays.stream(pokerHand.replaceAll("[SCDH]", "").split(" "))
-            .mapToInt(card -> getCardValue(card)).sorted().collect(
-            StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
-            .toString().toCharArray();
+        char[] cards = Arrays.stream(
+		pokerHand.replaceAll("[SCDH]", "")
+		.split(" "))
+                .mapToInt(card -> getCardValue(card))
+		.sorted()
+		.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                .toString().toCharArray();
 
         boolean isColor = Pattern.matches(FLUSH, pokerHand);
         boolean isOrder = cards[0] + 1 == cards[1] 
