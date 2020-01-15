@@ -13,10 +13,13 @@ An integer: 0<N<1000
 An integer, representing the Nth decimal digit of Pi.
 
 ## Sample Input:
+```
 12
-
+```
 ## Sample Output:
+```
 9
-
+```
 ## Explanation: 
-The 12th decimal digit of Pi is 9: 3.141592653589793...
+
+The 12th decimal digit of Pi is 9: 3.14159265358**9**793...
