@@ -14,10 +14,12 @@ Space on the casino floor that is not occupied by either money, the thief, or a 
 A string that says 'ALARM' if the money is in danger or 'quiet' if the money is safe.
 
 ## Sample Input: 
+```
 xxxxxGxx$xxxT
-
+```
 ## Sample Output:
+```
  ALARM
- 
+ ```
 ## Explanation: 
 This input should set off the alarm because there is no guard between the money and the thief!
