@@ -52,4 +52,4 @@ After completing the task I looked through my solutions and found that some code
 - [Poker Hand](hard/pro-poker-hand)
 - [Digits of Pi](hard/pro-digits-of-pi)
 - [2D Map](hard/pro-2d-map)
-- [Mathematics](Mathematics)
+- [Mathematics](hard/pro-mathematics)
