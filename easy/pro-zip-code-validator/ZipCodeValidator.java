@@ -9,6 +9,6 @@ public class ZipCodeValidator
 	    
         final boolean isValid = Pattern.matches("\\d{5}", zipCode);
 	    
-        System.out.print(isValid);
+        System.out.println(isValid);
     }
 }
