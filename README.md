@@ -17,6 +17,16 @@ After completing the task I looked through my solutions and found that some code
 - [Hovercraft](easy/hovercraft)
 - [Jungle Camping](easy/jungle-camping)
 - [Extra-Terristrials](easy/extra-terristrials)
+- [Balconies](easy/pro-balconies)
+- [Candles](easy/pro-candles)
+- [Duct Tape](/easy/pro-duct-tape)
+- [Easter Eggs](easy/pro-easter-eggs)
+- [Izzy the Iguana](easy/pro-izzy-the-iguana)
+- [Kaleidoscopes](easy/pro-kaleidoscopes)
+- [Land Ho!](easy/pro-land-ho)
+- [Neverland](easy/pro-neverland)
+- [Vowel Counter](easy/pro-vowel-counter)
+- [Zip Code Validator](easy/pro-zip-code-validator)
 
 ## Medium
 
