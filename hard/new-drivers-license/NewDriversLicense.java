@@ -15,6 +15,8 @@ public class NewDriversLicense
                 ++position;
             }
         }
+        input.close();
+        
         final int time = 20 * (1 + position / agents);
         
         System.out.print(time);
