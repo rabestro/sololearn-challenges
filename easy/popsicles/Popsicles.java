@@ -6,6 +6,8 @@ public class Popsicles
         final Scanner input = new Scanner(System.in);
         final int siblings = input.nextInt();
         final int popsicles = input.nextInt();
+        input.close();
+        
         final boolean isEvenAmount = popsicles % siblings == 0;
         
         if (isEvenAmount) {
