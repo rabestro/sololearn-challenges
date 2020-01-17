@@ -6,6 +6,7 @@ public class Argentina
         final Scanner input = new Scanner(System.in);
         final int pesos = input.nextInt();
         final int dollars = input.nextInt();
+        input.close();
         
         System.out.print(dollars * 50l > pesos ? "Pesos" : "Dollars");
     }
