@@ -24,10 +24,14 @@ A string: 'valid' in case the input is a valid credit card number (passes the Lu
 ## Sample Output:
 valid
 
-## Explanation: Let's run the Luhn test for our input:
+## Explanation: 
+
+Let's run the Luhn test for our input:
+```
 Reverse: 8893650651311904
 Multiplying the even positions by 2: 8 16 9 6 6 10 0 12 5 2 3 2 1 18 0 8
 Subtract 9 from >9: 8 7 9 6 6 1 0 3 5 2 3 2 1 9 0 8
 The sum: 70
 70 Modulo 10 is 0.
+```
 The input passed the Luhn test and contains 16 digits, making it a valid credit card number.
