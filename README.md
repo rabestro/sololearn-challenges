@@ -27,6 +27,7 @@ After completing the task I looked through my solutions and found that some code
 - [Neverland](easy/pro-neverland)
 - [Vowel Counter](easy/pro-vowel-counter)
 - [Zip Code Validator](easy/pro-zip-code-validator)
+- [Number of Ones](easy/pro-number-of-ones)
 
 ## Medium
 
