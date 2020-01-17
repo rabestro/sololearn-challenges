@@ -40,6 +40,16 @@ There are my solutions for SoloLearn Coding Challenges. All codes have written o
 - [Average Word Length](medium/average-word-length)
 - [YouTube Link Finder](medium/youtube-link-finder)
 - [Convert US date to EU date](medium/convert-date)
+- [Building Blocks](medium/pro-building-blocks)
+- [Carrot Cake](medium/pro-carrot-cake)
+- [Credit Card Validator](medium/pro-credit-card-validator/)
+- [Divisible](medium/pro-divisible)
+- [Duty Free](medium/pro-duty-free)
+- [Even Numbers](medium/pro-even-numbers)
+- [Hex Color Code Generator](medium/pro-hex-color-code-generator)
+- [Name Buddy](medium/pro-name-buddy)
+- [Roadrunner](medium/pro-roadrunner)
+- [Safety Deposit Boxes](medium/pro-safety-deposit-boxes)
 
 ## Hard
 

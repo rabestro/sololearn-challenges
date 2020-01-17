@@ -1,4 +1,4 @@
-# Even Numbers  
+# Even Numbers
 
 Given a list of numbers, you want to take out all of the odd ones and leave just the even ones.
 

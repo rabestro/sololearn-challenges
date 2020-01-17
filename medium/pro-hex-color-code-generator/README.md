@@ -1,4 +1,4 @@
-# Hex Color Code Generator  
+# Hex Color Code Generator
 
 You are starting a new company and unfortunately that means you can no longer rely on the free hex-color code software you used to rely on. It’s time to put your skills to the test and create one from the ground up!
 

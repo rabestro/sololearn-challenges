@@ -10,27 +10,29 @@ public class PokerHand
     final static String THREE = ".*(.)\\1\\1.*";
     final static String TWO_PAIRS = ".?(.)\\1.?(.)\\2.?";
     final static String ONE_PAIR = ".*(.)\\1.*";
-	
+    
     public static void main(String[] args) {
         final var input = new java.util.Scanner(System.in);
         final var pokerHand = input.nextLine();
         input.close();
       
         char[] cards = Arrays.stream(pokerHand
-		.replaceAll("[SCDH]", "")
-		.split(" "))
+                .replaceAll("[SCDH]", "")
+                .split(" "))
                 .mapToInt(PokerHand::getCardValue)
-		.sorted()
-		.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                .sorted()
+                .collect(StringBuilder::new, 
+                        StringBuilder::appendCodePoint, 
+                        StringBuilder::append)
                 .toString().toCharArray();
 
         boolean isColor = Pattern.matches(FLUSH, pokerHand);
         boolean isOrder = cards[0] + 1 == cards[1] 
-	        && cards[1] + 1 == cards[2]
+                && cards[1] + 1 == cards[2]
                 && cards[2] + 1 == cards[3] 
-	        && cards[3] + 1 == cards[4]
+                && cards[3] + 1 == cards[4]
                 || cards[4] == '0' + 14     // Special «low» stright: A-2-3-4-5
-	        && cards[0] == '2' && cards[1] == '3' && cards[2] == '4' && cards[3] == '5';   
+                && cards[0] == '2' && cards[1] == '3' && cards[2] == '4' && cards[3] == '5';   
 
         String hand = new String(cards);
         String rank;
@@ -57,7 +59,7 @@ public class PokerHand
         }
         System.out.println(rank);
     }
-	
+    
     static char getCardValue (String card) {
         switch (card) {
             case "10": return '0' + 10;
