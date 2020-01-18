@@ -20,6 +20,6 @@ public class Security
     			if (alarm == 2) break;
     		}
     	}
-    	return alarm != 2;
+    	return alarm < 2;
     }
 }
