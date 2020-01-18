@@ -53,6 +53,7 @@ There are my solutions for SoloLearn Coding Challenges. All codes have written o
 - [Super Sale](medium/pro-super-sale)
 - [CMYK to RGB](medium/pro-CMYK-to-RGB)
 - [Splitting Strings](medium/pro-splitting-strings)
+- [Tax Free](medium/pro-tax-free)
 
 ## Hard
 
