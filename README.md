@@ -51,6 +51,7 @@ There are my solutions for SoloLearn Coding Challenges. All codes have written o
 - [Roadrunner](medium/pro-roadrunner)
 - [Safety Deposit Boxes](medium/pro-safety-deposit-boxes)
 - [Super Sale](medium/pro-super-sale)
+- [CMYK to RGB](medium/pro-CMYK-to-RGB)
 
 ## Hard
 
