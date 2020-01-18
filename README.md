@@ -50,6 +50,7 @@ There are my solutions for SoloLearn Coding Challenges. All codes have written o
 - [Name Buddy](medium/pro-name-buddy)
 - [Roadrunner](medium/pro-roadrunner)
 - [Safety Deposit Boxes](medium/pro-safety-deposit-boxes)
+- [Super Sale](medium/pro-super-sale)
 
 ## Hard
 
