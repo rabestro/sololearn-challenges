@@ -67,3 +67,4 @@ There are my solutions for SoloLearn Coding Challenges. All codes have written o
 - [Digits of Pi](hard/pro-digits-of-pi)
 - [2D Map](hard/pro-2d-map)
 - [Mathematics](hard/pro-mathematics)
+- [Longest Common Substring](medium/pro-longest-common-substring)
