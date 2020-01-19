@@ -11,12 +11,10 @@ public class ConvertDate {
         final var usDate = input.nextLine();
         input.close();
         
-        final var euDate = DateTimeFormatter.ofPattern("d/M/yyyy")
-            .format( LocalDate.parse( usDate, 
-            (Character.isDigit(usDate.charAt(0))
+        final var euDate = DateTimeFormatter.ofPattern("d/M/yyyy").format(
+            LocalDate.parse(usDate, Character.isDigit(usDate.charAt(0))
                 ? DateTimeFormatter.ofPattern("M/d/yyyy")
-                : DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)
-            ).withLocale(Locale.US)));
+                : DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US)));
         
         System.out.println(euDate);
     }
