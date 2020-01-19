@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConvertDate
+public class ConvertDateRE
 {
     public static void main(String[] args) {
         final var input = new Scanner(System.in);
