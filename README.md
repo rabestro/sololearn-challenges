@@ -59,6 +59,8 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Splitting Strings](medium/pro-splitting-strings)
 - [Tax Free](medium/pro-tax-free)
 - [Flowing Words](medium/pro-flowing-words)
+- [How Far?](medium/pro-how-far)
+- [Snowballing Numbers](medium/pro-snowballing-numbers)
 
 ## Hard
 
