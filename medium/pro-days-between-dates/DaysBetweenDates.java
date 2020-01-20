@@ -5,8 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import static java.time.temporal.ChronoUnit.DAYS;
 
-public class DaysBetweenDates {
-                                  
+public class DaysBetweenDates {                               
     public static void main(String[] args) {
         final var formatter = DateTimeFormatter
                                   .ofLocalizedDate(FormatStyle.LONG)
