@@ -61,6 +61,8 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Flowing Words](medium/pro-flowing-words)
 - [How Far?](medium/pro-how-far)
 - [Snowballing Numbers](medium/pro-snowballing-numbers)
+- [Day of the Week](medium/pro-day-of-the-week)
+- [Days between dates](medium/pro-days-between-dates)
 
 ## Hard
 
