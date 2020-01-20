@@ -84,3 +84,4 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [2D Map](hard/pro-2d-map)
 - [Mathematics](hard/pro-mathematics)
 - [Longest Common Substring](medium/pro-longest-common-substring)
+- [Word Rank](hard/pro-word-rank)
