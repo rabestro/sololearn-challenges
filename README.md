@@ -6,6 +6,12 @@ All the codes have written on mobile device in Sololearn sandbox, sucessfully ru
 
 First of all I writed solutions in C language. Since all the tasks were extremely simple and needed to be done on the phone, I allowed myself to move away from the principles of clean code. The main task was to write the shortest and most effective code that met the conditions and passed the tests. After completing the task I looked through my solutions and found that some [C-code](hard/security/Security.c) looks like interference in the telegraph line. I left this code intact, however I began to solve problems in the Java language [trying](hard/security/Security.java) to follow the principles of clean code. I hope that did it. There are also solutions in Python and some others languages. You have the opportunity to see and compare how the same task can be completely differently solved in different programming languages.
 
+## Java 8 date and time API
+- [Convert US date to EU date](medium/convert-date)
+- [Military Time](medium/military-time)
+- [Day of the Week](medium/pro-day-of-the-week)
+- [Days between dates](medium/pro-days-between-dates)
+
 ## Easy
 
 - [Popsicles](easy/popsicles)
