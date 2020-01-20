@@ -7,9 +7,7 @@ import static java.time.temporal.ChronoUnit.DAYS;
 
 public class DaysBetweenDates {                               
     public static void main(String[] args) {
-        final var formatter = DateTimeFormatter
-                                  .ofLocalizedDate(FormatStyle.LONG)
-                                  .withLocale(Locale.US);
+        final var formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US);
         final var input = new Scanner(System.in);
         final var firstDate = LocalDate.parse(input.nextLine(), formatter);
         final var secondDate = LocalDate.parse(input.nextLine(), formatter);
