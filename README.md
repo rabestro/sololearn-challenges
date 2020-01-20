@@ -69,6 +69,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Snowballing Numbers](medium/pro-snowballing-numbers)
 - [Day of the Week](medium/pro-day-of-the-week)
 - [Days between dates](medium/pro-days-between-dates)
+- [Camel to Snake](medium/pro-camel-to-snake)
 
 ## Hard
 
