@@ -70,6 +70,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Day of the Week](medium/pro-day-of-the-week)
 - [Days between dates](medium/pro-days-between-dates)
 - [Camel to Snake](medium/pro-camel-to-snake)
+- [Text Decompressor](medium/pro-text-decompressor)
 
 ## Hard
 
