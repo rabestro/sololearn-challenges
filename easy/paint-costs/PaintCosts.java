@@ -1,15 +1,17 @@
 import java.util.Scanner;
-import java.lang.Math;
+import static java.lang.Math.round;
 
 public class PaintCosts
 {
     public static void main(String[] args) {
-        final Scanner input = new Scanner(System.in);
-        final int brushesCost = 40;
-        final int colors = input.nextInt();
-        final int colorsCost = 5 * colors;
-        final double tax = 0.1;
-        final int totalCost = (int)Math.round((1 + tax) * (colorsCost + brushesCost));
+        final var in = new Scanner(System.in);
+        final var colors = in.nextInt();
+        in.close();
+
+        final var brushesCost = 40;
+        final var colorsCost = 5 * colors;
+        final var tax = 0.1;
+        final var totalCost = (int) round((1 + tax) * (colorsCost + brushesCost));
         
         System.out.print(totalCost);
    }

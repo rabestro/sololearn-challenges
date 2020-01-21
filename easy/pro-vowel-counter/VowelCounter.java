@@ -7,7 +7,7 @@ public class VowelCounter
         final var sentence = input.nextLine();
         input.close();
         
-        final int vowels = sentence.replaceAll("[^AEIOUaeiou]", "").length();
+        final var vowels = sentence.replaceAll("[^AEIOUaeiou]", "").length();
         
         System.out.println(vowels);
     }

@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Popsicles
 {
     public static void main(String[] args) {
-        final Scanner input = new Scanner(System.in);
-        final int siblings = input.nextInt();
-        final int popsicles = input.nextInt();
+        final var input = new Scanner(System.in);
+        final var siblings = input.nextInt();
+        final var popsicles = input.nextInt();
         input.close();
         
-        final boolean isEvenAmount = popsicles % siblings == 0;
+        final var isEvenAmount = popsicles % siblings == 0;
         
         if (isEvenAmount) {
             System.out.print("give away");

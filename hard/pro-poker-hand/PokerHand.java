@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class PokerHand 
@@ -12,7 +13,7 @@ public class PokerHand
     final static String ONE_PAIR = ".*(.)\\1.*";
     
     public static void main(String[] args) {
-        final var input = new java.util.Scanner(System.in);
+        final var input = new Scanner(System.in);
         final var pokerHand = input.nextLine();
         input.close();
       

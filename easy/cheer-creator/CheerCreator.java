@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class CheerCreator
 {
-    public static void main(String[] args) {
-        var input = new Scanner(System.in);
-        int yards = input.nextInt();
-        input.close();
+    public static void main(final String[] args) {
+        final var in = new Scanner(System.in);
+        final var yards = in.nextInt();
+        in.close();
         
         if (yards > 10) {
             System.out.print("High Five");

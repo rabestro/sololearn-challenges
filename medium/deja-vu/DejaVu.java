@@ -7,7 +7,7 @@ public class DejaVu
         final var input = new Scanner(System.in);
         final var text = input.nextLine();
 	    
-        final boolean isDejaVu = Pattern.matches(".*(.).*\\1.*", text);
+        final var isDejaVu = Pattern.matches(".*(.).*\\1.*", text);
 	    
         System.out.println(isDejaVu ? "Deja Vu" : "Unique");
    }

@@ -1,13 +1,13 @@
 public class CamelToSnake {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final var input = new java.util.Scanner(System.in);
         final var codebase = input.nextLine();
         input.close();
-        
-        var output = new StringBuilder();
+
+        final var output = new StringBuilder();
         boolean isFirst = true;
-        
-        for (char c : codebase.toCharArray()) {
+
+        for (final char c : codebase.toCharArray()) {
             if (Character.isUpperCase(c) && !isFirst) {
                 output.append('_');
             }

@@ -7,7 +7,7 @@ public class ZipCodeValidator
         final var zipCode = input.nextLine();
         input.close();
 	    
-        final boolean isValid = Pattern.matches("\\d{5}", zipCode);
+        final var isValid = Pattern.matches("\\d{5}", zipCode);
 	    
         System.out.println(isValid);
     }
