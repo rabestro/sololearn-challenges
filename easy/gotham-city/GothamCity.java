@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class GothamCity
-{
+public class GothamCity {
     public static void main(String[] args) {
-        final Scanner input = new Scanner(System.in);
-        final int criminals = input.nextInt();
-        
+        var in = new Scanner(System.in);
+        var criminals = in.nextInt();
+        in.close();
+
         if (criminals < 5) {
             System.out.print("I got this!");
         } else if (criminals < 11) {

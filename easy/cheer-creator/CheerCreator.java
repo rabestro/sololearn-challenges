@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class CheerCreator
 {
     public static void main(String[] args) {
-        final var input = new Scanner(System.in);
-        final int yards = input.nextInt();
+        var input = new Scanner(System.in);
+        int yards = input.nextInt();
         input.close();
         
         if (yards > 10) {

@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Argentina
 {
     public static void main(String[] args) {
-        final Scanner input = new Scanner(System.in);
-        final int pesos = input.nextInt();
-        final int dollars = input.nextInt();
+        Scanner input = new Scanner(System.in);
+        int pesos = input.nextInt();
+        int dollars = input.nextInt();
         input.close();
         
         System.out.print(dollars * 50l > pesos ? "Pesos" : "Dollars");
