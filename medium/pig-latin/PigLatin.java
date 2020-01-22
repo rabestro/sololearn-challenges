@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class PigLatin {
     public static void main(String[] args) {
     
-        new Scanner(System.in).tokens()
+        new Scanner(System.in)
+            .tokens()
             .map(word -> word.substring(1) + word.charAt(0) + "ay ")
             .forEach(System.out::print);
     }
