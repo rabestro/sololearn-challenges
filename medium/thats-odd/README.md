@@ -12,6 +12,7 @@ The first input denotes the length of the list (N). The next N lines contain the
 An integer that represents the sum of only the even numbers in the list.
 
 ## Sample Input: 
+```
 9
 1
 2
@@ -22,9 +23,10 @@ An integer that represents the sum of only the even numbers in the list.
 7
 8
 9
-
+```
 ## Sample Output: 
+```
 20
-
+```
 ## Explanation: 
 If you add together 2, 4, 6, and 8 from the list, you get a sum of 20.
