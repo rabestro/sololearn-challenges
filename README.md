@@ -14,6 +14,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 
 ## Java 8 stream & lambda
 - [Jungle Camping](easy/jungle-camping)
+- [Pig Latin](medium/pig-latin)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
