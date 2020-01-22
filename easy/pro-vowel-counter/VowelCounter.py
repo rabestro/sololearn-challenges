@@ -1,4 +1,3 @@
 import re
-sentence = input()
-vowels = len(re.sub('[^AEIOUaeiou]', '', sentence))
+vowels = len(re.sub('[^AEIOUaeiou]', '', input())
 print(vowels)
