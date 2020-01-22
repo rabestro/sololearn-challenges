@@ -8,7 +8,8 @@ public class JungleCamping
         final Map<String, String> animals = Map.of(
             "Grr", "Lion ", "Rawr", "Tiger ", "Ssss", "Snake ", "Chirp", "Bird ");
             
-        new Scanner(System.in).tokens()
+        new Scanner(System.in)
+	    .tokens()
             .map(animals::get)
             .forEach(System.out::print);
     }
