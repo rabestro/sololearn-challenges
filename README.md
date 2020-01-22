@@ -19,6 +19,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Vowel Counter](easy/pro-vowel-counter)
 - [That's odd...](medium/thats-odd)
 - [No Numerals](medium/no-numerals)
+- [Secret Message](medium/secret-message)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
