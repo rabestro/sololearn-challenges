@@ -21,6 +21,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [No Numerals](medium/no-numerals)
 - [Secret Message](medium/secret-message)
 - [Building Blocks](medium/pro-building-blocks)
+- [Even Numbers](medium/pro-even-numbers)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
