@@ -22,6 +22,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Secret Message](medium/secret-message)
 - [Building Blocks](medium/pro-building-blocks)
 - [Even Numbers](medium/pro-even-numbers)
+- [Splitting Strings](medium/pro-splitting-strings)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
