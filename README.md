@@ -12,6 +12,10 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Day of the Week](medium/pro-day-of-the-week)
 - [Days between dates](medium/pro-days-between-dates)
 
+## Java 8 stream & lambda
+- [Jungle Camping](easy/jungle-camping)
+- [Poker Hand](hard/pro-poker-hand)
+
 ## Easy
 
 - [Popsicles](easy/popsicles)
