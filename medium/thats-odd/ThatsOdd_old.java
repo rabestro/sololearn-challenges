@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Program
+public class ThatsOdd_old
 { 
     public static void main(final String[] args) {
         final Scanner input = new Scanner(System.in);
