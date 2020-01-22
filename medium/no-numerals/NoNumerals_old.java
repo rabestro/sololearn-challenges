@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NoNumerals
+public class NoNumerals_old
 {
     public static void main(final String[] args) {
         final var input = new Scanner(System.in);
