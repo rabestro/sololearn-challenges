@@ -16,6 +16,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Jungle Camping](easy/jungle-camping)
 - [Izzy the Iguana](easy/pro-izzy-the-iguana)
 - [Pig Latin](medium/pig-latin)
+- [Vowel Counter](easy/pro-vowel-counter)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
