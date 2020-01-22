@@ -11,7 +11,7 @@ public class NoNumerals
             "8", "eight", "9", "nine");
             
         new Scanner(System.in)
-	        .tokens()
+	    .tokens()
             .map(word -> (numbers.containsKey(word) ? numbers.get(word) : word) + " ")
             .forEach(System.out::print);
     }
