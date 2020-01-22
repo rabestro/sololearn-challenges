@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class ThatsOdd
 { 
@@ -6,10 +7,9 @@ public class ThatsOdd
         var input = new Scanner(System.in);
         int count = input.nextInt();
         
-        int sum = input
-            .tokens()
+        int sum = IntStream
+            .generate(input::nextInt)
             .limit(count)
-            .mapToInt(Integer::parseInt)
             .filter(i -> i % 2 == 0)
             .sum();
         
