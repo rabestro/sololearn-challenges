@@ -17,6 +17,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Izzy the Iguana](easy/pro-izzy-the-iguana)
 - [Pig Latin](medium/pig-latin)
 - [Vowel Counter](easy/pro-vowel-counter)
+- [That's odd...](medium/thats-odd)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
