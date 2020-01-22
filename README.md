@@ -18,6 +18,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Pig Latin](medium/pig-latin)
 - [Vowel Counter](easy/pro-vowel-counter)
 - [That's odd...](medium/thats-odd)
+- [No Numerals](medium/no-numerals)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
