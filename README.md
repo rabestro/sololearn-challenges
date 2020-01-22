@@ -23,6 +23,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Building Blocks](medium/pro-building-blocks)
 - [Even Numbers](medium/pro-even-numbers)
 - [Splitting Strings](medium/pro-splitting-strings)
+- [Tax Free](medium/pro-tax-free)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
