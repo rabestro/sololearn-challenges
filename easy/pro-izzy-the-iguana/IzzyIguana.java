@@ -8,7 +8,8 @@ public class IzzyIguana
         final Map<String, Integer> snackPoints = Map.of(
             "Lettuce", 5, "Carrot", 4, "Mango", 9, "Cheeseburger", 0);
             
-        int sum = new Scanner(System.in).tokens()
+        int sum = new Scanner(System.in)
+	    .tokens()
             .mapToInt(snackPoints::get)
             .sum();
             
