@@ -1,10 +1,8 @@
-import java.util.Scanner;
-
 public class TaxFree
 {
     public static void main(String[] args) {
             
-        double sum = new Scanner(System.in)
+        double sum = new java.util.Scanner(System.in)
             .useDelimiter(",")
             .tokens()
             .mapToInt(Integer::parseInt)
