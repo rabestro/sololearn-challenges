@@ -28,6 +28,11 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [New Driver's License](hard/new-drivers-license)
 - [Poker Hand](hard/pro-poker-hand)
 
+## Regular Expressions
+
+- [Zip Code Validator](easy/pro-zip-code-validator)
+- [Deja Vu](medium/deja-vu)
+
 ## Easy
 
 - [Popsicles](easy/popsicles)
