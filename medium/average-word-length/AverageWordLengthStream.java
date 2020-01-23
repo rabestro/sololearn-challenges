@@ -11,5 +11,5 @@ public class AverageWordLength
                 .collect(averagingInt(String::length)));
              
         System.out.print(average);
-	}
+    }
 }
