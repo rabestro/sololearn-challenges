@@ -26,6 +26,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Tax Free](medium/pro-tax-free)
 - [Text Decompressor](medium/pro-text-decompressor)
 - [New Driver's License](hard/new-drivers-license)
+- [Average Word Length](medium/average-word-length)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Regular Expressions
