@@ -25,6 +25,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Splitting Strings](medium/pro-splitting-strings)
 - [Tax Free](medium/pro-tax-free)
 - [Text Decompressor](medium/pro-text-decompressor)
+- [New Driver's License](hard/new-drivers-license)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
