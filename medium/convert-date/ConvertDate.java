@@ -9,12 +9,15 @@ public class ConvertDate {
         
         final var usDate = new java.util.Scanner(System.in).nextLine();
         
-        final var usFormat = Character.isDigit(usDate.charAt(0))
-                ? DateTimeFormatter.ofPattern("M/d/yyyy")
-                : DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US)
+        final var usShortFormat = DateTimeFormatter.ofPattern("M/d/yyyy");
+        final var usLongFormat  = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US);
         
-        final var euDate = DateTimeFormatter
-            .ofPattern("d/M/yyyy").format(LocalDate.parse(usDate, usFormat));
+        final var isFirstSymbolDigit = Character.isDigit(usDate.charAt(0));
+        
+        final var usFormat      = isFirstSymbolDigit ? usShort : usLong;
+        final var euFormat      = DateTimeFormatter.ofPattern("d/M/yyyy");
+        
+        final var euDate = euShort.format(LocalDate.parse(usDate, usFormat));
         
         System.out.println(euDate);
     }
