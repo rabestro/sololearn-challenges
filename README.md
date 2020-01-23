@@ -24,6 +24,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Even Numbers](medium/pro-even-numbers)
 - [Splitting Strings](medium/pro-splitting-strings)
 - [Tax Free](medium/pro-tax-free)
+- [Text Decompressor](medium/pro-text-decompressor)
 - [Poker Hand](hard/pro-poker-hand)
 
 ## Easy
