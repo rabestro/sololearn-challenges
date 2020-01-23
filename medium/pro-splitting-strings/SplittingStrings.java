@@ -6,6 +6,7 @@ public class SplittingStrings
         final var in = new Scanner(System.in);
         final var s = in.nextLine();
         final var n = in.nextInt();
+	in.close();
 	    
         final var separated = String.join("-", s.split(String.format("(?<=\\G.{%d})", n)));
             
