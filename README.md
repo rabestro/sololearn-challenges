@@ -93,6 +93,7 @@ First of all I writed solutions in C language. Since all the tasks were extremel
 - [Days between dates](medium/pro-days-between-dates)
 - [Camel to Snake](medium/pro-camel-to-snake)
 - [Text Decompressor](medium/pro-text-decompressor)
+- [Missing Numbers](medium/pro-missing-numbers)
 
 ## Hard
 
