@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int pesos;
-    scanf("%d", &pesos);
-    int dollars;
-    scanf("%d", &dollars);
+    int pesos, dollars;
+    scanf("%d\n%d", &pesos, &dollars);
     
     if (dollars * 50l > pesos) puts("Pesos");
     else puts("Dollars");
