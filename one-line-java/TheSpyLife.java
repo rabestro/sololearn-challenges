@@ -1,5 +1,5 @@
-public class TheSpyLife
-{
+public class TheSpyLife {
+    
     public static void main(String[] args) {
         
         System.out.println(
