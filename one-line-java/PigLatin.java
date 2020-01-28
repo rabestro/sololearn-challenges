@@ -1,4 +1,5 @@
 public class PigLatin {
+    
     public static void main(String[] args) {
     
         new java.util.Scanner(System.in)
