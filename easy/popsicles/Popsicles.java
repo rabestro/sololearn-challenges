@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Popsicles
-{
+public class Popsicles {
     public static void main(String[] args) {
+        
         final var input = new Scanner(System.in);
         final var siblings = input.nextInt();
         final var popsicles = input.nextInt();
