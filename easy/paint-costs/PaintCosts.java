@@ -1,9 +1,9 @@
 import java.util.Scanner;
 import static java.lang.Math.round;
 
-public class PaintCosts
-{
+public class PaintCosts {
     public static void main(String[] args) {
+        
         final var in = new Scanner(System.in);
         final var colors = in.nextInt();
         in.close();
