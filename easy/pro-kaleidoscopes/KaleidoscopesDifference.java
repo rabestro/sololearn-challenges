@@ -11,7 +11,10 @@ public class KaleidoscopesDifference {
             .filter(i -> !big(i).equals(small(i)))
             .forEach(i -> System.out.printf("%6d %10s %10s %n", i, big(i),small(i) ));
     }
-
+    
+    /**
+        This method used in SoloLearn to calculate Kaleidoscopes 
+    */
     static BigDecimal small(int kaleidoscopes) {
         double discount = 0.9;
         double tax = 1.07;
@@ -24,7 +27,10 @@ public class KaleidoscopesDifference {
         price *= tax;
         return new BigDecimal(price).setScale(2, RoundingMode.HALF_EVEN);
     }
-
+    
+    /**
+        This is the correct method to calculate Kaleidoscopes 
+    */
     static BigDecimal big(int kaleidoscopes) {
         final var discount = new BigDecimal(0.9);
         final var tax = new BigDecimal(1.07);
