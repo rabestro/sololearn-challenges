@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class FruitBowl
-{
+public class FruitBowl {
     public static void main(final String[] args) {
+        
         final var input = new Scanner(System.in);
         final var fruit = input.nextInt();
         input.close();
