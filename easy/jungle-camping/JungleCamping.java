@@ -1,8 +1,7 @@
 import java.util.Map;
 import java.util.Scanner;
 
-public class JungleCamping
-{
+public class JungleCamping {
     public static void main(String[] args) {
 	    
         final Map<String, String> animals = Map.of(
