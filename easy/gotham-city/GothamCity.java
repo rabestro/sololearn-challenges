@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class GothamCity {
     public static void main(final String[] args) {
+        
         final var in = new Scanner(System.in);
         final var criminals = in.nextInt();
         in.close();
