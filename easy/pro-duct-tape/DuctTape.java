@@ -1,6 +1,6 @@
-public class DuctTape
-{
+public class DuctTape {
 	public static void main(String[] args) { 
+		
 	    final var in = new java.util.Scanner(System.in);
 	    final var doorHeight = in.nextInt();
 	    final var doorWidth = in.nextInt();
