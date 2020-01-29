@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Hovercraft
-{
+public class Hovercraft {
     public static void main(String[] args) {
+        
         final var in = new Scanner(System.in);
         final var sales = in.nextInt();
         in.close();
