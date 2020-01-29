@@ -7,6 +7,6 @@ public class TaxFree {
                 .tokens()
                 .mapToInt(Integer::parseInt)
                 .mapToDouble(i -> i < 20 ? i * 1.07 : i)
-                .sum(););
+                .sum());
     }
 }
