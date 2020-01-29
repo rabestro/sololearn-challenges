@@ -8,7 +8,8 @@ public class KaleidoscopesDifference {
 
     public static void main(String[] args) {
         IntStream.range(2, 1000)
-                .filter(i -> !big(i).equals(small(i))).forEach(i -> System.out.printf("%6d %10s %10s %n", i, big(i),small(i) ));
+            .filter(i -> !big(i).equals(small(i)))
+            .forEach(i -> System.out.printf("%6d %10s %10s %n", i, big(i),small(i) ));
     }
 
     static BigDecimal small(int kaleidoscopes) {
