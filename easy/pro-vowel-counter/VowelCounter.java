@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class VowelCounter
-{
+public class VowelCounter {
     public static void main(String[] args) {
         
         long vowels = new Scanner(System.in)
