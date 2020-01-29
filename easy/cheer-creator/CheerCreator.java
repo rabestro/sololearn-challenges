@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class CheerCreator
-{
+public class CheerCreator {
     public static void main(final String[] args) {
+        
         final var in = new Scanner(System.in);
         final var yards = in.nextInt();
         in.close();
