@@ -10,5 +10,3 @@ public class NameBuddy {
                 .orElse("")) ? "Compare notes" : "No such luck");
     }
 }
-
-
