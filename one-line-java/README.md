@@ -1,6 +1,6 @@
 # Hacker code
 
-In this directory I had put hackers «one-line» (one statement) solutions for some of sololearn chalenges. 
+In this directory I had put hackers «one-statement» java solutions for some of sololearn chalenges. 
 
 **Don't copy&paste the code snippets into your production code!**
 
