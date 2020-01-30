@@ -27,6 +27,11 @@ import java.util.Scanner;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * @author Jegors Čemisovs
+ *
+ * {@link https://github.com/rabestro/sololearn-challenges}
+ */
 public class Hovercraft {
     public static void main(String[] args) {
     
