@@ -1,15 +1,47 @@
-import static java.lang.Integer.parseInt;
+/* 
+Balconies
 
+You are trying to determine which of two apartments has a larger balcony. 
+Both balconies are rectangles, and you have the length and width, but you need the area.
+
+Task 
+Evaluate the area of two different balconies and determine which one is bigger.
+
+Input Format 
+Your inputs are two strings where the measurements for height and width 
+are separated by a comma. The first one represents apartment A, 
+the second represents apartment B.
+
+Output Format: 
+A string that says whether apartment A or apartment B has a larger balcony.
+
+Sample Input 
+'5,5'
+'2,10'
+
+Sample Output 
+Apartment A
+*/
+
+import java.util.Scanner;
+
+/**
+ * @author Jegors Čemisovs
+ *
+ * {@link https://github.com/rabestro/sololearn-challenges}
+ */
 public class Balconies {
     public static void main(String[] args) {
     
-        final var input = new java.util.Scanner(System.in);
-        final var apartmentA = input.nextLine().split(",");
-        final var apartmentB = input.nextLine().split(",");
+        final var input   = new Scanner(System.in).useDelimiter("[\\v,]+");
+        final int heightA = input.nextInt();
+        final int widthA  = input.nextInt();
+        final int heightB = input.nextInt();
+        final int widthB  = input.nextInt();
         input.close();
         
-        final int areaA = parseInt(apartmentA[0]) * parseInt(apartmentA[1]);
-        final int areaB = parseInt(apartmentB[0]) * parseInt(apartmentB[1]);
+        final int areaA = heightA * widthA;
+        final int areaB = heightB * widthB;
         
         if (areaA > areaB) {
             System.out.print("Apartment A");
