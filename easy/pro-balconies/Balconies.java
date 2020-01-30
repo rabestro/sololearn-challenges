@@ -1,15 +1,17 @@
-import static java.lang.Integer.parseInt;
+import java.util.Scanner;
 
 public class Balconies {
     public static void main(String[] args) {
     
-        final var input = new java.util.Scanner(System.in);
-        final var apartmentA = input.nextLine().split(",");
-        final var apartmentB = input.nextLine().split(",");
+        final var input   = new Scanner(System.in).useDelimiter("[\\v,]+");
+        final int heightA = input.nextInt();
+        final int widthA  = input.nextInt();
+        final int heightB = input.nextInt();
+        final int widthB  = input.nextInt();
         input.close();
         
-        final int areaA = parseInt(apartmentA[0]) * parseInt(apartmentA[1]);
-        final int areaB = parseInt(apartmentB[0]) * parseInt(apartmentB[1]);
+        final int areaA = heightA * widthA;
+        final int areaB = heightB * widthB;
         
         if (areaA > areaB) {
             System.out.print("Apartment A");
