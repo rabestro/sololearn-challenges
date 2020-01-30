@@ -9,9 +9,9 @@ public class PaintCosts {
         final var colors = sc.nextInt();
         sc.close();
 
-        final var brushesCost = 40;
-        final var colorsCost = 5 * colors;
-        final var price = new BigDecimal(colorsCost + brushesCost);
+        final var brushesCost = new BigDecimal(40);
+        final var colorsCost = new BigDecimal(5 * colors);
+        final var price = brushesCost.add(colorsCost);
         
         final var tax = new BigDecimal(1 + 0.1);
         final var totalCost = tax.multiply(price);
