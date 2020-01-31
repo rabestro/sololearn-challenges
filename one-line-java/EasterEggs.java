@@ -1,5 +1,4 @@
 public class EasterEggs {
-	
     public static void main(String[] args) {
 	    
         System.out.println(
@@ -8,6 +7,6 @@ public class EasterEggs {
 	            .limit(3)
 	            .mapToInt(Integer::parseInt)
 	            .reduce((a,b) -> a = a - b)
-	            .orElse(0) > 0 ? "Keep Hunting" : "Candy Time");
+	            .getAsInt() > 0 ? "Keep Hunting" : "Candy Time");
     }
 }
