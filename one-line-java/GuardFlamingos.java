@@ -1,5 +1,4 @@
 public class GuardFlamingos {
-	
     public static void main(String[] args) {
 	    
         System.out.print(
@@ -7,7 +6,7 @@ public class GuardFlamingos {
 	            .tokens()
 	            .limit(2)
 	            .mapToInt(Integer::parseInt)
-	            .reduce((a,b) -> a = a + b)
-	            .orElse(0));
+	            .reduce(Integer::sum)
+	            .getAsInt());
     }
 }
