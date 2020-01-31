@@ -55,21 +55,22 @@ public class CreditCardValidator {
 
 class Luhn {
 	
-	static boolean isValid(String number){
+    static boolean isValid(String number){
 	    
-		if (number.length() != 16) {
-			return false;
-		}
-		var reverse = new StringBuilder(number).reverse().chars().map(c -> c - '0');
-		int sum = 0;
-		var isEven = false;
-		for (int i : reverse.toArray()) {
-			if (isEven) {
-				i *= 2;
-			}
-			sum += i > 9 ? i - 9 : i;
-			isEven = !isEven;
-		}
-		return 0 == sum % 10;
-	}
+        if (number.length() != 16) {
+            return false;
+        }
+	var reverse = new StringBuilder(number).reverse().chars().map(c -> c - '0');
+	int sum = 0;
+	var isEven = false;
+	    
+	for (int i : reverse.toArray()) {
+            if (isEven) {
+                i *= 2;
+            }
+            sum += i > 9 ? i - 9 : i;
+            isEven = !isEven;
+        }
+        return 0 == sum % 10;
+    }
 }
