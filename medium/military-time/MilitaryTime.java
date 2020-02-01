@@ -4,8 +4,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
-public class MilitaryTime
-{
+public class MilitaryTime {
     public static void main(String[] args) {
         final var input = new Scanner(System.in);
         final var time = LocalTime.parse(
