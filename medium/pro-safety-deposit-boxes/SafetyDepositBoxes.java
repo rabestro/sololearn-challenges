@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class SafetyDepositBoxes
-{
+public class SafetyDepositBoxes {
     public final static int SIZE = 5 + 1; // Size of square + comma
     
     public static void main(String[] args) {
@@ -10,7 +9,10 @@ public class SafetyDepositBoxes
         final var lookingFor = input.nextLine();
         input.close();
         
-        final int time = 5 + 5 * items.substring(0, items.indexOf(lookingFor)).replaceAll("[^,]", "").length();
+        final int itemsBeforeDesired = items.substring(0, items.indexOf(lookingFor))
+            .replaceAll("[^,]", "").length();
+        
+        final int time = 5 + 5 * itemsBeforeDesired;
        
         System.out.print(time);
     }
