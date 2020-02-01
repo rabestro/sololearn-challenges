@@ -1,5 +1,4 @@
-public class HexColorCodeGenerator
-{
+public class HexColorCodeGenerator {
     public static void main(String[] args) {
         final var input = new java.util.Scanner(System.in);
         final var red = input.nextInt();
