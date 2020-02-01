@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class TheSpyLife
-{
+public class TheSpyLife {
     public static void main(String[] args) {
+        
         final var input = new Scanner(System.in);
         final var encoded = new StringBuilder(input.nextLine());
         input.close();
