@@ -11,12 +11,12 @@ Description | Java | Note
 [Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
 [Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math.ceil
 [Fruit Bowl](easy/fruit-bowl) | [FruitBowl.java](easy/fruit-bowl/FruitBowl.java) | 
-[Ballpark Orders](easy/pro-ballpark-orders/) | [BallparkOrders.java](easy/pro-ballpark-orders/BallparkOrders.java) | Map, Stream, Scaner::tokens (Java 11)
-[Cheer Creator](easy/cheer-creator) | [CheerCreator.java](easy/cheer-creator/CheerCreator.java) | String.repeat (Java 11)
-
- [Skee-ball](easy/skee-ball)
-- [Paint Costs](easy/paint-costs)
-- [Argentina](easy/argentina)
+[Ballpark Orders](easy/pro-ballpark-orders/) | [BallparkOrders.java](easy/pro-ballpark-orders/BallparkOrders.java) | Map, BigDecimal, Stream, Scaner::tokens (Java 11)
+[Cheer Creator](easy/cheer-creator) | [CheerCreator.java](easy/cheer-creator/CheerCreator.java) | String::repeat (Java 11)
+[Skee-ball](easy/skee-ball) | [SkeeBall.java](easy/skee-ball/SkeeBall.java) | 
+ [Paint Costs](easy/paint-costs) |  [PaintCosts.java](easy/paint-costs/PaintCosts.java) | BigDecimal, RoundingMode
+ [Argentina](easy/argentina) |  [Argentina.java](easy/argentina/Argentina.java) | I use multiplication to keep max precision
+ 
 - [Gotham City](easy/gotham-city)
 - [Hovercraft](easy/hovercraft)
 - [Jungle Camping](easy/jungle-camping)
