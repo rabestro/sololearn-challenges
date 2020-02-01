@@ -1,5 +1,5 @@
-public class HofstadtersQSequence
-{
+public class HofstadtersQSequence {
+    
     public final static int Q(final int n) {
         final int[] q = new int[n];
         q[0] = 1;
@@ -13,6 +13,8 @@ public class HofstadtersQSequence
     public static void main(final String[] args) {
         final var input = new java.util.Scanner(System.in);
         final var n = input.nextInt();
+        input.close();
+        
         System.out.print(Q(n));
     }
 }
