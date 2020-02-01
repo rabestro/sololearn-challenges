@@ -56,7 +56,7 @@ Description | Java | Used Java API classes and methods, notes
 [Name Buddy](medium/pro-name-buddy/README.md) | [NameBuddy.java](medium/pro-name-buddy/NameBuddy.java) | Pattern::matches, Stream
 [That's odd...](medium/thats-odd/README.md) | [ThatsOdd.java](medium/thats-odd/ThatsOdd.java) | IntStream
 [No Numerals](medium/no-numerals/README.md) | [NoNumerals.java](medium/no-numerals/NoNumerals.java) | Map, Stream, lambda
-[Secret Message](medium/secret-message/README.md) | [SecretMessage.java](medium/secret-message/SecretMessage.java) | 
+[Secret Message](medium/secret-message/README.md) | [SecretMessage.java](medium/secret-message/SecretMessage.java) | Stream, lambda
 [Divisible](medium/pro-divisible) | [Divisible.java](medium/pro-divisible/Divisible.java) |Stream, lambda
 [Even Numbers](medium/pro-even-numbers/README.md) | [EvenNumbers.java](medium/pro-even-numbers/EvenNumbers.java) | IntStream
 [Military Time](medium/military-time/README.md) | [MilitaryTime.java](medium/military-time/MilitaryTime.java) | Date & Time API Java 11
