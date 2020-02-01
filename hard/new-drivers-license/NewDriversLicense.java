@@ -8,5 +8,6 @@ public class NewDriversLicense {
         final var time = 20 * (1 + position / agents);
         
         System.out.print(time);
+        input.close();
     }
 }
