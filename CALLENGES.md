@@ -10,9 +10,11 @@ Description | Java | Note
 ----|----|----
 [Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
 [Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math.ceil
-- [Fruit Bowl](easy/fruit-bowl)
-- [Cheer Creator](easy/cheer-creator)
-- [Skee-ball](easy/skee-ball)
+[Fruit Bowl](easy/fruit-bowl) | [FruitBowl.java](easy/fruit-bowl/FruitBowl.java) | 
+[Ballpark Orders](easy/pro-ballpark-orders/) | [BallparkOrders.java](easy/pro-ballpark-orders/BallparkOrders.java) | Map, Stream, Scaner::tokens (Java 11)
+[Cheer Creator](easy/cheer-creator) | [CheerCreator.java](easy/cheer-creator/CheerCreator.java) | String.repeat (Java 11)
+
+ [Skee-ball](easy/skee-ball)
 - [Paint Costs](easy/paint-costs)
 - [Argentina](easy/argentina)
 - [Gotham City](easy/gotham-city)
