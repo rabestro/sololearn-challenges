@@ -19,7 +19,7 @@ Description | Java | Note, used classes from Java API
 [Balconies](easy/pro-balconies) | [Balconies.java](easy/pro-balconies/Balconies.java) | Scanner::useDelimiter 
 [Candles](easy/pro-candles) | [Candles.java](easy/pro-candles/Candles.java) | 
 [Duct Tape](/easy/pro-duct-tape) | [DuctTape.java](/easy/pro-duct-tape/DuctTape.java) | Math
-[Easter Eggs](easy/pro-easter-eggs) | [EasterEggs.java](easy/pro-easter-eggs/EasterEggs.java) | Ternary operation
+[Easter Eggs](easy/pro-easter-eggs) | [EasterEggs.java](easy/pro-easter-eggs/EasterEggs.java) | Ternary operator
 [Guard Flamingos](easy/guard-flamingos/) | [GuardFlamingos.java](easy/guard-flamingos/GuardFlamingos.java) |
 [Gotham City](easy/gotham-city) | [GothamCity.java](easy/gotham-city/GothamCity.java) |
 [Hovercraft](easy/hovercraft) | [Hovercraft](easy/hovercraft) | BigDecimal
@@ -28,12 +28,12 @@ Description | Java | Note, used classes from Java API
 [Jungle Camping](easy/jungle-camping) | [JungleCamping.java](easy/jungle-camping/JungleCamping.java) | Map, Scaner::tokens (Java 11)
 [Land Ho!](easy/pro-land-ho) | [LandHo.java](easy/pro-land-ho/LandHo.java) |
 [Neverland](easy/pro-neverland) | [Neverland.java](easy/pro-neverland/Neverland.java) | System.out::printf
-[Extra-Terristrials](easy/extra-terristrials) | [Extra-Terristrials](easy/extra-terristrials) |
-[Zip Code Validator](easy/pro-zip-code-validator) | [Zip Code Validator](easy/pro-zip-code-validator) |
-[Vowel Counter](easy/pro-vowel-counter) | [Vowel Counter](easy/pro-vowel-counter) |
-[Isogram Detector](easy/pro-isogram-detector/) | [Isogram Detector](easy/pro-isogram-detector/) |
-[Multiples](easy/pro-multiples/) | [Multiples](easy/pro-multiples/) |
-[Number of Ones](easy/pro-number-of-ones) | [Number of Ones](easy/pro-number-of-ones) |
+[Extra-Terristrials](easy/extra-terristrials) | [ExtraTerristrials.java](easy/extra-terristrials/ExtraTerristrials.java) | StringBuilder::reverse
+[Zip Code Validator](easy/pro-zip-code-validator) | [ZipCodeValidator.java](easy/pro-zip-code-validator/ZipCodeValidator.java) | Pattern::matches
+[Vowel Counter](easy/pro-vowel-counter) | [VowelCounterRE.java](easy/pro-vowel-counter/VowelCounterRE.java) | String::replaceAll
+[Isogram Detector](easy/pro-isogram-detector/) | [IsogramDetector.java](easy/pro-isogram-detector/IsogramDetector.java) | Pattern::matches
+[Multiples](easy/pro-multiples/) | [Multiples.java](easy/pro-multiples/Multiples.java) | IntStream, lambda
+[Number of Ones](easy/pro-number-of-ones) | [NumberOfOnes.java](easy/pro-number-of-ones/NumberOfOnes.java) | Integer::bitCount
 
 ## Medium
 
