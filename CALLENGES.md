@@ -1,31 +1,33 @@
 # Sololearn Coding Challenges
 
-There are descriptions of all problems from Solo Learn code challenges. 
+There are all 72 problems from SoloLearn code challenges with full descriptions and my solutions in Java. 
 
-The problems grouped by dificulty as they are marked by SoloLearn site. Also there are my solutions for this chalages. All the codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. 
+The problems grouped by dificulty as they are marked by SoloLearn site. The codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. 
 
 ## Easy
 
-Description | Java | Note 
+Description | Java | Note, used classes from Java API
 ----|----|----
 [Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
-[Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math.ceil
+[Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math
 [Fruit Bowl](easy/fruit-bowl) | [FruitBowl.java](easy/fruit-bowl/FruitBowl.java) | 
 [Ballpark Orders](easy/pro-ballpark-orders/) | [BallparkOrders.java](easy/pro-ballpark-orders/BallparkOrders.java) | Map, BigDecimal, Stream, Scaner::tokens (Java 11)
 [Cheer Creator](easy/cheer-creator) | [CheerCreator.java](easy/cheer-creator/CheerCreator.java) | String::repeat (Java 11)
 [Skee-ball](easy/skee-ball) | [SkeeBall.java](easy/skee-ball/SkeeBall.java) | 
- [Paint Costs](easy/paint-costs) |  [PaintCosts.java](easy/paint-costs/PaintCosts.java) | BigDecimal, RoundingMode
- [Argentina](easy/argentina) |  [Argentina.java](easy/argentina/Argentina.java) | I use multiplication to keep max precision
- 
-- [Gotham City](easy/gotham-city)
-- [Hovercraft](easy/hovercraft)
+[Paint Costs](easy/paint-costs) |  [PaintCosts.java](easy/paint-costs/PaintCosts.java) | BigDecimal, RoundingMode
+[Argentina](easy/argentina) |  [Argentina.java](easy/argentina/Argentina.java) | I use multiplication to keep max precision [Balconies](easy/pro-balconies) | [Balconies.java](easy/pro-balconies/Balconies.java) | Scanner::useDelimiter 
+[Candles](easy/pro-candles) | [Candles.java](easy/pro-candles/Candles.java) | 
+[Duct Tape](/easy/pro-duct-tape) | [DuctTape.java](/easy/pro-duct-tape/DuctTape.java) | Math
+[Easter Eggs](easy/pro-easter-eggs) | [EasterEggs.java](easy/pro-easter-eggs/EasterEggs.java) | Ternary operation
+[Guard Flamingos](easy/guard-flamingos/) | [GuardFlamingos.java](easy/guard-flamingos/GuardFlamingos.java) |
+[Gotham City](easy/gotham-city) | [GothamCity.java](easy/gotham-city/GothamCity.java) |
+[Hovercraft](easy/hovercraft) | [Hovercraft](easy/hovercraft) | BigDecimal
+[Izzy the Iguana](easy/pro-izzy-the-iguana) | [IzzyIguana.java](easy/pro-izzy-the-iguana/IzzyIguana.java) | Map, Stream
+
+
+
 - [Jungle Camping](easy/jungle-camping)
 - [Extra-Terristrials](easy/extra-terristrials)
-- [Balconies](easy/pro-balconies)
-- [Candles](easy/pro-candles)
-- [Duct Tape](/easy/pro-duct-tape)
-- [Easter Eggs](easy/pro-easter-eggs)
-- [Izzy the Iguana](easy/pro-izzy-the-iguana)
 - [Kaleidoscopes](easy/pro-kaleidoscopes)
 - [Land Ho!](easy/pro-land-ho)
 - [Neverland](easy/pro-neverland)
