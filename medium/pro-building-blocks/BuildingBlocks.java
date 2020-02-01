@@ -1,8 +1,7 @@
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class BuildingBlocks
-{ 
+public class BuildingBlocks{ 
     public static void main(String[] args) {
         final var COLORS = 4;
         final var STUDENTS = 15;
@@ -15,5 +14,6 @@ public class BuildingBlocks
             .sum();
         
         System.out.print(sum);
+        in.close();
     }
 }
