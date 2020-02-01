@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class SafetyDepositBoxes {
-    public final static int SIZE = 5 + 1; // Size of square + comma
-    
     public static void main(String[] args) {
         final var input = new Scanner(System.in);
         final var items = input.nextLine();
