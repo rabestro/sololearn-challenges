@@ -4,7 +4,6 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
 public class ConvertDate {
-
     public static void main(String[] args) {
         
         final var usDate = new java.util.Scanner(System.in).nextLine();
