@@ -15,20 +15,21 @@ Description | Java | Note, used classes from Java API
 [Cheer Creator](easy/cheer-creator) | [CheerCreator.java](easy/cheer-creator/CheerCreator.java) | String::repeat (Java 11)
 [Skee-ball](easy/skee-ball) | [SkeeBall.java](easy/skee-ball/SkeeBall.java) | 
 [Paint Costs](easy/paint-costs) |  [PaintCosts.java](easy/paint-costs/PaintCosts.java) | BigDecimal, RoundingMode
-[Argentina](easy/argentina) |  [Argentina.java](easy/argentina/Argentina.java) | I use multiplication to keep max precision [Balconies](easy/pro-balconies) | [Balconies.java](easy/pro-balconies/Balconies.java) | Scanner::useDelimiter 
+[Argentina](easy/argentina) |  [Argentina.java](easy/argentina/Argentina.java) | I use multiplication to keep max precision
+[Balconies](easy/pro-balconies) | [Balconies.java](easy/pro-balconies/Balconies.java) | Scanner::useDelimiter 
 [Candles](easy/pro-candles) | [Candles.java](easy/pro-candles/Candles.java) | 
 [Duct Tape](/easy/pro-duct-tape) | [DuctTape.java](/easy/pro-duct-tape/DuctTape.java) | Math
 [Easter Eggs](easy/pro-easter-eggs) | [EasterEggs.java](easy/pro-easter-eggs/EasterEggs.java) | Ternary operation
 [Guard Flamingos](easy/guard-flamingos/) | [GuardFlamingos.java](easy/guard-flamingos/GuardFlamingos.java) |
 [Gotham City](easy/gotham-city) | [GothamCity.java](easy/gotham-city/GothamCity.java) |
 [Hovercraft](easy/hovercraft) | [Hovercraft](easy/hovercraft) | BigDecimal
-[Izzy the Iguana](easy/pro-izzy-the-iguana) | [IzzyIguana.java](easy/pro-izzy-the-iguana/IzzyIguana.java) | Map, Stream
+[Izzy the Iguana](easy/pro-izzy-the-iguana) | [IzzyIguana.java](easy/pro-izzy-the-iguana/IzzyIguana.java) | Map, Scaner::tokens (Java 11)
+[Kaleidoscopes](easy/pro-kaleidoscopes) | [Kaleidoscopes.java](easy/pro-kaleidoscopes/Kaleidoscopes.java) | BigDecimal (There is errors in SoloLearn tests)
+[Jungle Camping](easy/jungle-camping) | [JungleCamping.java](easy/jungle-camping/JungleCamping.java) |
 
-
-
-- [Jungle Camping](easy/jungle-camping)
+- 
 - [Extra-Terristrials](easy/extra-terristrials)
-- [Kaleidoscopes](easy/pro-kaleidoscopes)
+- 
 - [Land Ho!](easy/pro-land-ho)
 - [Neverland](easy/pro-neverland)
 - [Vowel Counter](easy/pro-vowel-counter)
