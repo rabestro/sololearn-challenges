@@ -1,8 +1,7 @@
 import java.util.Map;
 import java.util.Scanner;
 
-public class NoNumerals
-{
+public class NoNumerals {
     public static void main(String[] args) {
 	    
         final Map<String, String> numbers = Map.of(
