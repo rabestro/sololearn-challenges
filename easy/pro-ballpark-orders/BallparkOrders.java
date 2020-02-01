@@ -9,7 +9,8 @@ public class BallparkOrders {
             "Nachos", 6, "Pizza", 6, "Cheeseburger", 10, "Water", 4, "Coke", 5);
             
         final var tax = new BigDecimal("1.07");
-        final var sum = new Scanner(System.in).tokens()
+        final var sum = new Scanner(System.in)
+            .tokens()
             .mapToInt(item -> menu.get(menu.containsKey(item) ? item : "Coke"))
             .sum();
             
