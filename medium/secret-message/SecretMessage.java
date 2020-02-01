@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class SecretMessage
-{
+public class SecretMessage {
     public static void main(String[] args) {
         
         new Scanner(System.in)
