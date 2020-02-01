@@ -28,7 +28,7 @@ Description | Java | Note, used classes from Java API
 [Jungle Camping](easy/jungle-camping) | [JungleCamping.java](easy/jungle-camping/JungleCamping.java) | Map, Scaner::tokens (Java 11)
 [Land Ho!](easy/pro-land-ho) | [LandHo.java](easy/pro-land-ho/LandHo.java) |
 [Neverland](easy/pro-neverland) | [Neverland.java](easy/pro-neverland/Neverland.java) | System.out::printf
-[Extra-Terristrials](easy/extra-terristrials) | [ExtraTerristrials.java](easy/extra-terristrials/ExtraTerristrials.java) | StringBuilder::reverse
+[Extra-Terrestrials](easy/extra-terristrials) | [ExtraTerrestrials.java](easy/extra-terristrials/ExtraTerrestrials.java) | StringBuilder::reverse
 [Zip Code Validator](easy/pro-zip-code-validator) | [ZipCodeValidator.java](easy/pro-zip-code-validator/ZipCodeValidator.java) | Pattern::matches
 [Vowel Counter](easy/pro-vowel-counter) | [VowelCounterRE.java](easy/pro-vowel-counter/VowelCounterRE.java) | String::replaceAll
 [Isogram Detector](easy/pro-isogram-detector/) | [IsogramDetector.java](easy/pro-isogram-detector/IsogramDetector.java) | Pattern::matches
