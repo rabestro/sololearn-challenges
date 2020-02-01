@@ -7,7 +7,7 @@ public class BuildingBlocks{
         final var STUDENTS = 15;
         final var in = new Scanner(System.in);
         
-        int sum = IntStream
+        final int sum = IntStream
             .generate(in::nextInt)
             .limit(COLORS)
             .map(i -> i % STUDENTS)
