@@ -82,7 +82,7 @@ Description | Java | Used Java API classes and methods, notes
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
 [New Driver's License](hard/new-drivers-license/README.md) | [NewDriversLicense.java](hard/new-drivers-license/NewDriversLicense.java) | Stream, lambda
-[It's a Sign](hard/pro-its-a-sign/README.md) | [It's a Sign](hard/pro-its-a-sign) |
+[It's a Sign](hard/pro-its-a-sign/README.md) | [ItsSign.java](hard/pro-its-a-sign/ItsSign.java) |
 [Mathematics](hard/pro-mathematics/README.md) | [Mathematics](hard/pro-mathematics) |
 [Password Validation](hard/password-validation/README.md) | [PasswordValidation.java](hard/password-validation/PasswordValidation.java) | RegEx
 [Security](hard/security/README.md) | [Security.java](hard/security/Security.java) | RegEx
