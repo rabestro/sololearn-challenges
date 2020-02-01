@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Locale;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -5,8 +6,9 @@ import java.time.format.FormatStyle;
 
 public class ConvertDate {
     public static void main(String[] args) {
-        
-        final var usDate = new java.util.Scanner(System.in).nextLine();
+        final var input = Scanner(System.in);
+        final var usDate = input.nextLine();
+        input.close();
         
         final var usShortFormat = DateTimeFormatter.ofPattern("M/d/yyyy");
         final var usLongFormat  = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US);
