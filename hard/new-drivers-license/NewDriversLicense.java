@@ -1,5 +1,4 @@
-public class NewDriversLicense
-{
+public class NewDriversLicense {
     public static void main(String[] args) {
         var input = new java.util.Scanner(System.in);
         var hero = input.next();
