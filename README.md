@@ -88,7 +88,7 @@ Description | Java | Used Java API classes and methods, notes
 [Security](hard/security/README.md) | [Security.java](hard/security/Security.java) | RegEx
 [2D Map](hard/pro-2d-map/README.md) | [Map2D.java](hard/pro-2d-map/Map2D.java) | Math, String::indexOf
 [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence/README.md) | [HofstadtersQSequence.java](hard/pro-hofstadter-q-sequence/HofstadtersQSequence.java) |
-[Digits of Pi](hard/pro-digits-of-pi/README.md) | [Digits of Pi](hard/pro-digits-of-pi) |
+[Digits of Pi](hard/pro-digits-of-pi/README.md) | [DigitsOfPi.java](hard/pro-digits-of-pi/DigitsOfPi.java) |
 [Longest Common Substring](medium/pro-longest-common-substring/README.md) | [Longest Common Substring](medium/pro-longest-common-substring) |
 [Poker Hand](hard/pro-poker-hand/README.md) | [PokerHand.java](hard/pro-poker-hand/PokerHand.java) | Stream, RegEx
 [Word Rank](hard/pro-word-rank/README.md) | [Word Rank](hard/pro-word-rank) |
