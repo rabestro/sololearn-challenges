@@ -1,3 +1,25 @@
+# Sololearn Coding Challenges
+
+There are descriptions of all problems from Solo Learn code challenges. 
+
+The problems grouped by dificulty as they are marked by SoloLearn site. Also there are my solutions for this chalages. All the codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. 
+
+## Easy
+
+Description | Java | Note 
+----|----|----
+[Popsicles](easy/popsicles) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
+
+- [Halloween Candy](easy/halloween-candy)
+- [Fruit Bowl](easy/fruit-bowl)
+- [Cheer Creator](easy/cheer-creator)
+- [Skee-ball](easy/skee-ball)
+- [Paint Costs](easy/paint-costs)
+- [Argentina](easy/argentina)
+- [Gotham City](easy/gotham-city)
+- [Hovercraft](easy/hovercraft)
+- [Jungle Camping](easy/jungle-camping)
+- [Extra-Terristrials](easy/extra-terristrials)
 - [Balconies](easy/pro-balconies)
 - [Candles](easy/pro-candles)
 - [Duct Tape](/easy/pro-duct-tape)
