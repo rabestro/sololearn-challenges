@@ -79,14 +79,16 @@ Description | Java | Used Java API classes and methods, notes
 
 ## Hard
 
-- [Password Validation](hard/password-validation)
-- [Security](hard/security)
-- [New Driver's License](hard/new-drivers-license)
-- [It's a Sign](hard/pro-its-a-sign)
-- [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence)
-- [Poker Hand](hard/pro-poker-hand)
-- [Digits of Pi](hard/pro-digits-of-pi)
-- [2D Map](hard/pro-2d-map)
-- [Mathematics](hard/pro-mathematics)
-- [Longest Common Substring](medium/pro-longest-common-substring)
-- [Word Rank](hard/pro-word-rank)
+Description | Java | Used Java API classes and methods, notes
+----|----|----
+[New Driver's License](hard/new-drivers-license/README.md) | [NewDriversLicense.java](hard/new-drivers-license/NewDriversLicense.java) | Stream, lambda
+[It's a Sign](hard/pro-its-a-sign/README.md) | [It's a Sign](hard/pro-its-a-sign) |
+[Mathematics](hard/pro-mathematics/README.md) | [Mathematics](hard/pro-mathematics) |
+[Password Validation](hard/password-validation/README.md) | [PasswordValidation.java](hard/password-validation/PasswordValidation.java) | RegEx
+[Security](hard/security/README.md) | [Security.java](hard/security/Security.java) | RegEx
+[2D Map](hard/pro-2d-map/README.md) | [Map2D.java](hard/pro-2d-map/Map2D.java) | Math, String::indexOf
+[Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence/README.md) | [HofstadtersQSequence.java](hard/pro-hofstadter-q-sequence/HofstadtersQSequence.java) |
+[Digits of Pi](hard/pro-digits-of-pi/README.md) | [Digits of Pi](hard/pro-digits-of-pi) |
+[Longest Common Substring](medium/pro-longest-common-substring/README.md) | [Longest Common Substring](medium/pro-longest-common-substring) |
+[Poker Hand](hard/pro-poker-hand/README.md) | [PokerHand.java](hard/pro-poker-hand/PokerHand.java) | Stream, RegEx
+[Word Rank](hard/pro-word-rank/README.md) | [Word Rank](hard/pro-word-rank) |
