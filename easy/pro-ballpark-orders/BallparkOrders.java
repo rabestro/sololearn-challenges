@@ -1,18 +1,20 @@
 import java.util.Map;
 import java.util.Scanner;
+import java.math.BigDecimal;
 
-public class BallparkOrders
-{
+public class BallparkOrders {
     public static void main(String[] args) {
         
         final Map<String, Integer> menu = Map.of(
             "Nachos", 6, "Pizza", 6, "Cheeseburger", 10, "Water", 4, "Coke", 5);
             
-        double tax = 1 + 0.07;
-        double totalCost = tax * new Scanner(System.in).tokens()
-            .mapToDouble(item -> menu.get(menu.containsKey(item) ? item : "Coke"))
+        final var tax = new BigDecimal("1.07");
+        final var sum = new Scanner(System.in).tokens()
+            .mapToInt(item -> menu.get(menu.containsKey(item) ? item : "Coke"))
             .sum();
             
-        System.out.printf("%.2f", totalCost);
+        final var totalCost = new BigDecimal(sum).multiply(tax);
+        
+        System.out.print(totalCost.setScale(2));
     }
 }
