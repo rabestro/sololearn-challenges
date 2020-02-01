@@ -39,12 +39,12 @@ Description | Java | Used Java API classes and methods, notes
 
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
-[Pig Latin](medium/pig-latin) | [PigLatin.java](medium/pig-latin) |
-[Safety Deposit Boxes](medium/pro-safety-deposit-boxes) | [SafetyDepositBoxes.java](medium/pro-safety-deposit-boxes) |
-[Roadrunner](medium/pro-roadrunner) | [Roadrunner.java](medium/pro-roadrunner) |
-[Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/) | [SnapCracklePop.java](medium/pro-snap-crackle-and-pop/) |
-[Deja Vu](medium/deja-vu) | [DejaVu.java](medium/deja-vu) |
-[The Spy Life](medium/the-spy-life) | [TheSpyLife.java](medium/the-spy-life) |
+[Pig Latin](medium/pig-latin) | [PigLatin.java](medium/pig-latin/PigLatin.java) | Scanner::tokens, lambda
+[Safety Deposit Boxes](medium/pro-safety-deposit-boxes) | [SafetyDepositBoxes.java](medium/pro-safety-deposit-boxes/SafetyDepositBoxes.java) | String::replaceAll, RegEx (tricky?)
+[Roadrunner](medium/pro-roadrunner) | [Roadrunner.java](medium/pro-roadrunner/Roadrunner.java) |
+[Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/) | [SnapCrackleAndPop.java](medium/pro-snap-crackle-and-pop/SnapCrackleAndPop.java) | Stream, lambda
+[Deja Vu](medium/deja-vu) | [DejaVu.java](medium/deja-vu/DejaVu.java) | Pattern::matches
+[The Spy Life](medium/the-spy-life) | [TheSpyLife.java](medium/the-spy-life/TheSpyLife.java) | StringBuilder
 [Hex Color Code Generator](medium/pro-hex-color-code-generator) | [HexColorCodeGenerator.java](medium/pro-hex-color-code-generator) |
 [Symbols](medium/symbols) | [Symbols.java](medium/symbols) |
 [Super Sale](medium/pro-super-sale) | [SuperSale.java](medium/pro-super-sale) |
