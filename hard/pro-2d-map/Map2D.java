@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Map2D
-{
+public class Map2D {
     public final static int SIZE = 5 + 1; // Size of square + comma
     
     public static void main(String[] args) {
