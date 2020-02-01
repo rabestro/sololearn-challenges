@@ -53,21 +53,21 @@ Description | Java | Used Java API classes and methods, notes
 [Building Blocks](medium/pro-building-blocks) | [BuildingBlocks.java](medium/pro-building-blocks/BuildingBlocks.java) | IntStream::generate
 [Name Buddy](medium/pro-name-buddy) | [NameBuddy.java](medium/pro-name-buddy/NameBuddy.java) | Pattern::matches, Stream
 [That's odd...](medium/thats-odd) | [ThatsOdd.java](medium/thats-odd/ThatsOdd.java) | IntStream
-[No Numerals](medium/no-numerals) | [NoNumerals.java](medium/no-numerals/NoNumerals.java) |
-[Secret Message](medium/secret-message) | [SecretMessage.java](medium/secret-message/SecretMessage.java) |
-[Divisible](medium/pro-divisible) | [Divisible.java](medium/pro-divisible/Divisible.java) |
-[Even Numbers](medium/pro-even-numbers) | [EvenNumbers.java](medium/pro-even-numbers/EvenNumbers.java) |
-[Military Time](medium/military-time) | [MilitaryTime.java](medium/military-time/MilitaryTime.java) |
-[Tax Free](medium/pro-tax-free) | [TaxFree.java](medium/pro-tax-free/TaxFree.java) |
-[How Far?](medium/pro-how-far) | [HowFar.java](medium/pro-how-far/HowFar.java) |
-[Average Word Length](medium/average-word-length) | [AverageWordLength.java](medium/average-word-length/AverageWordLength.java) |
-[YouTube Link Finder](medium/youtube-link-finder) | [YouTubeLinkFinder.java](medium/youtube-link-finder/YouTubeLinkFinder.java) |
-[Convert US date to EU date](medium/convert-date) | [ConvertDate.java](medium/convert-date/ConvertDate.java) |
-[Day of the Week](medium/pro-day-of-the-week) | [DayWeek.java](medium/pro-day-of-the-week/DayWeek.java) |
-[Camel to Snake](medium/pro-camel-to-snake) | [CamelSnake.java](medium/pro-camel-to-snake/CamelSnake.java) |
-[Days between dates](medium/pro-days-between-dates) | [DaysBetweenDates.java](medium/pro-days-between-dates/DaysBetweenDates.java) |
-[Text Decompressor](medium/pro-text-decompressor) | [TextDecompressor.java](medium/pro-text-decompressor/TextDecompressor.java) |
-[Snowballing Numbers](medium/pro-snowballing-numbers) | [SnowballingNumbers.java](medium/pro-snowballing-numbers/SnowballingNumbers.java) |
+[No Numerals](medium/no-numerals) | [NoNumerals.java](medium/no-numerals/NoNumerals.java) | Map, Stream, lambda
+[Secret Message](medium/secret-message) | [SecretMessage.java](medium/secret-message/SecretMessage.java) | 
+[Divisible](medium/pro-divisible) | [Divisible.java](medium/pro-divisible/Divisible.java) |Stream, lambda
+[Even Numbers](medium/pro-even-numbers) | [EvenNumbers.java](medium/pro-even-numbers/EvenNumbers.java) | IntStream
+[Military Time](medium/military-time) | [MilitaryTime.java](medium/military-time/MilitaryTime.java) | Date & Time API Java 11
+[Tax Free](medium/pro-tax-free) | [TaxFree.java](medium/pro-tax-free/TaxFree.java) | Stream
+[How Far?](medium/pro-how-far) | [HowFar.java](medium/pro-how-far/HowFar.java) | String::replaceAll, RegEx
+[Average Word Length](medium/average-word-length) | [AverageWordLength.java](medium/average-word-length/AverageWordLength.java) | String::split, String::replaceAll
+[YouTube Link Finder](medium/youtube-link-finder) | [YouTubeLinkFinder.java](medium/youtube-link-finder/YouTubeLinkFinder.java) | String::replaceAll, RegEx
+[Convert US date to EU date](medium/convert-date) | [ConvertDate.java](medium/convert-date/ConvertDate.java) | Date & Time API Java 11
+[Day of the Week](medium/pro-day-of-the-week) | [DayOfWeek.java](medium/pro-day-of-the-week/DayWeek.java) | Date & Time API Java 11
+[Camel to Snake](medium/pro-camel-to-snake) | [CamelToSnake.java](medium/pro-camel-to-snake/CamelSnake.java) | String::replaceAll, RegEx
+[Days between dates](medium/pro-days-between-dates) | [DaysBetweenDates.java](medium/pro-days-between-dates/DaysBetweenDates.java) | Date & Time API Java 11
+[Text Decompressor](medium/pro-text-decompressor) | [TextDecompressor.java](medium/pro-text-decompressor/TextDecompressor.java) | Stream
+[Snowballing Numbers](medium/pro-snowballing-numbers) | [SnowballingNumbers.java](medium/pro-snowballing-numbers/SnowballingNumbers.java) | Stream
 [Flowing Words](medium/pro-flowing-words) | [FlowingWords.java](medium/pro-flowing-words/FlowingWords.java) |
 [Splitting Strings](medium/pro-splitting-strings) | [SplittingStrings.java](medium/pro-splitting-strings/SplittingStrings.java) |
 [Missing Numbers](medium/pro-missing-numbers) | [MissingNumbers.java](medium/pro-missing-numbers/MissingNumbers.java) |
