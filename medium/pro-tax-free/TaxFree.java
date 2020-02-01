@@ -1,8 +1,7 @@
-public class TaxFree
-{
+public class TaxFree {
     public static void main(String[] args) {
             
-        double sum = new java.util.Scanner(System.in)
+       final double sum = new java.util.Scanner(System.in)
             .useDelimiter(",")
             .tokens()
             .mapToInt(Integer::parseInt)
