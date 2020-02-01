@@ -6,7 +6,7 @@ The problems grouped by dificulty as they are marked by SoloLearn site. The code
 
 ## Easy
 
-Description | Java | Note, used classes from Java API
+Description | Java | Used Java API classes and methods, notes
 ----|----|----
 [Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
 [Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math
