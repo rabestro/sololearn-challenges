@@ -25,16 +25,15 @@ Description | Java | Note, used classes from Java API
 [Hovercraft](easy/hovercraft) | [Hovercraft](easy/hovercraft) | BigDecimal
 [Izzy the Iguana](easy/pro-izzy-the-iguana) | [IzzyIguana.java](easy/pro-izzy-the-iguana/IzzyIguana.java) | Map, Scaner::tokens (Java 11)
 [Kaleidoscopes](easy/pro-kaleidoscopes) | [Kaleidoscopes.java](easy/pro-kaleidoscopes/Kaleidoscopes.java) | BigDecimal (There is errors in SoloLearn tests)
-[Jungle Camping](easy/jungle-camping) | [JungleCamping.java](easy/jungle-camping/JungleCamping.java) |
-
-- 
-- [Extra-Terristrials](easy/extra-terristrials)
-- 
-- [Land Ho!](easy/pro-land-ho)
-- [Neverland](easy/pro-neverland)
-- [Vowel Counter](easy/pro-vowel-counter)
-- [Zip Code Validator](easy/pro-zip-code-validator)
-- [Number of Ones](easy/pro-number-of-ones)
+[Jungle Camping](easy/jungle-camping) | [JungleCamping.java](easy/jungle-camping/JungleCamping.java) | Map, Scaner::tokens (Java 11)
+[Land Ho!](easy/pro-land-ho) | [LandHo.java](easy/pro-land-ho/LandHo.java) |
+[Neverland](easy/pro-neverland) | [Neverland.java](easy/pro-neverland/Neverland.java) | System.out::printf
+[Extra-Terristrials](easy/extra-terristrials) | [Extra-Terristrials](easy/extra-terristrials) |
+[Zip Code Validator](easy/pro-zip-code-validator) | [Zip Code Validator](easy/pro-zip-code-validator) |
+[Vowel Counter](easy/pro-vowel-counter) | [Vowel Counter](easy/pro-vowel-counter) |
+[Isogram Detector](easy/pro-isogram-detector/) | [Isogram Detector](easy/pro-isogram-detector/) |
+[Multiples](easy/pro-multiples/) | [Multiples](easy/pro-multiples/) |
+[Number of Ones](easy/pro-number-of-ones) | [Number of Ones](easy/pro-number-of-ones) |
 
 ## Medium
 
