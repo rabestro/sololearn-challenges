@@ -39,41 +39,41 @@ Description | Java | Used Java API classes and methods, notes
 
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
-[Pig Latin](medium/pig-latin) | [Pig Latin](medium/pig-latin) |
-[Safety Deposit Boxes](medium/pro-safety-deposit-boxes) | [Safety Deposit Boxes](medium/pro-safety-deposit-boxes) |
-[Roadrunner](medium/pro-roadrunner) | [Roadrunner](medium/pro-roadrunner) |
-[Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/) | [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/) |
-[Deja Vu](medium/deja-vu) | [Deja Vu](medium/deja-vu) |
-[The Spy Life](medium/the-spy-life) | [The Spy Life](medium/the-spy-life) |
-[Hex Color Code Generator](medium/pro-hex-color-code-generator) | [Hex Color Code Generator](medium/pro-hex-color-code-generator) |
-[Symbols](medium/symbols) | [Symbols](medium/symbols) |
-[Super Sale](medium/pro-super-sale) | [Super Sale](medium/pro-super-sale) |
-[Duty Free](medium/pro-duty-free) | [Duty Free](medium/pro-duty-free) |
-[Carrot Cake](medium/pro-carrot-cake) | [Carrot Cake](medium/pro-carrot-cake) |
-[Building Blocks](medium/pro-building-blocks) | [Building Blocks](medium/pro-building-blocks) |
-[Name Buddy](medium/pro-name-buddy) | [Name Buddy](medium/pro-name-buddy) |
-[That's odd...](medium/thats-odd) | [That's odd...](medium/thats-odd) |
-[No Numerals](medium/no-numerals) | [No Numerals](medium/no-numerals) |
-[Secret Message](medium/secret-message) | [Secret Message](medium/secret-message) |
-[Divisible](medium/pro-divisible) | [Divisible](medium/pro-divisible) |
-[Even Numbers](medium/pro-even-numbers) | [Even Numbers](medium/pro-even-numbers) |
-[Military Time](medium/military-time) | [Military Time](medium/military-time) |
-[Tax Free](medium/pro-tax-free) | [Tax Free](medium/pro-tax-free) |
-[How Far?](medium/pro-how-far) | [How Far?](medium/pro-how-far) |
-[Average Word Length](medium/average-word-length) | [Average Word Length](medium/average-word-length) |
-[YouTube Link Finder](medium/youtube-link-finder) | [YouTube Link Finder](medium/youtube-link-finder) |
-[Convert US date to EU date](medium/convert-date) | [Convert US date to EU date](medium/convert-date) |
-[Day of the Week](medium/pro-day-of-the-week) | [Day of the Week](medium/pro-day-of-the-week) |
-[Camel to Snake](medium/pro-camel-to-snake) | [Camel to Snake](medium/pro-camel-to-snake) |
-[Days between dates](medium/pro-days-between-dates) | [Days between dates](medium/pro-days-between-dates) |
-[Text Decompressor](medium/pro-text-decompressor) | [Text Decompressor](medium/pro-text-decompressor) |
-[Snowballing Numbers](medium/pro-snowballing-numbers) | [Snowballing Numbers](medium/pro-snowballing-numbers) |
-[Flowing Words](medium/pro-flowing-words) | [Flowing Words](medium/pro-flowing-words) |
-[Splitting Strings](medium/pro-splitting-strings) | [Splitting Strings](medium/pro-splitting-strings) |
-[Missing Numbers](medium/pro-missing-numbers) | [Missing Numbers](medium/pro-missing-numbers) |
-[Initials](medium/pro-initials/) | [Initials](medium/pro-initials/) |
-[Credit Card Validator](medium/pro-credit-card-validator/) | [Credit Card Validator](medium/pro-credit-card-validator/) |
-[CMYK to RGB](medium/pro-CMYK-to-RGB) | [CMYK to RGB](medium/pro-CMYK-to-RGB)
+[Pig Latin](medium/pig-latin) | [PigLatin.java](medium/pig-latin) |
+[Safety Deposit Boxes](medium/pro-safety-deposit-boxes) | [SafetyDepositBoxes.java](medium/pro-safety-deposit-boxes) |
+[Roadrunner](medium/pro-roadrunner) | [Roadrunner.java](medium/pro-roadrunner) |
+[Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/) | [SnapCracklePop.java](medium/pro-snap-crackle-and-pop/) |
+[Deja Vu](medium/deja-vu) | [DejaVu.java](medium/deja-vu) |
+[The Spy Life](medium/the-spy-life) | [TheSpyLife.java](medium/the-spy-life) |
+[Hex Color Code Generator](medium/pro-hex-color-code-generator) | [HexColorCodeGenerator.java](medium/pro-hex-color-code-generator) |
+[Symbols](medium/symbols) | [Symbols.java](medium/symbols) |
+[Super Sale](medium/pro-super-sale) | [SuperSale.java](medium/pro-super-sale) |
+[Duty Free](medium/pro-duty-free) | [DutyFree.java](medium/pro-duty-free) |
+[Carrot Cake](medium/pro-carrot-cake) | [CarrotCake.java](medium/pro-carrot-cake) |
+[Building Blocks](medium/pro-building-blocks) | [BuildingBlocks.java](medium/pro-building-blocks) |
+[Name Buddy](medium/pro-name-buddy) | [NameBuddy.java](medium/pro-name-buddy) |
+[That's odd...](medium/thats-odd) | [ThatsOdd.java](medium/thats-odd) |
+[No Numerals](medium/no-numerals) | [NoNumerals.java](medium/no-numerals) |
+[Secret Message](medium/secret-message) | [SecretMessage.java](medium/secret-message) |
+[Divisible](medium/pro-divisible) | [Divisible.java](medium/pro-divisible) |
+[Even Numbers](medium/pro-even-numbers) | [EvenNumbers.java](medium/pro-even-numbers) |
+[Military Time](medium/military-time) | [MilitaryTime.java](medium/military-time) |
+[Tax Free](medium/pro-tax-free) | [TaxFree.java](medium/pro-tax-free) |
+[How Far?](medium/pro-how-far) | [HowFar.java](medium/pro-how-far) |
+[Average Word Length](medium/average-word-length) | [AverageWordLength.java](medium/average-word-length) |
+[YouTube Link Finder](medium/youtube-link-finder) | [YouTubeLinkFinder.java](medium/youtube-link-finder) |
+[Convert US date to EU date](medium/convert-date) | [ConvertDate.java](medium/convert-date) |
+[Day of the Week](medium/pro-day-of-the-week) | [DayWeek.java](medium/pro-day-of-the-week) |
+[Camel to Snake](medium/pro-camel-to-snake) | [CamelSnake.java](medium/pro-camel-to-snake) |
+[Days between dates](medium/pro-days-between-dates) | [DaysBetweenDates.java](medium/pro-days-between-dates) |
+[Text Decompressor](medium/pro-text-decompressor) | [TextDecompressor.java](medium/pro-text-decompressor) |
+[Snowballing Numbers](medium/pro-snowballing-numbers) | [SnowballingNumbers.java](medium/pro-snowballing-numbers) |
+[Flowing Words](medium/pro-flowing-words) | [FlowingWords.java](medium/pro-flowing-words) |
+[Splitting Strings](medium/pro-splitting-strings) | [SplittingStrings.java](medium/pro-splitting-strings) |
+[Missing Numbers](medium/pro-missing-numbers) | [MissingNumbers.java](medium/pro-missing-numbers) |
+[Initials](medium/pro-initials/) | [Initials.java](medium/pro-initials/) |
+[Credit Card Validator](medium/pro-credit-card-validator/) | [CreditCardValidator.java](medium/pro-credit-card-validator/) |
+[CMYK to RGB](medium/pro-CMYK-to-RGB) | [CmykToRgb.java](medium/pro-CMYK-to-RGB)
 
 ## Hard
 
