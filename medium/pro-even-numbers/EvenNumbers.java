@@ -1,5 +1,4 @@
-public class EvenNumbers
-{ 
+public class EvenNumbers { 
     public static void main(String[] args) {
         final var in = new java.util.Scanner(System.in);
         
