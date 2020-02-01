@@ -8,9 +8,8 @@ The problems grouped by dificulty as they are marked by SoloLearn site. Also the
 
 Description | Java | Note 
 ----|----|----
-[Popsicles](easy/popsicles) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
-
-- [Halloween Candy](easy/halloween-candy)
+[Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
+[Halloween Candy](easy/halloween-candy) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math.ceil
 - [Fruit Bowl](easy/fruit-bowl)
 - [Cheer Creator](easy/cheer-creator)
 - [Skee-ball](easy/skee-ball)
