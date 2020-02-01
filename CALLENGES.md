@@ -68,12 +68,12 @@ Description | Java | Used Java API classes and methods, notes
 [Days between dates](medium/pro-days-between-dates/README.md) | [DaysBetweenDates.java](medium/pro-days-between-dates/DaysBetweenDates.java) | Date & Time API Java 11
 [Text Decompressor](medium/pro-text-decompressor/README.md) | [TextDecompressor.java](medium/pro-text-decompressor/TextDecompressor.java) | Stream
 [Snowballing Numbers](medium/pro-snowballing-numbers/README.md) | [SnowballingNumbers.java](medium/pro-snowballing-numbers/SnowballingNumbers.java) | Stream
-[Flowing Words](medium/pro-flowing-words/README.md) | [FlowingWords.java](medium/pro-flowing-words/FlowingWords.java) |
-[Splitting Strings](medium/pro-splitting-strings/README.md) | [SplittingStrings.java](medium/pro-splitting-strings/SplittingStrings.java) |
-[Missing Numbers](medium/pro-missing-numbers/README.md) | [MissingNumbers.java](medium/pro-missing-numbers/MissingNumbers.java) |
-[Initials](medium/pro-initials/README.md) | [Initials.java](medium/pro-initials/Initials.java) |
-[Credit Card Validator](medium/pro-credit-card-validator/README.md) | [CreditCardValidator.java](medium/pro-credit-card-validator/CreditCardValidator.java) |
-[CMYK to RGB](medium/pro-CMYK-to-RGB/README.md) | [CmykToRgb.java](medium/pro-CMYK-to-RGB/CmykToRgb.java)
+[Flowing Words](medium/pro-flowing-words/README.md) | [FlowingWords.java](medium/pro-flowing-words/FlowingWords.java) | RegEx
+[Splitting Strings](medium/pro-splitting-strings/README.md) | [SplittingStrings.java](medium/pro-splitting-strings/SplittingStrings.java) | String::format, String::split, String::join, RegEx
+[Missing Numbers](medium/pro-missing-numbers/README.md) | [MissingNumbers.java](medium/pro-missing-numbers/MissingNumbers.java) | Stream
+[Initials](medium/pro-initials/README.md) | [Initials.java](medium/pro-initials/Initials.java) | Stream, RegEx
+[Credit Card Validator](medium/pro-credit-card-validator/README.md) | [CreditCardValidator.java](medium/pro-credit-card-validator/CreditCardValidator.java) | StringBuilder, Stream
+[CMYK to RGB](medium/pro-CMYK-to-RGB/README.md) | [CmykToRgb.java](medium/pro-CMYK-to-RGB/CmykToRgb.java) | Math, float
 
 ## Hard
 
