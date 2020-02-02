@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int eggs, you, friend;
-    scanf("%d\n%d\n%d", &eggs, &you, &friend);
+    int totalNumberEggs, yourAmount, friendsAmount;
+    scanf("%d\n%d\n%d", &totalNumberEggs, &yourAmount, &friendsAmount);
     
-    puts(you + friend < eggs ? "Keep Hunting" : "Candy Time");
+    puts(yourAmount + friendsAmount < totalNumberEggs ? "Keep Hunting" : "Candy Time");
     
     return 0;
 }
