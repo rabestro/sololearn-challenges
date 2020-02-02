@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class Kaleidoscopes {
+public class Kaleidoscopes_Fails {
     public static void main(final String[] args) {
         
         final var input = new Scanner(System.in);

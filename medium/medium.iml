@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/average-word-length" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/convert-date" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deja-vu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/military-time" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/no-numerals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pig-latin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-CMYK-to-RGB" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-building-blocks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-camel-to-snake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-carrot-cake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-credit-card-validator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-day-of-the-week" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-days-between-dates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-divisible" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-duty-free" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-even-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-flowing-words" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-hex-color-code-generator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-how-far" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-initials" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-missing-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-name-buddy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-roadrunner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-safety-deposit-boxes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-snap-crackle-and-pop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-snowballing-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-splitting-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-super-sale" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-tax-free" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-text-decompressor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/secret-message" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/symbols" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/thats-odd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the-spy-life" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtube-link-finder" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

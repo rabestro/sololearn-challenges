@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easy/easy.iml" filepath="$PROJECT_DIR$/easy/easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hard/hard.iml" filepath="$PROJECT_DIR$/hard/hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium/medium.iml" filepath="$PROJECT_DIR$/medium/medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sololearn-challenges.iml" filepath="$PROJECT_DIR$/sololearn-challenges.iml" />
+    </modules>
+  </component>
+</project>

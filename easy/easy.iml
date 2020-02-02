@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/argentina" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cheer-creator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/extra-terristrials" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fruit-bowl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gotham-city" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/guard-flamingos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/halloween-candy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hovercraft" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jungle-camping" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/paint-costs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/popsicles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-balconies" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-ballpark-orders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-candles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-duct-tape" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-easter-eggs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-isogram-detector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-izzy-the-iguana" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-kaleidoscopes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-land-ho" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-multiples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-neverland" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-number-of-ones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-vowel-counter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pro-zip-code-validator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/skee-ball" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
