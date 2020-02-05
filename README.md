@@ -42,8 +42,8 @@ Description | Java | Used Java API classes and methods, notes
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
 [Pig Latin](medium/pig-latin/README.md) | [PigLatinRE.java](medium/pig-latin/PigLatinRE.java) | String::replaceAll, RegEx 
-  -  | [PigLatinStream.java](medium/pig-latin/PigLatinStream.java) | Scanner::tokens, lambda
-    -  | [PigLatinClassic.java](medium/pig-latin/PigLatinClassic.java) | System.out::printf 
+  .  | [PigLatinStream.java](medium/pig-latin/PigLatinStream.java) | Scanner::tokens, lambda
+  .  | [PigLatinClassic.java](medium/pig-latin/PigLatinClassic.java) | System.out::printf 
 [Safety Deposit Boxes](medium/pro-safety-deposit-boxes/README.md) | [SafetyDepositBoxes.java](medium/pro-safety-deposit-boxes/SafetyDepositBoxes.java) | String::replaceAll, RegEx (tricky?)
 [Roadrunner](medium/pro-roadrunner/README.md) | [Roadrunner.java](medium/pro-roadrunner/Roadrunner.java) |
 [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md) | [SnapCrackleAndPop.java](medium/pro-snap-crackle-and-pop/SnapCrackleAndPop.java) | Stream, lambda
@@ -65,7 +65,7 @@ Description | Java | Used Java API classes and methods, notes
 [Tax Free](medium/pro-tax-free/README.md) | [TaxFree.java](medium/pro-tax-free/TaxFree.java) | Stream
 [How Far?](medium/pro-how-far/README.md) | [HowFar.java](medium/pro-how-far/HowFar.java) | String::replaceAll, RegEx
 [Average Word Length](medium/average-word-length/README.md) | [AverageWordLength.java](medium/average-word-length/AverageWordLength.java) | String::split, String::replaceAll
-   -   | [AverageWordLengthStream.java](medium/average-word-length/AverageWordLengthStream.java) | Stream, Collectors::averagingInt
+   .   | [AverageWordLengthStream.java](medium/average-word-length/AverageWordLengthStream.java) | Stream, Collectors::averagingInt
 [YouTube Link Finder](medium/youtube-link-finder/README.md) | [YouTubeLinkFinder.java](medium/youtube-link-finder/YouTubeLinkFinder.java) | String::replaceAll, RegEx
 [Convert US date to EU date](medium/convert-date/README.md) | [ConvertDate.java](medium/convert-date/ConvertDate.java) | Date & Time API Java 11
 [Day of the Week](medium/pro-day-of-the-week/README.md) | [DayOfWeek.java](medium/pro-day-of-the-week/DayOfWeek.java) | Date & Time API Java 11
