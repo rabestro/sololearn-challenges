@@ -42,8 +42,8 @@ Description | Java | Used Java API classes and methods, notes
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
 [Pig Latin](medium/pig-latin/README.md) | [PigLatinRE.java](medium/pig-latin/PigLatinRE.java) | String::replaceAll, RegEx 
-  .  | [PigLatinStream.java](medium/pig-latin/PigLatinStream.java) | Scanner::tokens, lambda
-  .  | [PigLatinClassic.java](medium/pig-latin/PigLatinClassic.java) | System.out::printf 
+    | [PigLatinStream.java](medium/pig-latin/PigLatinStream.java) | Scanner::tokens, lambda
+    | [PigLatinClassic.java](medium/pig-latin/PigLatinClassic.java) | System.out::printf 
 [Safety Deposit Boxes](medium/pro-safety-deposit-boxes/README.md) | [SafetyDepositBoxes.java](medium/pro-safety-deposit-boxes/SafetyDepositBoxes.java) | String::replaceAll, RegEx (tricky?)
 [Roadrunner](medium/pro-roadrunner/README.md) | [Roadrunner.java](medium/pro-roadrunner/Roadrunner.java) |
 [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md) | [SnapCrackleAndPop.java](medium/pro-snap-crackle-and-pop/SnapCrackleAndPop.java) | Stream, lambda
