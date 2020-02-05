@@ -1,6 +1,5 @@
 
 /* 
-
    A number is called a Disarium number if the sum of the powers of its digits 
    equals the number itself. The digits are powered to their positions in the number.
    
@@ -9,7 +8,6 @@
    
    Output: true/false for one number
            or all the Disarium numbers in a given range. 
-
 */
 
 import java.util.Scanner;
