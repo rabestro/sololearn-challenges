@@ -1,3 +1,9 @@
+/*
+    Scramble: https://www.sololearn.com/learn/4499/
+    
+    Input: variable number of words separated by space.
+    Output: the word with the maximum Scrabble score
+*/
 import java.util.Scanner;
 import java.util.stream.*;
 import java.util.Arrays;
@@ -15,16 +21,10 @@ public class Scrabble {
 	
 	public static void main(final String[] args) {
 		final var in = new Scanner(System.in);
-		final var words = in.nextLine().split("\\s");
-		in.close();
+		final var words = Arrays.stream(in.nextLine().split("\\s"));
 		
-		final var values = Arrays.stream(words)
-		    .collect(Collectors.toMap(i -> i, Scrabble::wordValue));
-		    
-		final var result = Arrays.stream(words)
-		    .max(Comparator.comparing(Scrabble::wordValue)).get();
+		final var result = words.max(Comparator.comparing(Scrabble::wordValue)).get();
 		
-		System.out.println(values);
 		System.out.println(result);
 	}
 }
