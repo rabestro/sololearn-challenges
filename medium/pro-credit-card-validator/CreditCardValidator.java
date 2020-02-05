@@ -35,16 +35,16 @@ import java.util.Scanner;
 
 /**
  * @author Jegors Čemisovs
- *
+ * <p>
  * {@link https://github.com/rabestro/sololearn-challenges}
  */
 public class CreditCardValidator {
     public static void main(final String[] args) {
-        
+
         final var in = new Scanner(System.in);
         final var creditCardNumber = in.next();
         in.close();
-        
+
         if (Luhn.isValid(creditCardNumber)) {
             System.out.print("valid");
         } else {
@@ -54,17 +54,17 @@ public class CreditCardValidator {
 }
 
 class Luhn {
-	
-    static boolean isValid(String number){
-	    
+
+    static boolean isValid(String number) {
+
         if (number.length() != 16) {
             return false;
         }
-	var reverse = new StringBuilder(number).reverse().chars().map(c -> c - '0');
-	int sum = 0;
-	var isEven = false;
-	    
-	for (int i : reverse.toArray()) {
+        var reverse = new StringBuilder(number).reverse().chars().map(c -> c - '0');
+        int sum = 0;
+        var isEven = false;
+
+        for (int i : reverse.toArray()) {
             if (isEven) {
                 i *= 2;
             }

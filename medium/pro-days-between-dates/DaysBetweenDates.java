@@ -1,11 +1,12 @@
-import java.util.Locale;
-import java.util.Scanner;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.Locale;
+import java.util.Scanner;
+
 import static java.time.temporal.ChronoUnit.DAYS;
 
-public class DaysBetweenDates {                               
+public class DaysBetweenDates {
     public static void main(final String[] args) {
         final var formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.US);
         final var input = new Scanner(System.in);
@@ -14,7 +15,7 @@ public class DaysBetweenDates {
         input.close();
 
         final long days = firstDate.until(secondDate, DAYS);
-        
+
         System.out.println(days);
     }
 }

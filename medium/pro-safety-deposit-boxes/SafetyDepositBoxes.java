@@ -6,12 +6,12 @@ public class SafetyDepositBoxes {
         final var items = input.nextLine();
         final var lookingFor = input.nextLine();
         input.close();
-        
+
         final int itemsBeforeDesired = items.substring(0, items.indexOf(lookingFor))
-            .replaceAll("[^,]", "").length();
-        
+                .replaceAll("[^,]", "").length();
+
         final int time = 5 + 5 * itemsBeforeDesired;
-       
+
         System.out.print(time);
     }
 }

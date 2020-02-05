@@ -1,4 +1,4 @@
-public class CamelToSnake {
+public class CamelToSnakeClassic {
     public static void main(final String[] args) {
         final var input = new java.util.Scanner(System.in);
         final var codebase = input.nextLine();

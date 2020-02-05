@@ -23,7 +23,7 @@ import static java.lang.Math.round;
 /**
  * @author Jegors Čemisovs
  *
- * {@link https://github.com/rabestro/sololearn-challenges}
+ * {@url https://github.com/rabestro/sololearn-challenges}
  */
 public class CmykToRgb {
     public static void main(final String[] args) {
