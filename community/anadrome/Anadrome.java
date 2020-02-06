@@ -3,7 +3,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Anadrome {
-
     public static void main(final String[] args) {
         final var input = new Scanner(System.in);
         final var word = input.nextLine();
