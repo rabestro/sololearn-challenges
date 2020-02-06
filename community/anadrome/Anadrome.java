@@ -1,5 +1,3 @@
-// https://www.sololearn.com/learn/5045/
-
 import java.util.Scanner;
 import java.util.function.Function;
 import java.util.stream.Collectors;
