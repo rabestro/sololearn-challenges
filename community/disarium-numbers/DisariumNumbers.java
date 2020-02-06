@@ -13,18 +13,6 @@ import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class DisariumNumbers {
-
-    public static boolean isDisarium(int n) {
-        final var digits = Integer.toString(n).chars().map(c -> c - '0').toArray();
-
-        int sum = 0;
-        for (int p, digit, power = digits.length; power > 0 && sum <= n; sum += p) {
-            p = digit = digits[--power];
-            for (int i = power; i-- > 0; p *= digit) ;
-        }
-        return n == sum;
-    }
-
     public static void main(String[] args) {
         final var sc = new Scanner(System.in);
         final var start = sc.nextInt();
@@ -40,4 +28,16 @@ public class DisariumNumbers {
             System.out.println(isDisarium(start));
         }
     }
+   
+    public static boolean isDisarium(int n) {
+        final var digits = Integer.toString(n).chars().map(c -> c - '0').toArray();
+
+        int sum = 0;
+        for (int p, digit, power = digits.length; power > 0 && sum <= n; sum += p) {
+            p = digit = digits[--power];
+            for (int i = power; i-- > 0; p *= digit) ;
+        }
+        return n == sum;
+    }
+
 }
