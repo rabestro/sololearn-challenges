@@ -19,22 +19,21 @@ the whole sequence for an input number.
 */
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class CollatzConjecture {
     public static void main(String[] args) {
         final var input = new Scanner(System.in);
         final var number = input.nextInt();
         input.close();
-        
+
         System.out.printf("x = %d%n%n", number);
-        
-        for (int i = number; i > 1;) {
+
+        for (int i = number; i > 1; ) {
             final var isEven = i % 2 == 0;
             System.out.printf("%d %s = %d%n"
-                , i
-                , isEven ? "/ 2" : "* 3 + 1"
-                , i = isEven ? i / 2 : 3 * i + 1
+                    , i
+                    , isEven ? "/ 2" : "* 3 + 1"
+                    , i = isEven ? i / 2 : 3 * i + 1
             );
         }
         System.out.println("...");

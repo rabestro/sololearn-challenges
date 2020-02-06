@@ -18,28 +18,28 @@ Output: 2220
 import java.util.Scanner;
 
 public class BaseConverter {
-	public static void main(String[] args) {
-		
-		final var input = new Scanner(System.in);
-		final var number = input.nextInt();
-		final var base = input.nextInt();
-		input.close();
-		
-		if (1 < base && base < 37) {
-		    System.out.printf("%d in %d base is %s", number, base, convert(number, base));
-		} else {
-		    System.out.println("Please enter base between 2 and 36");
-		}
-		
-	}
-	
-	static String convert(int number, int base) {
-		final var digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		final var result = new StringBuilder(number > 0 ? "": "0");
-		while (number > 0) {
-			result.append(digits.charAt(number % base));
-			number /= base;
-		}
-		return result.reverse().toString();
-	}
+    public static void main(String[] args) {
+
+        final var input = new Scanner(System.in);
+        final var number = input.nextInt();
+        final var base = input.nextInt();
+        input.close();
+
+        if (1 < base && base < 37) {
+            System.out.printf("%d in %d base is %s", number, base, convert(number, base));
+        } else {
+            System.out.println("Please enter base between 2 and 36");
+        }
+
+    }
+
+    static String convert(int number, int base) {
+        final var digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        final var result = new StringBuilder(number > 0 ? "" : "0");
+        while (number > 0) {
+            result.append(digits.charAt(number % base));
+            number /= base;
+        }
+        return result.reverse().toString();
+    }
 }
