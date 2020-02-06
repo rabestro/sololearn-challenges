@@ -1,7 +1,8 @@
 /*
 Summations Calculator
 
-Create a program that takes 3 inputs, a lower bound, an upper bound and the expression. Calculate the sum of that range based on the given expression and output the result.
+Create a program that takes 3 inputs, a lower bound, an upper bound and the expression. 
+Calculate the sum of that range based on the given expression and output the result.
 
 For Example:
 Input: 2 4 *2
