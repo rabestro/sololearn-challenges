@@ -11,7 +11,7 @@ For example:
 Input: 5x4
 Output:
   Array:
-    A C T T  S
+    A C T T S
     R T N G T
     E E G G A
     U W P F A
