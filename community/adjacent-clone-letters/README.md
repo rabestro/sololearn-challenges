@@ -22,3 +22,4 @@ Output:
     A = 2 adjacent clones 
 ```
 
+> Bonus: Replace clone letters to get the array without adjacent clone letters.
