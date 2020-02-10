@@ -35,6 +35,11 @@
 *.i*86
 *.x86_64
 *.hex
+*.class
+
+#BlueJ files
+*.ctxt
+*.bluej
 
 # Debug files
 *.dSYM/

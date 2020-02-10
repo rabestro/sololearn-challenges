@@ -16,6 +16,6 @@ public class Anadrome {
                 .filter(i -> i.getValue() % 2 != 0)
                 .count() < 2;
 
-        System.out.println(isAnadrome ? "yes" : "no");
+        System.out.print(isAnadrome ? "yes" : "no");
     }
 }
