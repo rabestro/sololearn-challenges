@@ -1,6 +1,6 @@
 # Sololearn Coding Challenges
 
-There are all 72 problems from **SoloLearn Code Coach** with full descriptions and my solutions in Java. The problems grouped by dificulty: Easy, Medium, Hard. The codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. 
+There are all 72 problems from **SoloLearn Code Coach** with full descriptions and my solutions in Java. The problems grouped by dificulty: Easy, Medium, Hard. The codes have written on mobile device in Sololearn sandbox, sucessfully run and passes all tests by Sololearn. The link to my profile at Sololearn: https://www.sololearn.com/Profile/15186890/
 
 As an answer to the #OneLiners challenge from SoloLearn I also created [One-Statement](one-statement) solutions in Java language for about 60% problems.
 
