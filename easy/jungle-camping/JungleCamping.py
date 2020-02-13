@@ -1,6 +1,4 @@
-noise = input().split()
-
 animals = {"Grr": "Lion", "Rawr": "Tiger", "Ssss": "Snake", "Chirp": "Bird"}
 
-for sound in noise:
-    print(animals[sound], end=' ')
+noise = input().split()
+print(' '.join(map(animals.get, noise)))
