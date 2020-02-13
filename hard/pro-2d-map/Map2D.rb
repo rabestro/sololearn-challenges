@@ -5,5 +5,4 @@ indexA = map.index('P')
 indexB = map.index('P', indexA + 1)
        
 path = indexB / SIZE - indexA / SIZE + (indexA % SIZE - indexB % SIZE).abs
-        
 puts path
