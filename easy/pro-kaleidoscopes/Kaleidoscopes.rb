@@ -1,4 +1,4 @@
-kaleidoscopes = gets.chomp.to_i
+kaleidoscopes = gets.to_i
 
 price = 5 * kaleidoscopes;
 price *= 0.9 if kaleidoscopes > 1
