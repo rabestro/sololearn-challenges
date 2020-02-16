@@ -10,7 +10,6 @@ public class SuperSale {
         	if (item > max) max = item;
         	sum += item;
         }
-        
         final int totalSavings = (int) (0.3 * 1.07 * (sum - max));
         
         System.out.print(totalSavings);
