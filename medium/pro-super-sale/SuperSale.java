@@ -11,6 +11,8 @@ public class SuperSale {
         	sum += item;
         }
         
-        System.out.printf("%d", (int) (0.3 * 1.07 * (sum - max)));
+        final int totalSavings = (int) (0.3 * 1.07 * (sum - max));
+        
+        System.out.print(totalSavings);
     }
 }
