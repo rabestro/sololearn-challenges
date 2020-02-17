@@ -102,12 +102,14 @@ puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
 puts gets.match(/(.).*\1/) ? 'Deja Vu' : 'Unique'
 ```
 
+[The Spy Life](medium/the-spy-life/README.md)
+
+```ruby
+puts gets.gsub(/[^A-Za-z ]/, '').reverse
+```
+
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
 ```ruby
 puts Array.new(4) { gets.chomp }.any? {|s| s == s.reverse} ? 'Open' : 'Trash'
-```
-
-```ruby
-
 ```
