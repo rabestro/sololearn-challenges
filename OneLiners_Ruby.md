@@ -74,6 +74,11 @@ puts gets.reverse
 puts gets.match(/^\d{5}$/) != nil
 ```
 
+[Vowel Counter](easy/pro-vowel-counter/README.md)
+```ruby
+puts gets.gsub(/[^AEIOUaeiou]/, '').size
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
