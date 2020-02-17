@@ -123,8 +123,15 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 ```
 
 [Symbols](medium/symbols/README.md)
+
 ```ruby
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
+```
+
+[Name Buddy](medium/pro-name-buddy/README.md)
+
+```ruby
+puts (gets.chomp + ' ' + gets).match(/\b(\w).*\b\1\w*$/) ? 'Compare notes' : 'No such luck'
 ```
 
 [That's odd...](medium/thats-odd/README.md) 
