@@ -13,6 +13,11 @@ puts (100 * 2.0 / gets.to_i).ceil
 puts gets.to_i / 6
 ```
 
+[Skee-ball](easy/skee-ball/README.md)
+```ruby
+puts gets.to_i / 12 >= gets.to_i ? "Buy it!" : "Try again"
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
