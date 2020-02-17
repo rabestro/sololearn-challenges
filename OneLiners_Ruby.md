@@ -23,6 +23,10 @@ puts gets.to_i / 12 >= gets.to_i ? "Buy it!" : "Try again"
 puts (1.1 * (5 * gets.to_i + 40)).round
 ```
 
+[Argentina](easy/argentina/README.md)
+```ruby
+puts gets.to_i < gets.to_i * 50 ? "Pesos" : "Dollars"
+```
 
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
