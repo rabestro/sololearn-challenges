@@ -85,6 +85,12 @@ puts gets.gsub(/[^AEIOUaeiou]/, '').size
 puts gets.match(/(.).*\1/) == nil
 ```
 
+[Multiples](easy/pro-multiples/README.md)
+
+```ruby
+puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.reduce(0) { |sum, i| sum += i}
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
