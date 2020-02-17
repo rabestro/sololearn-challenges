@@ -13,6 +13,11 @@ puts (100 * 2.0 / gets.to_i).ceil
 puts gets.to_i / 6
 ```
 
+[Pig Latin](medium/pig-latin/README.md) 
+```ruby
+puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
+```
+
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
 ```ruby
