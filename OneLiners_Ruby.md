@@ -33,6 +33,11 @@ puts gets.to_i < gets.to_i * 50 ? "Pesos" : "Dollars"
 puts 9 * gets.to_i + 9
 ```
 
+[Duct Tape](/easy/pro-duct-tape/README.md)
+```ruby
+puts (2.0 * gets.to_i * gets.to_i / 10).ceil
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
