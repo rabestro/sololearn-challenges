@@ -96,6 +96,12 @@ puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.reduce(0) { |sum, i| 
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
 ```
 
+[Deja Vu](medium/deja-vu/README.md)
+
+```ruby
+puts gets.match(/(.).*\1/) ? 'Deja Vu' : 'Unique'
+```
+
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
 ```ruby
