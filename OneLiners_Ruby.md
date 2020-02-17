@@ -59,6 +59,10 @@ puts gets.to_i + gets.to_i
 ```ruby
 puts gets.split.map {|item| {Lettuce: 5, Carrot: 4, Mango: 9, Cheeseburger: 0}[item.to_sym]}.inject(:+) >= 10 ? 'Come on Down!' : 'Time to wait'
 ```
+[Land Ho!](easy/pro-land-ho/README.md)
+```ruby
+puts gets.to_i / 20 * 20 + 10
+```
 
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
