@@ -90,7 +90,7 @@ puts gets.match(/(.).*\1/) == nil
 [Multiples](easy/pro-multiples/README.md)
 
 ```ruby
-puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.reduce(0) { |sum, i| sum += i}
+puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.inject(:+)
 ```
 ## Medium
 
