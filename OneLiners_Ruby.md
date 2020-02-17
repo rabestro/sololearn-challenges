@@ -5,12 +5,12 @@ There is my OneLiners Challenge solutions in Ruby.
 [Halloween Candy](easy/halloween-candy/README.md)
 
 ```ruby
-puts (100 * 2.0 / gets.chomp.to_i).ceil
+puts (100 * 2.0 / gets.to_i).ceil
 ```
 
 [Fruit Bowl](easy/fruit-bowl/README.md)
 ```ruby
-puts gets.chomp.to_i / 6
+puts gets.to_i / 6
 ```
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
