@@ -122,6 +122,12 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```
 
+[Even Numbers](medium/pro-even-numbers/README.md)
+
+```ruby
+puts gets.split(' ').map(&:to_i).select { |i| i % 2 == 0 }.join(' ')
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
