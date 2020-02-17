@@ -69,6 +69,11 @@ puts gets.to_i / 20 * 20 + 10
 puts gets.reverse
 ```
 
+[Zip Code Validator](easy/pro-zip-code-validator/README.md)
+```ruby
+puts gets.match(/^\d{5}$/) != nil
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
