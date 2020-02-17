@@ -79,6 +79,12 @@ puts gets.match(/^\d{5}$/) != nil
 puts gets.gsub(/[^AEIOUaeiou]/, '').size
 ```
 
+[Isogram Detector](easy/pro-isogram-detector/README.md)
+
+```ruby
+puts gets.match(/(.).*\1/) == nil
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
