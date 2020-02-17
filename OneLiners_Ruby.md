@@ -55,6 +55,11 @@ puts gets.to_i > gets.to_i + gets.to_i ? 'Keep Hunting' : 'Candy Time'
 puts gets.to_i + gets.to_i
 ```
 
+[Izzy the Iguana](easy/pro-izzy-the-iguana/README.md)
+```ruby
+puts gets.split.map {|item| {Lettuce: 5, Carrot: 4, Mango: 9, Cheeseburger: 0}[item.to_sym]}.inject(:+) >= 10 ? 'Come on Down!' : 'Time to wait'
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
