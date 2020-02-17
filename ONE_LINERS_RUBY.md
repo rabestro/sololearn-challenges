@@ -127,6 +127,12 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```
 
+[That's odd...](medium/thats-odd/README.md) 
+
+```ruby
+puts Array.new(gets.to_i){gets.to_i}.select(&:even?).push(0).inject(:+)
+```
+
 [Even Numbers](medium/pro-even-numbers/README.md)
 
 ```ruby
