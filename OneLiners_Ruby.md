@@ -1,6 +1,6 @@
 # OneLiners solutions in Ruby
 
-There is my OneLiners Challenge solutions in Ruby.
+There is #OneLiners Challenge solutions in Ruby. 
 
 [Halloween Candy](easy/halloween-candy/README.md)
 
