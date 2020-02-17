@@ -130,7 +130,7 @@ puts gets.gsub(/[^A-Za-z 0-9]/, '')
 [Even Numbers](medium/pro-even-numbers/README.md)
 
 ```ruby
-puts gets.split(' ').map(&:to_i).select { |i| i % 2 == 0 }.join(' ')
+puts gets.split(' ').map(&:to_i).select(&:even?).join(' ')
 ```
 
 ## Hard
