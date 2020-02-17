@@ -2,6 +2,8 @@
 
 There is #OneLiners Challenge solutions in Ruby. 
 
+## Easy
+
 [Halloween Candy](easy/halloween-candy/README.md)
 
 ```ruby
@@ -90,6 +92,7 @@ puts gets.match(/(.).*\1/) == nil
 ```ruby
 puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.reduce(0) { |sum, i| sum += i}
 ```
+## Medium
 
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
@@ -107,6 +110,8 @@ puts gets.match(/(.).*\1/) ? 'Deja Vu' : 'Unique'
 ```ruby
 puts gets.gsub(/[^A-Za-z ]/, '').reverse
 ```
+
+## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
