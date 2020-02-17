@@ -111,6 +111,17 @@ puts gets.match(/(.).*\1/) ? 'Deja Vu' : 'Unique'
 puts gets.gsub(/[^A-Za-z ]/, '').reverse
 ```
 
+[Hex Color Code Generator](medium/pro-hex-color-code-generator/README.md) 
+
+```ruby
+printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
+```
+
+[Symbols](medium/symbols/README.md)
+```ruby
+puts gets.gsub(/[^A-Za-z 0-9]/, '')
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
