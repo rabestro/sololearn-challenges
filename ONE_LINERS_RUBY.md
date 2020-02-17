@@ -128,6 +128,12 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```
 
+[Building Blocks](medium/pro-building-blocks/README.md)
+
+```ruby
+puts Array.new(4){gets.to_i % 15}.inject(:+)
+```
+
 [Name Buddy](medium/pro-name-buddy/README.md)
 
 ```ruby
