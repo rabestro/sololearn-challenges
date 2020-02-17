@@ -133,6 +133,12 @@ puts gets.gsub(/[^A-Za-z 0-9]/, '')
 puts gets.split(' ').map(&:to_i).select(&:even?).join(' ')
 ```
 
+[Tax Free](medium/pro-tax-free/README.md) 
+
+```ruby
+puts gets.split(',').map(&:to_f).map{|x| x < 20 ? 1.07 * x : x}.inject(:+)
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
