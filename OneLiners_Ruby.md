@@ -8,8 +8,17 @@ There is my OneLiners Challenge solutions in Ruby.
 puts (100 * 2.0 / gets.chomp.to_i).ceil
 ```
 
+[Fruit Bowl](easy/fruit-bowl/README.md)
+```ruby
+puts gets.chomp.to_i / 6
+```
+
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
 ```ruby
 puts Array.new(4) { gets.chomp }.any? {|s| s == s.reverse} ? 'Open' : 'Trash'
+```
+
+```ruby
+
 ```
