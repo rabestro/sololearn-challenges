@@ -170,7 +170,7 @@ puts gets.split(',').map(&:to_f).map{|x| x < 20 ? 1.07 * x : x}.inject(:+)
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
 ```ruby
-puts Array.new(4) { gets.chomp }.any? {|s| s == s.reverse} ? 'Open' : 'Trash'
+puts Array.new(4){gets.chomp}.any?{|s| s == s.reverse} ? 'Open' : 'Trash'
 ```
 
 [Security](hard/security/README.md)
