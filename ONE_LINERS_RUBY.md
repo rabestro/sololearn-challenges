@@ -56,6 +56,11 @@ puts gets.to_i > gets.to_i + gets.to_i ? 'Keep Hunting' : 'Candy Time'
 ```ruby
 puts gets.to_i + gets.to_i
 ```
+[Gotham City](easy/gotham-city/README.md) 
+
+```ruby
+puts ["I got this!", "Help me Batman", "Good Luck out there!"][((gets.to_i-5)/6<=>0)+1]
+```
 
 [Izzy the Iguana](easy/pro-izzy-the-iguana/README.md)
 ```ruby
