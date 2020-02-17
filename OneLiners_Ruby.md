@@ -49,6 +49,12 @@ puts (2.0 * gets.to_i * gets.to_i / 10).ceil
 puts gets.to_i > gets.to_i + gets.to_i ? 'Keep Hunting' : 'Candy Time'
 ```
 
+[Guard Flamingos](easy/guard-flamingos/README.md)
+
+```ruby
+puts gets.to_i + gets.to_i
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
