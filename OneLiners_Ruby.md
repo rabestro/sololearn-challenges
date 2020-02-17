@@ -64,6 +64,11 @@ puts gets.split.map {|item| {Lettuce: 5, Carrot: 4, Mango: 9, Cheeseburger: 0}[i
 puts gets.to_i / 20 * 20 + 10
 ```
 
+[Extra-Terrestrials](easy/extra-terristrials/README.md)
+```ruby
+puts gets.reverse
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
