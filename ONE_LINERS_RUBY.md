@@ -133,6 +133,12 @@ puts gets.gsub(/[^A-Za-z 0-9]/, '')
 puts Array.new(gets.to_i){gets.to_i}.select(&:even?).push(0).inject(:+)
 ```
 
+[Secret Message](medium/secret-message/README.md) 
+
+```ruby
+puts gets.downcase.chars().map{|c| c.match(/^[[:alpha:]]$/)?('az'.sum - c.ord).chr : c}.join()
+```
+
 [Even Numbers](medium/pro-even-numbers/README.md)
 
 ```ruby
