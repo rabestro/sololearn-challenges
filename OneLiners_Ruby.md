@@ -28,6 +28,11 @@ puts (1.1 * (5 * gets.to_i + 40)).round
 puts gets.to_i < gets.to_i * 50 ? "Pesos" : "Dollars"
 ```
 
+[Candles](easy/pro-candles/README.md)
+```ruby
+puts 9 * gets.to_i + 9
+```
+
 [Pig Latin](medium/pig-latin/README.md) 
 ```ruby
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
