@@ -129,3 +129,9 @@ puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```ruby
 puts Array.new(4) { gets.chomp }.any? {|s| s == s.reverse} ? 'Open' : 'Trash'
 ```
+
+[Security](hard/security/README.md)
+
+```ruby
+puts gets.match(/[$T].*G.*[$T]/) ? 'quiet': 'ALARM'
+```
