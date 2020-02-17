@@ -1,6 +1,7 @@
 # OneLiners solutions in Ruby
 
-There is Ruby #OneLiners solutions for Sololearn Code Coach challenges. All of the solutions has passed all tests in Sololearn.
+There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
+All of the solutions has passed all tests in Sololearn.
 
 ## Easy
 
