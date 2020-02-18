@@ -215,6 +215,12 @@ puts gets.split(' ').map(&:to_i).select(&:even?).join(' ')
 puts gets.split(',').map(&:to_f).map{|x| x < 20 ? 1.07 * x : x}.inject(:+)
 ```
 
+[How Far?](medium/pro-how-far/README.md)
+
+```ruby
+puts gets.gsub(/^B*[HP](B*)[HP]B*$/,'\1').size
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
