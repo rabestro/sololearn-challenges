@@ -248,7 +248,7 @@ puts 0 < Array.new(gets.to_i){gets.to_i}.reduce{|a,b| a > 0 && b > a ? a + b : 0
 [Flowing Words](medium/pro-flowing-words/README.md)
 
 ```ruby
-puts gets.match(/^(\S*(\S) \2\S*)*$/) != nil
+puts nil!=(gets =~/^(\S*(\S) \2\S*)*$/)
 ```
 
 [Splitting Strings](medium/pro-splitting-strings/README.md)
