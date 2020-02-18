@@ -98,7 +98,7 @@ puts gets.reverse
 
 [Zip Code Validator](easy/pro-zip-code-validator/README.md)
 ```ruby
-puts gets.match(/^\d{5}$/) != nil
+puts nil!=(gets=~/^\d{5}$/)
 ```
 
 [Vowel Counter](easy/pro-vowel-counter/README.md)
