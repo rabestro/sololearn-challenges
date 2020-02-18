@@ -167,6 +167,11 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 ```ruby
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```
+[Carrot Cake](medium/pro-carrot-cake/README.md)
+
+```ruby
+puts [7 - gets.to_i % gets.to_i].map{|x| x > 0 ? 'I need to buy %d more' % x : 'Cake Time'}
+```
 
 [Duty Free](medium/pro-duty-free/README.md)
 
