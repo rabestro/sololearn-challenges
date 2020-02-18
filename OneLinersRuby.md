@@ -104,6 +104,14 @@ puts gets.match(/(.).*\1/) == nil
 ```ruby
 puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.inject(:+)
 ```
+
+[Number of Ones](easy/pro-number-of-ones/README.md)
+
+```ruby
+puts gets.to_i.to_s(2).chars.select{|c| c == '1'}.size
+```
+
+
 ## Medium
 
 [Pig Latin](medium/pig-latin/README.md) 
