@@ -105,6 +105,12 @@ puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.inject(:+)
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
 ```
 
+[Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md)
+
+```ruby
+puts Array.new(6){gets.to_i}.map{|i| i % 3 > 0 ? i % 2 > 0 ? "Snap" : "Crackle" : "Pop"}.join(' ')
+```
+
 [Deja Vu](medium/deja-vu/README.md)
 
 ```ruby
