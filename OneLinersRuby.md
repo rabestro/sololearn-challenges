@@ -271,6 +271,12 @@ puts Array.new(gets.to_i){gets.chomp.gsub(/(\w)\w* (\w)\w*/,'\1\2')}.join(' ')
 puts Array.new(4){gets.chomp}.any?{|s| s == s.reverse} ? 'Open' : 'Trash'
 ```
 
+[Password Validation](hard/password-validation/README.md)
+
+```ruby
+puts [gets].map{|x| x.length > 6 && x =~ /\d.*\d/ && x =~ /([!@#$%&*].*){2,}/ ? "Strong": "Weak"}
+```
+
 [Security](hard/security/README.md)
 
 ```ruby
