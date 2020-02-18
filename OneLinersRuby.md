@@ -5,6 +5,12 @@ All of the solutions has passed all tests in Sololearn.
 
 ## Easy
 
+[Popsicles](easy/popsicles/README.md)
+
+```ruby
+puts [gets.to_i, gets.to_i].reverse.inject(:%) == 0 ? 'give away' : 'eat them yourself'
+```
+
 [Halloween Candy](easy/halloween-candy/README.md)
 
 ```ruby
