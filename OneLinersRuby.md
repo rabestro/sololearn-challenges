@@ -79,6 +79,13 @@ puts ['Loss','Broke Even','Profit'][1+(gets.to_i<=>7)]
 ```ruby
 puts gets.split.map {|item| {Lettuce: 5, Carrot: 4, Mango: 9, Cheeseburger: 0}[item.to_sym]}.inject(:+) >= 10 ? 'Come on Down!' : 'Time to wait'
 ```
+
+[Jungle Camping](easy/jungle-camping/README.md)
+
+```ruby
+puts gets.split.map{|sound| {Grr:"Lion",Rawr:"Tiger",Ssss:"Snake",Chirp:"Bird"}[sound.to_sym]}.join(' ')
+```
+
 [Land Ho!](easy/pro-land-ho/README.md)
 ```ruby
 puts gets.to_i / 20 * 20 + 10
