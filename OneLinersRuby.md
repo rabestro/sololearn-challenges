@@ -236,7 +236,7 @@ puts gets.gsub(/(?<=[^\/b])([A-Z])/, '_\1').downcase
 [Text Decompressor](medium/pro-text-decompressor/README.md)
 
 ```ruby
-puts gets.split(/(?<=\d)/).map{|x| x[0]*x[1].to_i}.join()
+puts gets.split(/(?<=\d)/).map{|x| x[0] * x[1].to_i}.join()
 ```
 
 ## Hard
