@@ -257,6 +257,12 @@ puts gets.match(/^(\S*(\S) \2\S*)*$/) != nil
 puts gets.chomp.split(Regexp.new '(?<=\G.{%d})' % gets.to_i).join('-')
 ```
 
+[Initials](medium/pro-initials/README.md)
+
+```ruby
+puts Array.new(gets.to_i){gets.chomp.gsub(/(\w)\w* (\w)\w*/,'\1\2')}.join(' ')
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
