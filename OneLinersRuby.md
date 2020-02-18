@@ -105,6 +105,12 @@ puts (0...gets.to_i).filter {|i| i % 3 == 0 || i % 5 == 0}.inject(:+)
 puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
 ```
 
+[Safety Deposit Boxes](medium/pro-safety-deposit-boxes/README.md) 
+
+```ruby
+puts gets.chomp.split(',').index(gets) * 5 + 5
+```
+
 [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md)
 
 ```ruby
