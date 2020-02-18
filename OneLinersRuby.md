@@ -221,6 +221,12 @@ puts gets.split(',').map(&:to_f).map{|x| x < 20 ? 1.07 * x : x}.inject(:+)
 puts gets.gsub(/^B*[HP](B*)[HP]B*$/,'\1').size
 ```
 
+[YouTube Link Finder](medium/youtube-link-finder/README.md)
+
+```ruby
+puts gets.gsub(/.*[=\/](?=[^=\/]*$)/, '')
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
