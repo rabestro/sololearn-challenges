@@ -129,6 +129,12 @@ printf("#%02x%02x%02x", gets.to_i, gets.to_i, gets.to_i)
 puts gets.gsub(/[^A-Za-z 0-9]/, '')
 ```
 
+[Duty Free](medium/pro-duty-free/README.md)
+
+```ruby
+puts gets.split(' ').map(&:to_f).any?{|x| 20 < 1.1 * x} ? 'Back to the store' : 'On to the terminal'
+```
+
 [Building Blocks](medium/pro-building-blocks/README.md)
 
 ```ruby
