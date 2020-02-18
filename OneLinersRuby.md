@@ -280,5 +280,5 @@ puts [gets].map{|x| x.length > 6 && x =~ /\d.*\d/ && x =~ /([!@#$%&*].*){2,}/ ? 
 [Security](hard/security/README.md)
 
 ```ruby
-puts gets.match(/[$T].*G.*[$T]/) ? 'quiet': 'ALARM'
+puts gets =~ /[$T].*G.*[$T]/ ? 'quiet': 'ALARM'
 ```
