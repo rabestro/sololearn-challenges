@@ -251,6 +251,12 @@ puts 0 < Array.new(gets.to_i){gets.to_i}.reduce{|a,b| a > 0 && b > a ? a + b : 0
 puts gets.match(/^(\S*(\S) \2\S*)*$/) != nil
 ```
 
+[Splitting Strings](medium/pro-splitting-strings/README.md)
+
+```ruby
+puts gets.chomp.split(Regexp.new '(?<=\G.{%d})' % gets.to_i).join('-')
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
