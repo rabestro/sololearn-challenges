@@ -227,6 +227,12 @@ puts gets.gsub(/^B*[HP](B*)[HP]B*$/,'\1').size
 puts gets.gsub(/.*[=\/](?=[^=\/]*$)/, '')
 ```
 
+[Camel to Snake](medium/pro-camel-to-snake/README.md) 
+
+```ruby
+puts gets.gsub(/(?<=[^\/b])([A-Z])/, '_\1').downcase
+```
+
 ## Hard
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
