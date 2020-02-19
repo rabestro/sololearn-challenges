@@ -147,7 +147,7 @@ puts Array.new(6){gets.to_i}.map{|i| i % 3 > 0 ? i % 2 > 0 ? "Snap" : "Crackle" 
 [Deja Vu](medium/deja-vu/README.md)
 
 ```ruby
-puts gets.match(/(.).*\1/) ? 'Deja Vu' : 'Unique'
+puts gets =~ /(.).*\1/ ? 'Deja Vu' : 'Unique'
 ```
 
 [The Spy Life](medium/the-spy-life/README.md)
