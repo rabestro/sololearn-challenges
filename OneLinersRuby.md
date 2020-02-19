@@ -188,7 +188,7 @@ puts Array.new(4){gets.to_i % 15}.inject(:+)
 [Name Buddy](medium/pro-name-buddy/README.md)
 
 ```ruby
-puts (gets.chomp + ' ' + gets).match(/\b(\w).*\b\1\w*$/) ? 'Compare notes' : 'No such luck'
+puts gets.chomp + ' ' + gets =~ /\b(\w).*\b\1\w*$/ ? 'Compare notes' : 'No such luck'
 ```
 
 [That's odd...](medium/thats-odd/README.md) 
