@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 48 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 49 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -20,6 +20,12 @@ puts (100 * 2.0 / gets.to_i).ceil
 [Fruit Bowl](easy/fruit-bowl/README.md)
 ```ruby
 puts gets.to_i / 6
+```
+
+[Ballpark Orders](easy/pro-ballpark-orders/README.md)
+
+```ruby
+puts '%.2f' % [((menu={Nachos: 6, Pizza: 6, Cheeseburger: 10, Water: 4, Coke: 5}).default = menu[:Coke]), gets.split.map {|i| menu[i.to_sym]*1.07}.inject(:+)][1]
 ```
 
 [Skee-ball](easy/skee-ball/README.md)
