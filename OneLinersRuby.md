@@ -159,7 +159,7 @@ puts gets.chomp.split(',').index(gets) * 5 + 5
 [Roadrunner](medium/pro-roadrunner/README.md)
 
 ```ruby
-puts [s=gets.to_f,r=gets.to_i,c=gets.to_i,t=s/r,c>(50+s)/t ?'Yum': 'Meep Meep'][4]
+puts [t=(s=gets.to_f)/gets.to_i,gets.to_i>(50+s)/t ?'Yum': 'Meep Meep'][1]
 ```
 
 [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md)
