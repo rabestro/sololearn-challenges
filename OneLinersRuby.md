@@ -46,6 +46,12 @@ puts (1.1 * (5 * gets.to_i + 40)).round
 puts gets.to_i < gets.to_i * 50 ? "Pesos" : "Dollars"
 ```
 
+[Balconies](easy/pro-balconies/README.md)
+
+```ruby
+puts "Apartment " + (Array.new(2){gets.split(",").map(&:to_i).inject(:*)}.inject(:>) ? "A": "B")
+```
+
 [Candles](easy/pro-candles/README.md)
 
 ```ruby
