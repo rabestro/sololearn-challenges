@@ -156,6 +156,12 @@ puts gets.split.map {|w| w[1,w.size] + w[0] + 'ay'}.join(' ')
 puts gets.chomp.split(',').index(gets) * 5 + 5
 ```
 
+[Roadrunner](medium/pro-roadrunner/README.md)
+
+```ruby
+puts [s=gets.to_f,r=gets.to_i,c=gets.to_i,t=s/r,c>(50+s)/t ?'Yum': 'Meep Meep'][4]
+```
+
 [Snap, Crackle and Pop](medium/pro-snap-crackle-and-pop/README.md)
 
 ```ruby
