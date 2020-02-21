@@ -97,6 +97,12 @@ puts gets.split.map{|sound| {Grr:"Lion",Rawr:"Tiger",Ssss:"Snake",Chirp:"Bird"}[
 puts gets.to_i / 20 * 20 + 10
 ```
 
+[Neverland](easy/pro-neverland/README.md)
+
+```ruby
+puts [a=gets.to_i,y=gets.to_i,'My twin is %d years old and they are %d years older than me'%[a+y,y]][2]
+```
+
 [Extra-Terrestrials](easy/extra-terristrials/README.md)
 ```ruby
 puts gets.reverse
