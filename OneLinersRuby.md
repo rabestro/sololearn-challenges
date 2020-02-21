@@ -257,6 +257,12 @@ puts nil!=(gets =~/^(\S*(\S) \2\S*)*$/)
 puts gets.chomp.split(Regexp.new '(?<=\G.{%d})' % gets.to_i).join('-')
 ```
 
+[Missing Numbers](medium/pro-missing-numbers/README.md)
+
+```ruby
+print ((a=Array.new(gets.to_i){gets.to_i})[0].upto(a[-1]).to_a - a).join(' ')
+```
+
 [Initials](medium/pro-initials/README.md)
 
 ```ruby
