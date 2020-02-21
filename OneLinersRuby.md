@@ -230,6 +230,12 @@ puts gets.chomp + ' ' + gets =~ /\b(\w).*\b\1\w*$/ ? 'Compare notes' : 'No such 
 puts Array.new(gets.to_i){gets.to_i}.select(&:even?).push(0).inject(:+)
 ```
 
+[No Numerals](medium/no-numerals/README.md)
+
+```ruby
+puts gets.split.map{|w| w=~/1?\d/ ? ['zero','one','two','three','four','five','six','seven','eight','nine','ten'][w.to_i]: w}.join(' ')
+```
+
 [Secret Message](medium/secret-message/README.md) 
 
 ```ruby
