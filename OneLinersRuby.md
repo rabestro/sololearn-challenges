@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 53 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 54 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -240,6 +240,12 @@ puts gets.split.map{|w| w=~/1?\d/ ? ['zero','one','two','three','four','five','s
 
 ```ruby
 puts gets.downcase.chars.map{|c| c=~/^[a-z]$/?('az'.sum-c.ord).chr: c}.join
+```
+
+[Divisible](medium/pro-divisible/README.md)
+
+```ruby
+puts [n=gets.to_i,gets.split(' ').map(&:to_i).any?{|x| n%x>0} ? 'not divisible by all': 'divisible by all'][1]
 ```
 
 [Even Numbers](medium/pro-even-numbers/README.md)
