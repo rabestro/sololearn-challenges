@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 54 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 55 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -264,6 +264,12 @@ puts gets.split(',').map(&:to_f).map{|x| x < 20 ? 1.07 * x : x}.inject(:+)
 
 ```ruby
 puts gets.gsub(/^B*[HP](B*)[HP]B*$/,'\1').size
+```
+
+[Average Word Length](medium/average-word-length/README.md)
+
+```ruby
+puts ((essay=gets).gsub(/[^a-zA-Z]+/,'').size.to_f / essay.split.size).ceil
 ```
 
 [YouTube Link Finder](medium/youtube-link-finder/README.md)
