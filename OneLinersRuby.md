@@ -245,13 +245,13 @@ puts gets.downcase.chars.map{|c| c=~/^[a-z]$/?('az'.sum-c.ord).chr: c}.join
 [Divisible](medium/pro-divisible/README.md)
 
 ```ruby
-puts [n=gets.to_i,gets.split(' ').map(&:to_i).any?{|x| n%x>0} ? 'not divisible by all': 'divisible by all'][1]
+puts [n=gets.to_i,gets.split.map(&:to_i).any?{|x| n%x>0} ? 'not divisible by all': 'divisible by all'][1]
 ```
 
 [Even Numbers](medium/pro-even-numbers/README.md)
 
 ```ruby
-puts gets.split(' ').map(&:to_i).select(&:even?).join(' ')
+puts gets.split.map(&:to_i).select(&:even?).join(' ')
 ```
 
 [Tax Free](medium/pro-tax-free/README.md) 
