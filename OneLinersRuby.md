@@ -106,7 +106,7 @@ puts gets.to_i / 20 * 20 + 10
 [Neverland](easy/pro-neverland/README.md)
 
 ```ruby
-puts [a=gets.to_i,y=gets.to_i,'My twin is %d years old and they are %d years older than me'%[a+y,y]][2]
+puts 'My twin is %d years old and they are %d years older than me' % [gets.to_i + y = gets.to_i, y]
 ```
 
 [Extra-Terrestrials](easy/extra-terristrials/README.md)
