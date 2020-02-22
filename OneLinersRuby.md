@@ -209,7 +209,7 @@ puts savings.to_i
 [Duty Free](medium/pro-duty-free/README.md)
 
 ```ruby
-puts gets.split(' ').map(&:to_f).any?{|x| 20 < 1.1 * x} ? 'Back to the store' : 'On to the terminal'
+puts gets.split.map(&:to_f).any?{|x| 20 < 1.1 * x} ? 'Back to the store': 'On to the terminal'
 ```
 
 [Building Blocks](medium/pro-building-blocks/README.md)
