@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 56 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 57 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -318,6 +318,12 @@ print ((a=Array.new(gets.to_i){gets.to_i})[0].upto(a[-1]).to_a - a).join(' ')
 
 ```ruby
 puts Array.new(gets.to_i){gets.chomp.gsub(/(\w)\w* (\w)\w*/,'\1\2')}.join(' ')
+```
+
+[Credit Card Validator](medium/pro-credit-card-validator/README.md)
+
+```ruby
+puts (n=gets).size == 16 && n.reverse.chars.map(&:to_i).map.with_index{|x,i| i.odd?? x>4 ? x*2-9: x*2: x}.sum%10==0 ? 'valid': 'not valid'
 ```
 
 [CMYK to RGB](medium/pro-CMYK-to-RGB/README.md)
