@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 57 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 58 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -333,6 +333,12 @@ puts '%d,%d,%d' % (a=Array.new(4){1-gets.to_f}).first(3).map{|x| (255*x*a.last).
 ```
 
 ## Hard
+
+[New Driver's License](hard/new-drivers-license/README.md)
+
+```ruby
+puts [hero=gets, agents=gets.to_i, 20 * (1 + gets.split.select{|name| name < hero}.size / agents)][2]
+```
 
 [It's a Sign](hard/pro-its-a-sign/README.md)
 
