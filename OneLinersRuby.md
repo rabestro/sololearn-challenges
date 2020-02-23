@@ -363,3 +363,15 @@ puts gets =~ /[$T].*G.*[$T]/ ? 'quiet': 'ALARM'
 ```ruby
 puts (b=(m=gets).index('P',1+a=m.index('P')))/6-a/6+(a%6-b%6).abs
 ```
+
+[Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence/README.md)
+
+```ruby
+def Q(n)
+   q = Array.new(n, 1)
+   2.upto(n - 1){|i| q[i] = q[i - q[i - 1]] + q[i - q[i - 2]]}
+   return q[n - 1]
+end
+n = gets.to_i
+puts Q(n)
+```
