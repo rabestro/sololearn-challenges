@@ -368,9 +368,9 @@ puts (b=(m=gets).index('P',1+a=m.index('P')))/6-a/6+(a%6-b%6).abs
 
 ```ruby
 def Q(n)
-   q = Array.new(n, 1)
-   2.upto(n - 1){|i| q[i] = q[i - q[i - 1]] + q[i - q[i - 2]]}
-   return q[n - 1]
+   q = Array.new(2, 1)
+   2.upto(n - 1){|i| q << q[i - q.last] + q[i - q[i - 2]]}
+   return q.last
 end
 n = gets.to_i
 puts Q(n)
