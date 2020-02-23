@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 58 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 59 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -356,4 +356,10 @@ puts [gets].map{|x| x.length > 6 && x =~ /\d.*\d/ && x =~ /([!@#$%&*].*){2,}/ ? 
 
 ```ruby
 puts gets =~ /[$T].*G.*[$T]/ ? 'quiet': 'ALARM'
+```
+
+[2D Map](hard/pro-2d-map/README.md)
+
+```ruby
+puts (b=(m=gets).index('P',1+a=m.index('P')))/6-a/6+(a%6-b%6).abs
 ```
