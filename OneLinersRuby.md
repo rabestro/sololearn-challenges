@@ -375,3 +375,7 @@ end
 n = gets.to_i
 puts Q(n)
 ```
+One-liner:
+```ruby
+puts [q = Array.new(2, 1), 2.upto(gets.to_i - 1){|i| q << q[i - q.last] + q[i - q[i - 2]]}, q.last].last
+```
