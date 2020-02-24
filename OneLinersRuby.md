@@ -201,7 +201,7 @@ puts [7 - gets.to_i % gets.to_i].map{|x| x > 0 ? 'I need to buy %d more' % x : '
 [Super Sale](medium/pro-super-sale/README.md)
 
 ```ruby
-puts (1.07 * 0.30 * gets.split(',').map(&:to_i).sort.reverse.drop(1).push(0).inject(:+)).to_i
+puts (1.07 * 0.30 * gets.split(',').map(&:to_f).sort.reverse.drop(1).push(0).inject(:+)).to_i
 ```
 
 [Duty Free](medium/pro-duty-free/README.md)
