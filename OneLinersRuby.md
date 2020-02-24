@@ -369,7 +369,7 @@ puts (b=(m=gets).index('P',1+a=m.index('P')))/6-a/6+(a%6-b%6).abs
 ```ruby
 puts [q=Array.new(2,1),2.upto(gets.to_i-1){|i| q<<q[i-q.last]+q[i-q[i-2]]},q.last].last
 ```
-
+_The one-liner is equals to the following code:_
 ```ruby
 def Q(n)
    q = Array.new(2, 1)
