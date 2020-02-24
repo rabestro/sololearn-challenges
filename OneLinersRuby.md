@@ -395,7 +395,7 @@ require 'bigdecimal'
 
 # The Gauss–Legendre iterative algorithm
 
-def calculatePi(precision = 1005)
+def calculatePi(precision = 800)
    # The algorithm has quadratic convergence, which essentially means that
    # the number of correct digits doubles with each iteration of the algorithm.
    BigDecimal.limit(precision);
