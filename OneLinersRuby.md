@@ -1,7 +1,7 @@
 # OneLiners solutions in Ruby
 
 There is Ruby's #OneLiners solutions for Sololearn Code Coach challenges. 
-All of the solutions have passed the tests in Sololearn. Currently there are 60 out of 72 challenges that I can solve in one line of code.
+All of the solutions have passed the tests in Sololearn. Currently there are 61 out of 72 challenges that I can solve in one line of code.
 
 ## Easy
 
@@ -201,9 +201,7 @@ puts [7 - gets.to_i % gets.to_i].map{|x| x > 0 ? 'I need to buy %d more' % x : '
 [Super Sale](medium/pro-super-sale/README.md)
 
 ```ruby
-items = gets.split(',').map(&:to_i).sort
-savings = 1.07 * 0.30 * (items.inject(:+) - items[-1])
-puts savings.to_i
+puts (1.07 * 0.30 * gets.split(',').map(&:to_i).sort.reverse.drop(1).push(0).inject(:+)).to_i
 ```
 
 [Duty Free](medium/pro-duty-free/README.md)
