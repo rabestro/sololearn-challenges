@@ -367,6 +367,10 @@ puts (b=(m=gets).index('P',1+a=m.index('P')))/6-a/6+(a%6-b%6).abs
 [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence/README.md)
 
 ```ruby
+puts [q=Array.new(2,1),2.upto(gets.to_i-1){|i| q<<q[i-q.last]+q[i-q[i-2]]},q.last].last
+```
+
+```ruby
 def Q(n)
    q = Array.new(2, 1)
    2.upto(n - 1){|i| q << q[i - q.last] + q[i - q[i - 2]]}
@@ -374,8 +378,4 @@ def Q(n)
 end
 n = gets.to_i
 puts Q(n)
-```
-One-liner:
-```ruby
-puts [q=Array.new(2,1),2.upto(gets.to_i-1){|i| q<<q[i-q.last]+q[i-q[i-2]]},q.last].last
 ```
