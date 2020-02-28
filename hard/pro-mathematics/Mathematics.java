@@ -20,19 +20,31 @@ class PowerCalculator {
 	private static final List<Pattern> patterns;
 	private static final String[] priority;
 	private static final Map<Character, ArithmeticOperation> operations;
+import static java.lang.Long.parseLong;
+
+class PowerCalculator {
+
+	private interface ArithmeticOperation {
+		long calculate(long x, long y);
+	}
+	
+	private static final List<Pattern> PATTERNS;
+	private static final Map<Character, ArithmeticOperation> OPERATIONS;
+	private static final String PARENTHESES = 
+		"(?<before>.*?)\\((?<inside>[^()]+)\\)(?<after>.*)";
+	private static final String EXPRESSION = 
+		"(?<before>.*?)(?<x>(^-)?\\d+)(?: *)(?<op>[%s])(?: *)(?<y>-?\\d+)(?<after>.*)";
 	
 	static {
-		priority = new String[] {"#", "*/%", "+-", "&^|"};
-		patterns = new ArrayList<Pattern>();
-		patterns.add(Pattern.compile("(?<before>.*?)\\((?<inside>[^()]+)\\)(?<after>.*)"));
+		final String[] priority = new String[] {"#", "*/%", "+-", "&^|"};
 		
+		PATTERNS = new ArrayList<Pattern>();
+		PATTERNS.add(Pattern.compile(PARENTHESES));
 		for (final var operations : priority) {
-			patterns.add(Pattern.compile(String.format(
-				"(?<before>.*?)(?<x>(^-)?\\d+)(?: *)(?<op>[%s])(?: *)(?<y>-?\\d+)(?<after>.*)"
-				, operations)));
+			PATTERNS.add(Pattern.compile(String.format(EXPRESSION, operations)));
 		}
 
-		operations = Map.of(
+		OPERATIONS = Map.of(
 			'+', (a, b) -> a + b, 
 			'-', (a, b) -> a - b,
 			'*', (a, b) -> a * b, 
@@ -45,23 +57,30 @@ class PowerCalculator {
 	}
 	
 	static long calculate(String expression) {
-		for (var pattern : patterns) {
+		
+		for (final var pattern : PATTERNS) {
 			final var m = pattern.matcher(expression);
-			final long result;
+			if (!m.matches()) continue;
 			
-			if (m.matches()) {
-				if (m.groupCount() == 3) {
-					result = calculate(m.group("inside"));
-				} else {
-					result = operations.get(m.group("op").charAt(0)).calculate(
-						parseLong(m.group("x")), parseLong(m.group("y")));
-				}
-				return calculate(m.group("before") + result + m.group("after"));
+			final long result;
+			final var isParentheses = m.groupCount() == 3;
+			
+			if (isParentheses) {
+				result = calculate(m.group("inside"));
+			} else {
+				final var op = m.group("op").charAt(0);
+				final var x = parseLong(m.group("x"));
+				final var y = parseLong(m.group("y"));
+					
+				result = OPERATIONS.get(op).calculate(x, y);
 			}
+			
+			return calculate(m.group("before") + result + m.group("after"));
 		}
 		return parseLong(expression);
 	}
 }
+
 
 public class Mathematics {
 	public static void main(String[] args) {
