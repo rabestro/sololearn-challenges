@@ -17,17 +17,6 @@ class PowerCalculator {
 		long calculate(long x, long y);
 	}
 	
-	private static final List<Pattern> patterns;
-	private static final String[] priority;
-	private static final Map<Character, ArithmeticOperation> operations;
-import static java.lang.Long.parseLong;
-
-class PowerCalculator {
-
-	private interface ArithmeticOperation {
-		long calculate(long x, long y);
-	}
-	
 	private static final List<Pattern> PATTERNS;
 	private static final Map<Character, ArithmeticOperation> OPERATIONS;
 	private static final String PARENTHESES = 
