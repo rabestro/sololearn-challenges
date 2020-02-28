@@ -84,12 +84,12 @@ Description | Java | Used Java API classes and methods, notes
 ----|----|----
 [New Driver's License](hard/new-drivers-license/README.md) | [NewDriversLicense.java](hard/new-drivers-license/NewDriversLicense.java) | Stream, lambda
 [It's a Sign](hard/pro-its-a-sign/README.md) | [ItsSign.java](hard/pro-its-a-sign/ItsSign.java) | StringBuilder, Stream
-[Mathematics](hard/pro-mathematics/README.md) | [Mathematics.java](hard/pro-mathematics/Mathematics.java) | private interface, Lambda, RegEx, Java Collections, Recursion
+[Mathematics](hard/pro-mathematics/README.md) | [Mathematics.java](hard/pro-mathematics/Mathematics.java) | Interface, Lambda, RegEx, Collections, Recursion
 [Password Validation](hard/password-validation/README.md) | [PasswordValidation.java](hard/password-validation/PasswordValidation.java) | RegEx
 [Security](hard/security/README.md) | [Security.java](hard/security/Security.java) | RegEx
 [2D Map](hard/pro-2d-map/README.md) | [Map2D.java](hard/pro-2d-map/Map2D.java) | Math, String::indexOf
 [Hofstadter's Q-Sequence](hard/pro-hofstadter-q-sequence/README.md) | [HofstadtersQSequence.java](hard/pro-hofstadter-q-sequence/HofstadtersQSequence.java) |
-[Digits of Pi](hard/pro-digits-of-pi/README.md) | [PiCalculation.java](hard/pro-digits-of-pi/PiCalculation.java) |
+[Digits of Pi](hard/pro-digits-of-pi/README.md) | [PiCalculation.java](hard/pro-digits-of-pi/PiCalculation.java) | BigDecimal, Algorithm
 [Longest Common Substring](medium/pro-longest-common-substring/README.md) | [Longest Common Substring](medium/pro-longest-common-substring) |
 [Poker Hand](hard/pro-poker-hand/README.md) | [PokerHand.java](hard/pro-poker-hand/PokerHand.java) | Stream, RegEx
 [Word Rank](hard/pro-word-rank/README.md) | [Word Rank](hard/pro-word-rank) |
