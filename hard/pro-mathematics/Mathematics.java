@@ -2,7 +2,7 @@
 
 The class calculate an expression with integers.
 Priority of operations are supported. 
-Operations are: +,-,*,/,%, bitwise: ^,&,| and # for power.
+Operations are: +,-,*,/,%.
 
 Input: any arithmetic expression like: 5 + 7*3-12/(2 + 2*2) 
 */
