@@ -39,7 +39,8 @@ public class ExpressionEvaluation {
 }
 
 class PowerCalculator {
-
+    
+    @FunctionalInterface
     private interface ArithmeticOperation {
         long calculate(long x, long y);
     }
@@ -68,21 +69,6 @@ class PowerCalculator {
             '%', (a, b) -> a % b,
             '^', (a, b) -> (long) Math.pow(a, b));
     }
-    
-    private String expression;
-    private boolean isVerbose;
-
-    PowerCalculator(String expression) {
-        this.expression = expression;
-    }
-
-    PowerCalculator() {
-        this.expression = "";
-    }
-    
-    long calculate() {
-        return calculate(this.expression);
-    }
 
     long calculate(String expression) {
         if (isVerbose) System.out.println(expression);
@@ -106,6 +92,21 @@ class PowerCalculator {
             return calculate(m.group("before") + result + m.group("after"));
         }
         return Long.parseLong(expression);
+    }
+    
+    private String expression;
+    private boolean isVerbose;
+
+    PowerCalculator(String expression) {
+        this.expression = expression;
+    }
+
+    PowerCalculator() {
+        this.expression = "";
+    }
+    
+    long calculate() {
+        return calculate(this.expression);
     }
 
     PowerCalculator verbose() {
