@@ -13,6 +13,7 @@ import static java.lang.Long.parseLong;
 
 class PowerCalculator {
 
+    @FunctionalInterface
     private interface ArithmeticOperation {
         long calculate(long x, long y);
     }
@@ -25,7 +26,7 @@ class PowerCalculator {
         "(?<before>.*?)(?<x>(^-)?\\d+)(?: *)(?<op>[%s])(?: *)(?<y>-?\\d+)(?<after>.*)";
     
     static {
-        final String[] priority = new String[] {"#", "*/%", "+-", "&^|"};
+        final String[] priority = new String[] {"*/%", "+-"};
         
         PATTERNS = new ArrayList<Pattern>();
         PATTERNS.add(Pattern.compile(PARENTHESES));
@@ -38,11 +39,7 @@ class PowerCalculator {
             '-', (a, b) -> a - b,
             '*', (a, b) -> a * b, 
             '/', (a, b) -> a / b, 
-            '%', (a, b) -> a % b,
-            '^', (a, b) -> a ^ b,
-            '&', (a, b) -> a & b,
-            '|', (a, b) -> a | b,
-            '#', (a, b) -> (long) Math.pow(a, b));
+            '%', (a, b) -> a % b);
     }
     
     static long calculate(String expression) {
@@ -63,13 +60,11 @@ class PowerCalculator {
                     
                 result = OPERATIONS.get(op).calculate(x, y);
             }
-            
             return calculate(m.group("before") + result + m.group("after"));
         }
         return parseLong(expression);
     }
 }
-
 
 public class Mathematics {
     public static void main(String[] args) {
@@ -82,7 +77,7 @@ public class Mathematics {
         while (sc.hasNext()) {
             final var expression = sc.next();
             final var result = PowerCalculator.calculate(expression);
-             isMatch = result == number;
+            isMatch = result == number;
             if (isMatch) break;
             ++index;
         }
