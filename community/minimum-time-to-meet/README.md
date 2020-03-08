@@ -10,12 +10,12 @@ First line of input contains T - number of test cases. First line of each test c
 1: Fiery Cells
 2: Location of a person
 
-Constraints
-
+### Constraints
+```
 1 <= T <= 100
 1 <= R,C <= 100
 1 <= N <= 10
-
+```
 ## Output Format
 
 For each test case, print the minimum amount of time in which all the friends can meet, separated by new line. If its not possible for the friends to meet, print -1.
@@ -23,6 +23,7 @@ For each test case, print the minimum amount of time in which all the friends ca
 ## Sample Input 0
 
 ```
+4
 5 5 2
 20002
 00000
