@@ -8,7 +8,7 @@ public class Main {
         final var sc = new Scanner(System.in);
         int test = sc.nextInt();
 
-        while (test --> 0) {
+        while (test-- > 0) {
             final var rows = sc.nextInt();
             final var cols = sc.nextInt();
             final var nums = sc.nextInt();
@@ -78,7 +78,7 @@ class Map {
             }
         } while (!queue.isEmpty());
 
-        final boolean isReachable = friends.stream().noneMatch(i -> i.moves < 0);
+        final boolean isReachable = friends.stream().noneMatch(Cell::isUnchecked);
 
         if (isReachable) {
             cell.time = friends.stream().mapToInt(Cell::getMoves).max().orElse(-1);
