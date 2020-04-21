@@ -385,8 +385,9 @@ _Using the fact that required digits of pi limited by 1000 this problem can be s
 ```ruby
 puts '.1415926...'[gets.to_i]
 ```
+You can check program in python that uses this approach: [DigitsPi.py](hard/pro-digits-of-pi/DigitsPi.py)
 
-Hovewer there is program to compute pi digits:
+Hovewer there is program to compute pi digits by using The Gauss–Legendre iterative algorithm:
 
 ```ruby
 require 'bigdecimal'
