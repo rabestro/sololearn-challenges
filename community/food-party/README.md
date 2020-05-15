@@ -20,9 +20,10 @@ Be sure that this relation is transitive.
 
 
 ### Constraints
+```
 1 <= N <= 100
 0 <= M <= 200
-
+```
 
 ## Output Format
 For each test case you must print the order in which Rajat will eat the food items.
