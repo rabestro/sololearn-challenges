@@ -74,6 +74,8 @@ abstract class TreeVis {
 
 }
 
+// My code starts here
+
 class SumInLeavesVisitor extends TreeVis {
     private int sum = 0;
 
@@ -133,82 +135,85 @@ class FancyVisitor extends TreeVis {
     }
 }
 
+final class Node {
+    private Color color;
+    private final int value;
+    private final Set<Integer> edges = new HashSet<>();
+
+    public Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color == 0 ? Color.RED : Color.GREEN;
+    }
+
+    void addEdge(int id) {
+        edges.add(id);
+    }
+
+    Set<Integer> getEdges() {
+        return edges;
+    }
+}
+
 public class Solution {
-    private static final class MyTree {
-        int value;
-        int depth;
-        int parent;
-        boolean hasChildren;
-        Color color;
-    }
-    private static final class Edge {
-        int x;
-        int y;
+    private static Node[] nodes;
 
-        public Edge(int x, int y) {
-            this.x = x;
-            this.y = y;
+    private static void createNode(TreeNode parent, Integer id) {
+        final Set<Integer> nodeEdges = nodes[id].getEdges();
+        final boolean isLeaf = nodeEdges.isEmpty();
+        if (isLeaf) {
+            parent.addChild(new TreeLeaf(nodes[id].getValue(), nodes[id].getColor(), parent.getDepth() + 1));
+            return;
         }
-    }
-    private static final List<Edge> edges = new LinkedList<>();
-    private static MyTree[] myTree;
-
-    private static Edge retrieveEdge(int index) {
-        for (int i = 0; i < edges.size(); ++i) {
-            final Edge edge = edges.get(i);
-            if (edge.x == index || edge.y == index) {
-                edge.y = edge.y == index ? edge.x : edge.y;
-                edge.x = index;
-                edges.remove(i);
-                return edge;
-            }
-        }
-        return null;
-    }
-
-    private static void makeTree(int index) {
-        Edge edge;
-        while (null != (edge = retrieveEdge(index))) {
-            myTree[edge.y].depth = myTree[edge.x].depth + 1;
-            myTree[edge.y].parent = edge.x;
-            myTree[edge.x].hasChildren = true;
-            makeTree(edge.y);
+        final TreeNode node = new TreeNode(nodes[id].getValue(), nodes[id].getColor(), parent.getDepth() + 1);
+        parent.addChild(node);
+        for (Integer childId : nodeEdges) {
+            nodes[childId].getEdges().remove(id);
+            createNode(node, childId);
         }
     }
 
     public static Tree solve() {
         final Scanner sc = new Scanner(System.in);
-        final int n = Integer.parseInt(sc.nextLine());
-        final Tree[] trees = new Tree[n];
-        myTree = new MyTree[n];
-        String[] values = sc.nextLine().split(" ");
-        String[] colors = sc.nextLine().split(" ");
-        System.err.println("Start processing...");
+        final int n = sc.nextInt();
+        nodes = new Node[n];
+
         for (int i = 0; i < n; ++i) {
-            myTree[i] = new MyTree();
-            myTree[i].value = Integer.parseInt(values[i]);
-            myTree[i].color = colors[i].charAt(0) == '0' ? Color.RED : Color.GREEN;
+            nodes[i] = new Node(sc.nextInt());
+        }
+        for (int i = 0; i < n; ++i) {
+            nodes[i].setColor(sc.nextInt());
         }
 
         for (int i = 0; i < n - 1; i++) {
-            edges.add(new Edge(sc.nextInt() - 1, sc.nextInt() - 1));
+            final int u = sc.nextInt() - 1;
+            final int v = sc.nextInt() - 1;
+            nodes[u].addEdge(v);
+            nodes[v].addEdge(u);
         }
-        makeTree(0);
 
-        for (int i = 0; i < n; i++) {
-            if (myTree[i].hasChildren) {
-                trees[i] = new TreeNode(myTree[i].value, myTree[i].color, myTree[i].depth);
-            } else {
-                trees[i] = new TreeLeaf(myTree[i].value, myTree[i].color, myTree[i].depth);
-            }
+        final TreeNode root = new TreeNode(nodes[0].getValue(), nodes[0].getColor(), 0);
+        final Set<Integer> rootEdges = nodes[0].getEdges();
+
+        for (Integer id : rootEdges) {
+            nodes[id].getEdges().remove(0);
+            createNode(root, id);
         }
-        for (int i = 1; i < n; i++) {
-            TreeNode parent = (TreeNode) trees[myTree[i].parent];
-            parent.addChild(trees[i]);
-        }
-        return trees[0];
+        return root;
     }
-
+    
+    // End of my code
+    
     public static void main(String[] args) {
         Tree root = solve();
         SumInLeavesVisitor vis1 = new SumInLeavesVisitor();
