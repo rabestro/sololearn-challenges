@@ -5,6 +5,7 @@ public class ExtraTerrestrials {
         System.out.print(
             new StringBuilder(
                 new Scanner(System.in).nextLine()
-            ).reverse());
+            ).reverse()
+        );
     }
 }
