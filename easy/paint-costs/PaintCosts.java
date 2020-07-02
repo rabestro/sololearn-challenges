@@ -2,15 +2,14 @@ import java.util.Scanner;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class PaintCosts {
+public final class PaintCosts {
     public static void main(String[] args) {
-        
         final var scanner = new Scanner(System.in);
-        final var colors = scanner.nextInt();
+        final var numberOfColors = scanner.nextInt();
         scanner.close();
 
         final var brushesCost = new BigDecimal(40);
-        final var colorsCost = new BigDecimal(5 * colors);
+        final var colorsCost = new BigDecimal(5 * numberOfColors);
         final var price = brushesCost.add(colorsCost);
         
         final var tax = new BigDecimal("1.01");
