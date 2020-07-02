@@ -5,9 +5,9 @@ import java.math.RoundingMode;
 public class PaintCosts {
     public static void main(String[] args) {
         
-        final var sc = new Scanner(System.in);
-        final var colors = sc.nextInt();
-        sc.close();
+        final var scanner = new Scanner(System.in);
+        final var colors = scanner.nextInt();
+        scanner.close();
 
         final var brushesCost = new BigDecimal(40);
         final var colorsCost = new BigDecimal(5 * colors);
