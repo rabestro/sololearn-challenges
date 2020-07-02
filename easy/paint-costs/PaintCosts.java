@@ -13,7 +13,7 @@ public class PaintCosts {
         final var colorsCost = new BigDecimal(5 * colors);
         final var price = brushesCost.add(colorsCost);
         
-        final var tax = new BigDecimal(1 + 0.1);
+        final var tax = new BigDecimal("1.01");
         final var totalCost = tax.multiply(price);
         
         System.out.print(totalCost.setScale(0, RoundingMode.HALF_EVEN));
