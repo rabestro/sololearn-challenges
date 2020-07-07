@@ -6,7 +6,7 @@ public class NameBuddy {
                 .useDelimiter("\\s")
                 .tokens()
                 .map(name -> name.substring(0,1))
-                .reduce((a,b) -> a = a + b)
+                .reduce(String::concat)
                 .orElse("")) ? "Compare notes" : "No such luck");
     }
 }
