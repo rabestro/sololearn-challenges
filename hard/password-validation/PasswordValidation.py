@@ -1,3 +1,5 @@
+"""
+#  ===None Regex Solution===
 password = input()
 
 length = len(password)
@@ -15,5 +17,13 @@ if length > 6:
 
 if length > 6 and numbers > 1 and symbols > 1:
     print("Strong")
+else:
+    print("Weak")
+"""
+
+import re
+
+if re.fullmatch(r'^(?=.*[A-Za-z])(?=.*\d){2,}(?=.*[@$!%*#?&]){2,}[A-Za-z\d@$!%*#?&]{7,}$', input()):
+    print('Strong')
 else:
     print("Weak")
