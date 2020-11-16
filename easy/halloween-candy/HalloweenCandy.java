@@ -1,14 +1,8 @@
-import java.util.Scanner;
-import static java.lang.Math.ceil;
-
-public class HalloweenCandy {
+public final class HalloweenCandy {
     public static void main(final String[] args) {
+        final var houses = new java.util.Scanner(System.in).nextInt();
         
-        final var in = new Scanner(System.in);
-        final var houses = in.nextInt();
-        in.close();
-        
-        final var percentage = (int) ceil(200. / houses);
+        final var percentage = (int) Math.ceil(200. / houses);
        
         System.out.print(percentage);
     }
