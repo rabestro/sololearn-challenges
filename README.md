@@ -8,7 +8,7 @@ As an answer to the #OneLiners challenge from SoloLearn I also created [One-Line
 
 Description | Java | Used Java API classes and methods, notes
 ----|----|----
-[Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | 
+[Popsicles](easy/popsicles/README.md) | [Popsicles.java](easy/popsicles/Popsicles.java) | Ternary operator
 [Halloween Candy](easy/halloween-candy/README.md) | [HalloweenCandy.java](easy/halloween-candy/HalloweenCandy.java) | Math
 [Fruit Bowl](easy/fruit-bowl/README.md) | [FruitBowl.java](easy/fruit-bowl/FruitBowl.java) | 
 [Ballpark Orders](easy/pro-ballpark-orders/README.md) | [BallparkOrders.java](easy/pro-ballpark-orders/BallparkOrders.java) | Map, BigDecimal, Stream, Scaner::tokens (Java 11)
