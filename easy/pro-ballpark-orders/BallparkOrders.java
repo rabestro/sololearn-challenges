@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.math.BigDecimal;
 
-public class BallparkOrders {
+public final class BallparkOrders {
     public static void main(String[] args) {
         
         final Map<String, Integer> menu = Map.of(
