@@ -1,11 +1,8 @@
 import java.util.Scanner;
 
-public class FruitBowl {
+public final class FruitBowl {
     public static void main(final String[] args) {
-        
-        final var input = new Scanner(System.in);
-        final var fruit = input.nextInt();
-        input.close();
+        final int fruit = new Scanner(System.in).nextInt();
 
         final int apples = fruit / 2;
         final int pies = apples / 3;
