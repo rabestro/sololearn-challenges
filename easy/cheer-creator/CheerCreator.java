@@ -1,11 +1,8 @@
 import java.util.Scanner;
 
-public class CheerCreator {
+public final class CheerCreator {
     public static void main(final String[] args) {
-        
-        final var in = new Scanner(System.in);
-        final var yards = in.nextInt();
-        in.close();
+        final var yards = new Scanner(System.in).nextInt();
         
         if (yards > 10) {
             System.out.print("High Five");
