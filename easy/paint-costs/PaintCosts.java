@@ -6,7 +6,6 @@ public final class PaintCosts {
     public static void main(String[] args) {
         final var scanner = new Scanner(System.in);
         final var numberOfColors = scanner.nextInt();
-        scanner.close();
 
         final var brushesCost = new BigDecimal(40);
         final var colorsCost = new BigDecimal(5 * numberOfColors);
