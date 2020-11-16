@@ -1,12 +1,10 @@
-public class GuardFlamingos {
+public final class GuardFlamingos {
     public static void main(String[] args) {
-    
-        final var in = new java.util.Scanner(System.in);
-        final int yardLength = in.nextInt();
-        final int yardWidth = in.nextInt();
-        in.close();
+        final var scanner = new java.util.Scanner(System.in);
+        final var yardLength = scanner.nextInt();
+        final var yardWidth = scanner.nextInt();
         
-        final int flamingos = yardLength + yardWidth;
+        final var flamingos = yardLength + yardWidth;
 	    
         System.out.print(flamingos);
     }
