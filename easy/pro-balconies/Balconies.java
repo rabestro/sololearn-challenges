@@ -30,15 +30,13 @@ import java.util.Scanner;
  *
  * {@link https://github.com/rabestro/sololearn-challenges}
  */
-public class Balconies {
+public final class Balconies {
     public static void main(String[] args) {
-    
-        final var input   = new Scanner(System.in).useDelimiter("[\\v,]+");
-        final int heightA = input.nextInt();
-        final int widthA  = input.nextInt();
-        final int heightB = input.nextInt();
-        final int widthB  = input.nextInt();
-        input.close();
+        final var scanner   = new Scanner(System.in).useDelimiter("[\\v,]+");
+        final int heightA = scanner.nextInt();
+        final int widthA  = scanner.nextInt();
+        final int heightB = scanner.nextInt();
+        final int widthB  = scanner.nextInt();
         
         final int areaA = heightA * widthA;
         final int areaB = heightB * widthB;
