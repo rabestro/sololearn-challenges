@@ -1,16 +1,8 @@
-import java.util.Scanner;
-
-public final class GothamCity {
-    public static void main(final String[] args) {
-        final var scanner = new Scanner(System.in);
-        final var criminals = scanner.nextInt();
-
-        if (criminals < 5) {
-            System.out.print("I got this!");
-        } else if (criminals < 11) {
-            System.out.print("Help me Batman");
-        } else {
-            System.out.print("Good Luck out there!");
-        }
-    }
+public class GothamCity {
+    public static void main(String[] args) {
+        System.out.print(java.text.MessageFormat.format(
+            "{0,choice,0<I got this!|4<Help me Batman|10<Good Luck out there!}",
+            new java.util.Scanner(System.in).nextInt())
+        );
+	}
 }
