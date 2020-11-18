@@ -34,10 +34,8 @@ import java.math.RoundingMode;
  */
 public class Hovercraft {
     public static void main(String[] args) {
-    
-        final var input = new Scanner(System.in);
-        final var sales = input.nextBigDecimal();
-        input.close();
+        final var scanner = new Scanner(System.in);
+        final var sales = scanner.nextBigDecimal();
         
         final var hovercraftMonth = new BigDecimal(10);
         final var hovercraftCosts = new BigDecimal(2_000_000);
