@@ -21,7 +21,7 @@ Description | Java | Used Java API classes and methods, notes
 [Duct Tape](/easy/pro-duct-tape/README.md) | [DuctTape.java](/easy/pro-duct-tape/DuctTape.java) | Math
 [Easter Eggs](easy/pro-easter-eggs/README.md) | [EasterEggs.java](easy/pro-easter-eggs/EasterEggs.java) | Ternary operator
 [Guard Flamingos](easy/guard-flamingos/README.md) | [GuardFlamingos.java](easy/guard-flamingos/GuardFlamingos.java) |
-[Gotham City](easy/gotham-city/README.md) | [GothamCity.java](easy/gotham-city/GothamCity.java) |
+[Gotham City](easy/gotham-city/README.md) | [GothamCity.java](easy/gotham-city/GothamCity.java) | MessageFormat::format
 [Hovercraft](easy/hovercraft/README.md) | [Hovercraft](easy/hovercraft) | BigDecimal
 [Izzy the Iguana](easy/pro-izzy-the-iguana/README.md) | [IzzyIguana.java](easy/pro-izzy-the-iguana/IzzyIguana.java) | Map, Scaner::tokens (Java 11)
 [Kaleidoscopes](easy/pro-kaleidoscopes/README.md) | [Kaleidoscopes.java](easy/pro-kaleidoscopes/Kaleidoscopes.java) | BigDecimal (There is errors in SoloLearn tests)
