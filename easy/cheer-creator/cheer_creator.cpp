@@ -9,5 +9,5 @@ int main() {
     else if (yards < 1) cout << "shh";
     else while (yards--) cout << "Ra!";
     
-	return 0;
+    return 0;
 }
