@@ -53,7 +53,8 @@ Description | Java | Used Java API classes and methods, notes
 [Duty Free](medium/pro-duty-free/README.md) | [DutyFree.java](medium/pro-duty-free/DutyFree.java) | Stream
 [Carrot Cake](medium/pro-carrot-cake/README.md) | [CarrotCake.java](medium/pro-carrot-cake/CarrotCake.java) | System.out::printf
 [Building Blocks](medium/pro-building-blocks/README.md) | [BuildingBlocks.java](medium/pro-building-blocks/BuildingBlocks.java) | IntStream::generate
-[Name Buddy](medium/pro-name-buddy/README.md) | [NameBuddy.java](medium/pro-name-buddy/NameBuddy.java) | String::matches, String::concat
+[Name Buddy](medium/pro-name-buddy/README.md) | [NameBuddy.java](medium/pro-name-buddy/NameBuddy.java) | String::concat
+  _  | [NameBuddyRegEx.java](medium/pro-name-buddy/NameBuddyRegEx.java) | String::matches
 [That's odd...](medium/thats-odd/README.md) | [ThatsOdd.java](medium/thats-odd/ThatsOdd.java) | IntStream
 [No Numerals](medium/no-numerals/README.md) | [NoNumerals.java](medium/no-numerals/NoNumerals.java) | Map, Stream, lambda
 [Secret Message](medium/secret-message/README.md) | [SecretMessage.java](medium/secret-message/SecretMessage.java) | Stream, lambda
