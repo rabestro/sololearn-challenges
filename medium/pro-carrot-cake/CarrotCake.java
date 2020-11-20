@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
-public class CarrotCake {
+public final class CarrotCake {
     public static void main(String[] args) {
-        
-        final var input = new Scanner(System.in);
+        final var scanner = new Scanner(System.in);
         final var carrotsForCake = 7;
-        final var carrots = input.nextInt();
-        final var boxes = input.nextInt();
-        input.close();
+        final var carrots = scanner.nextInt();
+        final var boxes = scanner.nextInt();
         
         final var leftOverCarrots = carrots % boxes;
         final var isEnoughForCake = leftOverCarrots >= carrotsForCake;
