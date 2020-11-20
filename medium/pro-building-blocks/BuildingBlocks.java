@@ -1,19 +1,19 @@
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class BuildingBlocks {
+public final class BuildingBlocks {
+    private static final int COLORS = 4;
+    private static final int STUDENTS = 15;
+        
     public static void main(String[] args) {
-        final var COLORS = 4;
-        final var STUDENTS = 15;
-        final var in = new Scanner(System.in);
+        final var scanner = new Scanner(System.in);
 
-        final int sum = IntStream
-                .generate(in::nextInt)
+        final var sum = IntStream
+                .generate(scanner::nextInt)
                 .limit(COLORS)
                 .map(i -> i % STUDENTS)
                 .sum();
 
         System.out.print(sum);
-        in.close();
     }
 }
