@@ -1,10 +1,10 @@
-public class EvenNumbers {
+public final class EvenNumbers { 
     public static void main(String[] args) {
-        final var in = new java.util.Scanner(System.in);
-
-        java.util.stream.IntStream
-                .generate(in::nextInt)
-                .filter(i -> i % 2 == 0)
-                .forEach(i -> System.out.printf("%d ", i));
+        
+        new java.util.Scanner(System.in)
+            .tokens()
+            .mapToInt(Integer::parseInt)
+            .filter(i -> i % 2 == 0)
+            .forEach(i -> System.out.printf("%d ", i));
     }
 }
