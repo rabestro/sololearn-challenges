@@ -1,11 +1,8 @@
-public class HowFar {
+public final class HowFar {
     public static void main(final String[] args) {
-        final var input = new java.util.Scanner(System.in);
-        final var street = input.nextLine();
-        input.close();
-
-        final int howFar = street.replaceAll("B*[PH](B*)[HP]B*", "$1").length();
-        
+        final var street = new java.util.Scanner(System.in).nextLine();
+        final var howFar = street.replaceAll("B*[PH](B*)[HP]B*", "$1").length();
+    
         System.out.println(howFar);
     }
 }
