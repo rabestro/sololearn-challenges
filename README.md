@@ -68,7 +68,7 @@ Description | Java | Used Java API classes and methods, notes
 [YouTube Link Finder](medium/youtube-link-finder/README.md) | [YouTubeLinkFinder.java](medium/youtube-link-finder/YouTubeLinkFinder.java) | String::replaceAll, RegEx
 [Convert US date to EU date](medium/convert-date/README.md) | [ConvertDate.java](medium/convert-date/ConvertDate.java) | Date & Time API Java 11
 [Day of the Week](medium/pro-day-of-the-week/README.md) | [DayOfWeek.java](medium/pro-day-of-the-week/DayOfWeek.java) | Date & Time API Java 11
-[Camel to Snake](medium/pro-camel-to-snake/README.md) | [CamelToSnake.java](medium/pro-camel-to-snake/CamelSnake.java) | String::replaceAll, RegEx
+[Camel to Snake](medium/pro-camel-to-snake/README.md) | [CamelToSnake.java](medium/pro-camel-to-snake/CamelToSnake.java) | String::replaceAll, RegEx
 [Days between dates](medium/pro-days-between-dates/README.md) | [DaysBetweenDates.java](medium/pro-days-between-dates/DaysBetweenDates.java) | Date & Time API Java 11
 [Text Decompressor](medium/pro-text-decompressor/README.md) | [TextDecompressor.java](medium/pro-text-decompressor/TextDecompressor.java) | Stream
 [Snowballing Numbers](medium/pro-snowballing-numbers/README.md) | [SnowballingNumbers.java](medium/pro-snowballing-numbers/SnowballingNumbers.java) | Stream
