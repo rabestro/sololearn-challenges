@@ -5,6 +5,6 @@ int main() {
     long pesos, dollars;
     cin >> pesos >> dollars;
     
-    cout << (dollars * 50l > pesos ? "Pesos" : "Dollars");
+    cout << (dollars * 50 > pesos ? "Pesos" : "Dollars");
     return 0;
 }
