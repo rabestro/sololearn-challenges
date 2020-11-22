@@ -1,8 +1,5 @@
-public class FlowingWords {
+public class FlowingWords { 
     public static void main(String[] args) {
-
-        System.out.print(!java.util.regex.Pattern
-                .matches(".*((\\w)\\s+)(?!\\2).*",
-                        new java.util.Scanner(System.in).nextLine()));
+        System.out.println(!new java.util.Scanner(System.in).nextLine().matches(".*((\\w)\\s+)(?!\\2).*"));
     }
 }
