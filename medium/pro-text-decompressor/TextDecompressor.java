@@ -1,4 +1,4 @@
-public class TextDecompressor {
+public final class TextDecompressor {
     public static void main(String[] args) {
 
         new java.util.Scanner(System.in)
