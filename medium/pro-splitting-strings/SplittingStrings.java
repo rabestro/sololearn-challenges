@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class SplittingStrings {
+public final  class SplittingStrings {
     public static void main(String[] args) {
-        final var in = new Scanner(System.in);
-        final var s = in.nextLine();
-        final var n = in.nextInt();
-        in.close();
+        final var scanner = new Scanner(System.in);
+        final var s = scanner.nextLine();
+        final var n = scanner.nextInt();
 
         final var separated = String.join("-", s.split(String.format("(?<=\\G.{%d})", n)));
 
