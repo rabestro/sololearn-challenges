@@ -5,13 +5,9 @@ import java.time.format.TextStyle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class DayOfWeek {
-
+public final class DayOfWeek {
     public static void main(String[] args) {
-        final var input = new Scanner(System.in);
-        final var usDate = input.nextLine();
-        input.close();
-
+        final var usDate = new Scanner(System.in).nextLine();
         final var dayOfWeek = LocalDate.parse(usDate,
                 Character.isDigit(usDate.charAt(0))
                         ? DateTimeFormatter.ofPattern("M/d/yyyy")
