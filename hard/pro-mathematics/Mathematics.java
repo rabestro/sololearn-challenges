@@ -86,6 +86,5 @@ public class Mathematics {
         } else {
             System.out.println("none");
         }
-        sc.close();
     }
 }
