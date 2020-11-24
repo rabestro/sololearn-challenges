@@ -38,12 +38,10 @@ import java.util.Scanner;
  * <p>
  * {@link https://github.com/rabestro/sololearn-challenges}
  */
-public class CreditCardValidator {
+public final class CreditCardValidator {
     public static void main(final String[] args) {
-
-        final var in = new Scanner(System.in);
-        final var creditCardNumber = in.next();
-        in.close();
+        final var scanner = new Scanner(System.in);
+        final var creditCardNumber = scanner.next();
 
         if (Luhn.isValid(creditCardNumber)) {
             System.out.print("valid");
