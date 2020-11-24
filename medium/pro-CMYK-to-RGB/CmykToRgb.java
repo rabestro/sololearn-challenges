@@ -25,17 +25,15 @@ import static java.lang.Math.round;
  *
  * {@url https://github.com/rabestro/sololearn-challenges}
  */
-public class CmykToRgb {
+public final class CmykToRgb {
     public static void main(final String[] args) {
-        
-        final var input = new Scanner(System.in);
+        final var scanner = new Scanner(System.in);
         
         // I chose the float as the most suitable type
-        final var cyan = input.nextFloat();
-        final var magenta = input.nextFloat();
-        final var yellow = input.nextFloat();
-        final var black = input.nextFloat();
-        input.close();
+        final var cyan = scanner.nextFloat();
+        final var magenta = scanner.nextFloat();
+        final var yellow = scanner.nextFloat();
+        final var black = scanner.nextFloat();
         
         // round(float) returns int type, so we no need force conversion 
         final int red = round(255 * (1-cyan) * (1-black));
