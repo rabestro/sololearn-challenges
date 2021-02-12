@@ -7,6 +7,6 @@ int main()
 {
 	int colors;
 	cin>>colors;
-	cout<< (int)round(1.1 * (5 * colors + 40));
+	cout<<(int)round(1.1 * (5 * colors + 40));
 	return 0;
 }
