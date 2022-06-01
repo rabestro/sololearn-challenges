@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public final class Popsicles {
+public class Popsicles {
     public static void main(String[] args) {
-        final var scanner = new Scanner(System.in);
-        final var siblings = scanner.nextInt();
-        final var popsicles = scanner.nextInt();
+        var scanner = new Scanner(System.in);
+        var siblings = scanner.nextInt();
+        var popsicles = scanner.nextInt();
         
-        final var isEvenAmount = popsicles % siblings == 0;
+        var isEvenAmount = popsicles % siblings == 0;
         
         System.out.println(
             isEvenAmount ? "give away" : "eat them yourself"
